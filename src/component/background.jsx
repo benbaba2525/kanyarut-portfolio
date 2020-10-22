@@ -1,10 +1,10 @@
 import React from 'react';
-import "../style.css/background.css";
+import "../styles/background.css";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import 'react-awesome-button/dist/themes/theme-blue.css';
 import Typical from 'react-typical';
-//import Robot from './robot'
+import Robot from './robot'
 import Particles from "reactparticles.js";
 
 
@@ -19,7 +19,7 @@ class Background extends React.Component {
              </div>
              <br></br>
              <div>
-               <Typical steps={['', 1500,'I am Kanyarut Pornamnuay',4000]}  wrapper="span" className={'myname'}  />
+               <Typical steps={['', 1500,'I am Ben Pornamnuay',4000]}  wrapper="span" className={'myname'}  />
              </div>
              <br></br>
               <div>
@@ -36,7 +36,7 @@ class Background extends React.Component {
     style={{
       width: "100%",
       height: "100%",
-      opacity: "50",
+      opacity: "50px",
       color: {
         value: "#00FFFF"
        },
@@ -48,9 +48,7 @@ class Background extends React.Component {
     }}
     className="particles-class-name"
   />
-
-  {/* <Robot/>  */}
-  
+   <Robot/>  
   </div>
        );
     }
