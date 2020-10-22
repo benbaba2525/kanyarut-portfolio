@@ -4,9 +4,6 @@ body{
 } 
 
 .top-container{
-
-    background: radial-gradient(circle, rgb(43, 77, 108) 0%,
-    rgba(3, 3, 29, 1) 100%); 
     text-align: center;
     top: 100%;
     left: 50%;
@@ -14,6 +11,7 @@ body{
     color: white;
     font-weight: 300;
     margin: 0 auto;
+    margin-top: 100px;
     width: 100%;
     padding: 20px;
     letter-spacing: 10px

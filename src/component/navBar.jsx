@@ -31,6 +31,7 @@ class NavBar extends React.Component {
             alignItems:'center',
             background: 'black',
             width: '100%',
+            height:'8%',
             color: 'white',
             fontFamily:'Lobster',
           },
@@ -105,7 +106,7 @@ class NavBar extends React.Component {
         },
         line: {
           width: '90%',
-          height: '1px',
+          height: '10px',
           background: 'gray',
           margin: '0 auto',
           animation: '0.5s shrink forwards',
