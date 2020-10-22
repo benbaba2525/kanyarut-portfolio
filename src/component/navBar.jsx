@@ -29,7 +29,6 @@ class NavBar extends React.Component {
             opacity: 0.9,
             display:'flex',
             alignItems:'center',
-            background: 'black',
             width: '100%',
             height:'8%',
             color: 'white',
@@ -48,7 +47,7 @@ class NavBar extends React.Component {
             transition: 'filter 0.5s ease',
           },
         }
-      const menu = ['About Us','Our Products','Services','FAQ','Contact Us']
+      const menu = ['Home','About','Skills','Portfolio','Contact']
       const menuItems = menu.map((val,index)=>{
         return (
           <MenuItem 
@@ -106,7 +105,7 @@ class NavBar extends React.Component {
         },
         line: {
           width: '90%',
-          height: '10px',
+          height: '1px',
           background: 'gray',
           margin: '0 auto',
           animation: '0.5s shrink forwards',
@@ -155,14 +154,14 @@ class NavBar extends React.Component {
           width: '100vw',
           display: 'flex',
           flexDirection: 'column',
-          background: 'black',
+          background: '#001a1a',
           opacity: 0.95,
           color: '#fafafa',
           transition: 'height 0.3s ease',
           zIndex: 2,
         },
         menuList: {
-          paddingTop: '3rem',
+          paddingTop: '15rem',
         }
       }
       return(
@@ -201,34 +200,34 @@ class NavBar extends React.Component {
     render(){
       const styles = {
         container: {
-          height: '32px',
-          width: '32px',
-          display:'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-          cursor: 'pointer',
-          padding: '4px',
+            height: '150px',
+            width: '150px',
+            display:'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            cursor: 'pointer',
+            padding: '4px',  
         },
         line: {
-          height: '2px',
-          width: '20px',
-          background: this.state.color,
-          transition: 'all 0.2s ease',
+            height: '4px',
+            width: '35px',
+            background: this.state.color,
+            transition: 'all 0.2s ease',
         },
         lineTop: {
-          transform: this.state.open ? 'rotate(45deg)':'none',
-          transformOrigin: 'top left',
-          marginBottom: '5px',
+            transform: this.state.open ? 'rotate(45deg)':'none',
+            transformOrigin: 'top left',
+            marginBottom: '8px',
         },
         lineMiddle: {
           opacity: this.state.open ? 0: 1,
           transform: this.state.open ? 'translateX(-16px)':'none',
         },
         lineBottom: {
-          transform: this.state.open ? 'translateX(-1px) rotate(-45deg)':'none',
-          transformOrigin: 'top left',
-          marginTop: '5px',
+            transform: this.state.open ? 'translateX(-1px) rotate(-45deg)':'none',
+            transformOrigin: 'top left',
+            marginTop: '8px',
         },       
       }
       return(
