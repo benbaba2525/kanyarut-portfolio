@@ -147,7 +147,7 @@ class Robot extends React.Component {
         </div>
       );
     }
-  }
+  };
   
   export default Robot;
   

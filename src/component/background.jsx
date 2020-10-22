@@ -19,7 +19,7 @@ class Background extends React.Component {
              </div>
              <br></br>
              <div>
-               <Typical steps={['', 1500,'I am Ben Pornamnuay',4000]}  wrapper="span" className={'myname'}  />
+               <Typical steps={['', 1500,'I am Kanyarut Pornamnuay',4000]}  wrapper="span" className={'myname'}  />
              </div>
              <br></br>
               <div>
@@ -52,5 +52,5 @@ class Background extends React.Component {
   </div>
        );
     }
- }
+ };
 export default Background;
