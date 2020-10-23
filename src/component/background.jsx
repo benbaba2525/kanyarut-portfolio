@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/background.css";
+import "../styles/backgrond.scss";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import 'react-awesome-button/dist/themes/theme-blue.css';
@@ -9,6 +10,12 @@ import Particles from "reactparticles.js";
 
 
 class Background extends React.Component {
+
+  componentDidMount() {
+		new WOW.WOW().init();
+	}
+
+
 	render(){
         return (
           
@@ -29,6 +36,8 @@ class Background extends React.Component {
              <br></br>
           <AwesomeButton>View My Work</AwesomeButton>
             <br></br>
+
+            
                 
     <Particles
     id="config-1"
