@@ -4,12 +4,11 @@ import myPicture from '../img/mypicture.jpeg'
 
 class About extends React.Component {
 
-
 	render(){
         const styles= 
         {
           container:{
-           top: '500px',
+           marginTop: '320px',
            background: 'white'  
           },
           img:{
