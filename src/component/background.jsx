@@ -5,7 +5,6 @@ import "react-awesome-button/dist/styles.css";
 import 'react-awesome-button/dist/themes/theme-blue.css';
 import Typical from 'react-typical';
 import Robot from './robot';
-import About from './about';
 import Particles from "reactparticles.js";
 
 
@@ -58,7 +57,6 @@ class Background extends React.Component {
 
 
    </div>
-   <div className="about"><About /></div>
   </div>
 
   

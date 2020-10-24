@@ -13,12 +13,13 @@ class About extends React.Component {
         const styles= 
         {
           wrapper:{
-           marginTop: "340px"
+           marginTop: "340px",
+           marginBottom: "100px"
           },
           img:{
             borderRadius: 50 + "%",
-			height: 300 + "px",
-			width: 300 + "px"
+			     height: 300 + "px",
+			     width: 300 + "px"
           },
           
         };

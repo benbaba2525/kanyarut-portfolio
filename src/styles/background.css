@@ -2,11 +2,7 @@ body{
     background: radial-gradient(circle, rgb(49, 109, 133) 0%,
     rgb(0, 6, 12) 100%);
 } 
-.about{
-    font-size: 15px;
-    background-color: #e0ebeb;
 
-}
 .top-container{
     text-align: center;
     top: 100%;
