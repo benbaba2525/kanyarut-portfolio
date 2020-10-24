@@ -13,7 +13,7 @@ class About extends React.Component {
         const styles= 
         {
           wrapper:{
-           marginTop: "320px"
+           marginTop: "340px"
           },
           img:{
             borderRadius: 50 + "%",
@@ -25,10 +25,10 @@ class About extends React.Component {
         return (
         
 
-<div style={styles.wrapper}>
+<div id="wrapper" style={styles.wrapper}>
 
  
-  <div className="row no-gutters mt-5 " style={{backgroundColor:'#e0ebeb',marginTop:'10000px'}}>
+  <div className="row no-gutters" id="aboutMe" style={{backgroundColor:'#e0ebeb'}}>
   <div className="col-md-2 mb-md-0 p-md-4"></div>
  
   <div className="col-md-3 position-static p-4 pl-md-4 shadow-lg p-3 mb-5 mt-5 bg-white rounded" >

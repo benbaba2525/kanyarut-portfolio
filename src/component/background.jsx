@@ -4,7 +4,8 @@ import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import 'react-awesome-button/dist/themes/theme-blue.css';
 import Typical from 'react-typical';
-import Robot from './robot'
+import Robot from './robot';
+import About from './about';
 import Particles from "reactparticles.js";
 
 
@@ -13,7 +14,7 @@ class Background extends React.Component {
 
 	render(){
         return (
-          
+     <div>
             <div className="top-container">
           
              <div>
@@ -29,7 +30,7 @@ class Background extends React.Component {
              </div>
      
              <br></br>
-          <AwesomeButton>View My Work</AwesomeButton>
+          <AwesomeButton><a href="#aboutMe" style={{color:'white'}}>View My Work</a></AwesomeButton>
             <br></br>
 
             
@@ -52,8 +53,15 @@ class Background extends React.Component {
     }}
     className="particles-class-name"
   />
-   <Robot/>  
+  
+   <Robot/> 
+
+
+   </div>
+   <div className="about"><About /></div>
   </div>
+
+  
        );
     }
  };

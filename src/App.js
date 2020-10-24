@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import NavBar from './component/navBar.jsx';
 import Background from './component/background.jsx';
-import About from './component/about.jsx';
+
 
 
 
@@ -11,7 +11,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Background />
-      <About />
+
+      
     </div>
   );
 }
