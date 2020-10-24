@@ -11,6 +11,10 @@ class Portfolio extends React.Component {
     render(){
       
         return (
+<div class="row">
+<div className="container">
+
+<div className="col-lg-4 col-md-6 mt-4">
             <ParallaxCard
   label='Label (optional)'
   enableRotate
@@ -29,6 +33,70 @@ class Portfolio extends React.Component {
    <img src='astronaut.png' style={{ top: '67%', left: '75%' }} />
    
 </ParallaxCard>
+<div className="col-lg-4 col-md-6 mt-4">
+            <ParallaxCard
+  label='Label (optional)'
+  enableRotate
+  enableTransform
+  style={{ margin: '0 auto', width: 320, height: 320 }}>
+
+  <img src={myPicture} style={{ maxWidth: '100%', maxHeight: '100%' }} />
+
+  <div /><div /><div />
+
+  <i class="fa fa-github" aria-hidden="true"></i>
+
+  {/* <p style={{ fontSize: '3px', fontWeight: 'bold', padding: '3px' }}>
+    Javascript!
+  </p> */}
+   {/* <img src='astronaut.png' style={{ top: '67%', left: '75%' }} /> */}
+   
+</ParallaxCard>
+</div>
+<div className="col-lg-4 col-md-6 mt-4">
+            <ParallaxCard
+  label='Label (optional)'
+  enableRotate
+  enableTransform
+  style={{ margin: '0 auto', width: 320, height: 320 }}>
+
+  <img src={myPicture} style={{ maxWidth: '100%', maxHeight: '100%' }} />
+
+  <div /><div /><div />
+
+  <i class="fa fa-github" aria-hidden="true"></i>
+
+  {/* <p style={{ fontSize: '3px', fontWeight: 'bold', padding: '3px' }}>
+    Javascript!
+  </p> */}
+   <img src='astronaut.png' style={{ top: '67%', left: '75%' }} />
+   
+</ParallaxCard>
+</div>
+<div className="col-lg-4 col-md-6 mt-4">
+            <ParallaxCard
+  label='Label (optional)'
+  // enableRotate
+  enableTransform
+  style={{ margin: '0 auto', width: 320, height: 320 }}>
+
+  <img src={myPicture} style={{ maxWidth: '100%', maxHeight: '100%' }} />
+
+  <div /><div /><div />
+
+  {/* <i class="fa fa-github" aria-hidden="true"></i> */}
+
+  {/* <p style={{ fontSize: '3px', fontWeight: 'bold', padding: '3px' }}>
+    Javascript!
+  </p> */}
+   {/* <img src='astronaut.png' style={{ top: '67%', left: '75%' }} /> */}
+   
+</ParallaxCard>
+</div>
+
+</div>
+</div>
+</div>
             );
         }
      };
