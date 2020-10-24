@@ -1,9 +1,10 @@
 import React from 'react';
 import myPicture from '../img/mypicture.jpeg';
+import'../styles/about.css';
 import WOW from "wowjs";
 //import Card from 'react-bootstrap/Card';
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
+import Carousel from 'react-bootstrap/Carousel'
+
 
 
 class About extends React.Component {
@@ -16,7 +17,7 @@ class About extends React.Component {
         {
           wrapper:{
            marginTop: "340px",
-           //marginBottom: "100px"
+           marginBottom: "100px"
           },
           img:{
             borderRadius: 50 + "%",
@@ -30,12 +31,13 @@ class About extends React.Component {
 
 <div id="wrapper" style={styles.wrapper}>
 
-<AwesomeSlider>
 
+<Carousel>
+<Carousel.Item>
   <div className="row no-gutters" id="aboutMe" style={{backgroundColor:'#e0ebeb'}}>
   <div className="col-md-2 mb-md-0 p-md-4"></div>
  
-  <div className="col-md-3 position-static p-4 pl-md-4 shadow-lg p-3 mb-5 mt-5 bg-white rounded" >
+  <div className="col-md-3 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-5 bg-white rounded" >
   
    <div className="wow bounceIn">
       
@@ -48,7 +50,7 @@ class About extends React.Component {
 			style={styles.img}
 	/>
         </div>
-    <div className="col-md-5 position-static p-4 pl-md-4 shadow-lg p-3 mb-5 mt-5 bg-white rounded">
+    <div className="col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-5 bg-white rounded">
     <h5 className="text-dark" ><h2>I'm</h2> <strong> Kanyarut Pornamnuay</strong></h5>
     <p className="text-dark">
   I graduated with a master degree in computer science, and also joined the database management program and received a certificate from UCLA Extension. 
@@ -75,8 +77,11 @@ quality-driven team to build better experiences on the web.
      </div>
      </div>
       
-     </AwesomeSlider>
      <div className="col-md-2 mb-md-0 p-md-4"></div>
+     </Carousel.Item>
+     <Carousel.Item>Hello</Carousel.Item>
+     </Carousel>
+ 
     </div>
     
 

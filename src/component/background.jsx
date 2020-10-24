@@ -13,7 +13,7 @@ class Background extends React.Component {
 
 	render(){
         return (
-     <div>
+     <div className="backgroundWrapper">
             <div className="top-container">
           
              <div>
