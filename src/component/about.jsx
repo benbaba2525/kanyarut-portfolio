@@ -2,6 +2,8 @@ import React from 'react';
 import myPicture from '../img/mypicture.jpeg';
 import WOW from "wowjs";
 //import Card from 'react-bootstrap/Card';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 
 class About extends React.Component {
@@ -14,7 +16,7 @@ class About extends React.Component {
         {
           wrapper:{
            marginTop: "340px",
-           marginBottom: "100px"
+           //marginBottom: "100px"
           },
           img:{
             borderRadius: 50 + "%",
@@ -28,7 +30,8 @@ class About extends React.Component {
 
 <div id="wrapper" style={styles.wrapper}>
 
- 
+<AwesomeSlider>
+
   <div className="row no-gutters" id="aboutMe" style={{backgroundColor:'#e0ebeb'}}>
   <div className="col-md-2 mb-md-0 p-md-4"></div>
  
@@ -72,9 +75,10 @@ quality-driven team to build better experiences on the web.
      </div>
      </div>
       
- 
+     </AwesomeSlider>
      <div className="col-md-2 mb-md-0 p-md-4"></div>
     </div>
+    
 
     
     
