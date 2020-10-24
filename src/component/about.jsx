@@ -7,6 +7,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 
 
+
 class About extends React.Component {
     componentDidMount() {
         const wow = new WOW.WOW();
@@ -32,8 +33,8 @@ class About extends React.Component {
 <div id="wrapper" style={styles.wrapper}>
 
 
-<Carousel>
-<Carousel.Item>
+{/* <Carousel>
+<Carousel.Item> */}
   <div className="row no-gutters" id="aboutMe" style={{backgroundColor:'#e0ebeb'}}>
   <div className="col-md-2 mb-md-0 p-md-4"></div>
  
@@ -78,9 +79,13 @@ quality-driven team to build better experiences on the web.
      </div>
       
      <div className="col-md-2 mb-md-0 p-md-4"></div>
+     {/* </Carousel.Item>
+     <Carousel.Item>
+
+     ubouyboybb
+
      </Carousel.Item>
-     <Carousel.Item>Hello</Carousel.Item>
-     </Carousel>
+     </Carousel> */}
  
     </div>
     
