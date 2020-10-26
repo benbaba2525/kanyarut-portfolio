@@ -21,8 +21,8 @@ h1{
     position: relative;
     border-radius: 3px;
     overflow: hidden;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     transition: transform 300ms linear-out;
   }
   .fancy-card .top{
