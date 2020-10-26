@@ -1,13 +1,11 @@
 import React from 'react';
-//import ReactDOM from 'react-dom'
 import '../styles/portfolio.css';
+import '../styles/portfolio.scss';
 //import {useSpring, animated} from 'react-spring';
 //import ParallaxCard from 'react-parallax-card'
 import myPicture from '../img/mypicture.jpeg';
-//import Modal from 'react-modal';
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
-import Button from "react-bootstrap/Button"
 
 const styles = {
   fontFamily: "sans-serif",
@@ -66,7 +64,7 @@ class Portfolio extends React.Component {
       <img src={myPicture}></img>
       <div className="caption">
         <h3 className="title">Beautiful Summer</h3>
-        <Button onClick={this.onOpenModal}>Open modal</Button>
+      
         <Modal open={open} onClose={this.onCloseModal}>
           <img src={myPicture}></img>
           <h2>Simple centered modal</h2>
@@ -76,8 +74,22 @@ class Portfolio extends React.Component {
             pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
             hendrerit risus, sed porttitor quam.
           </h2>
+          <div className="col-xs-6 social text-right">
+                <a href="https://github.com/benbaba2525" target="_blank">
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kanyarut-pornamnuay-b9a2501a1/" target="_blank">
+                  <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+      
+                <a href="https://www.facebook.com/ben.pornamnuay" target="_blank">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+
+              </div>
+       
         </Modal>
-        <a href="" className="button">Find Out </a>
+        <a onClick={this.onOpenModal} className="button">Find Out </a>
       </div>
     </div>
     <div className="middle"></div>
@@ -87,23 +99,6 @@ class Portfolio extends React.Component {
   </div>
   
 </div>
-
-{/* <div style={styles}>
-        <h2>react-responsive-modal</h2>
-        <button onClick={this.onOpenModal}>Open modal</button>
-        <Modal open={open} onClose={this.onCloseModal}>
-          <h2>Simple centered modal</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
-            hendrerit risus, sed porttitor quam.
-          </p>
-        </Modal>
-      </div> */}
-
-  
-
-
 
 
 </div>

@@ -1,10 +1,9 @@
 import React from 'react';
 import myPicture from '../img/mypicture.jpeg';
-import'../styles/about.css';
 import WOW from "wowjs";
 //import Card from 'react-bootstrap/Card';
 //import Carousel from 'react-bootstrap/Carousel'
-
+//import { FaGithub } from 'react-icons/fa'
 
 
 

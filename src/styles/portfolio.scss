@@ -1,0 +1,25 @@
+.social {
+    font-size: 35px;
+    
+    // FontAwesome
+    .fa {
+      margin: 12px 6px;
+      position: relative;
+      transition: .3s all ease;
+      top: 0;
+
+      &.fa-github-square {color: #000;}
+      &.fa-linkedin-square {color: #007bb6;}
+      &.fa-facebook-square {color: #007bb6;}
+      
+
+      &:hover {
+        top: -4px;
+      }
+    }
+
+  }
+
+
+
+
