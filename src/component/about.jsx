@@ -22,7 +22,8 @@ class About extends React.Component {
           wrapper:{
            marginTop: "340px",
            marginBottom: "100px",
-           backgroundColor:'#e0ebeb'
+           backgroundColor:'#e0ebeb',
+           height: '100vh',
           },
           img:{
            borderRadius: 50 + "%",
