@@ -7,6 +7,8 @@ import myPicture from '../img/mypicture.jpeg';
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 
+import ScrollUpButton from "react-scroll-up-button"; //Add this line Here
+
 const styles = {
   fontFamily: "sans-serif",
   textAlign: "center"
@@ -100,6 +102,10 @@ class Portfolio extends React.Component {
   
 </div>
 
+            <div>
+                <ScrollUpButton />
+                //This is all you need to get the default view working
+            </div>
 
 </div>
 </div>

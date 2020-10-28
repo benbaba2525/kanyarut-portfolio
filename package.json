@@ -23,6 +23,7 @@
     "react-parallax-card": "^0.5.7",
     "react-responsive-modal": "^5.1.1",
     "react-scripts": "3.4.4",
+    "react-scroll-up-button": "^1.6.4",
     "react-spring": "^8.0.27",
     "react-typical": "^0.1.3",
     "reactparticles.js": "^2.0.0",
