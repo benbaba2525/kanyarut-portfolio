@@ -33,7 +33,7 @@ class Portfolio extends React.Component {
       
         return (
 
-<div class="row">
+<div class="row" style={{backgroundColor: '#93bbbb'}}>
 
 
 <div className="col-lg-4 col-md-6 mt-4">
@@ -97,7 +97,6 @@ class Portfolio extends React.Component {
     <div className="middle"></div>
     <div className="bottom"></div>
     
-
   </div>
   
 </div>
@@ -108,6 +107,7 @@ class Portfolio extends React.Component {
             </div>
 
 </div>
+
 </div>
           
 

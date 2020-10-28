@@ -1,9 +1,13 @@
 import React from 'react';
 import myPicture from '../img/mypicture.jpeg';
 import WOW from "wowjs";
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
+import myResume from "../img/Resume.pdf";
 //import Card from 'react-bootstrap/Card';
 //import Carousel from 'react-bootstrap/Carousel'
 //import { FaGithub } from 'react-icons/fa'
+
 
 
 
@@ -17,24 +21,25 @@ class About extends React.Component {
         {
           wrapper:{
            marginTop: "340px",
-           marginBottom: "100px"
+           marginBottom: "100px",
+           backgroundColor:'#e0ebeb'
           },
           img:{
-            borderRadius: 50 + "%",
+           borderRadius: 50 + "%",
 			     height: 300 + "px",
 			     width: 300 + "px"
           },
           
         };
         return (
-        
 
 <div id="wrapper" style={styles.wrapper}>
+        
 
 
 {/* <Carousel>
 <Carousel.Item> */}
-  <div className="row no-gutters" id="aboutMe" style={{backgroundColor:'#e0ebeb'}}>
+  <div className="row no-gutters" id="aboutMe" >
   <div className="col-md-2 mb-md-0 p-md-4"></div>
  
   <div className="col-md-3 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-5 bg-white rounded" >
@@ -78,6 +83,11 @@ quality-driven team to build better experiences on the web.
      </div>
       
      <div className="col-md-2 mb-md-0 p-md-4"></div>
+
+     
+<AwesomeButton style={{marginBottom:'30px'}}><a target="_blank" href = {myResume} style={{color:'white'}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
+
+
      {/* </Carousel.Item>
      <Carousel.Item>
 
@@ -85,11 +95,11 @@ quality-driven team to build better experiences on the web.
 
      </Carousel.Item>
      </Carousel> */}
- 
+
     </div>
     
 
-    
+ 
     
             );
         }
