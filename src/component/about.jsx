@@ -8,6 +8,7 @@ import myResume from "../img/Resume.pdf";
 //import Card from 'react-bootstrap/Card';
 //import Carousel from 'react-bootstrap/Carousel'
 //import { FaGithub } from 'react-icons/fa'
+import '../styles/portfolio.scss';
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -55,6 +56,19 @@ class About extends React.Component {
 			alt="my picture"
 			style={styles.img}
 	/>
+  <div className="col-xs-6 social text-center">
+                <a href="https://github.com/benbaba2525" target="_blank">
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kanyarut-pornamnuay-b9a2501a1/" target="_blank">
+                  <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+      
+                <a href="https://www.facebook.com/ben.pornamnuay" target="_blank">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+
+    </div>
  </ScrollAnimation>
   </div>
 
@@ -82,6 +96,8 @@ Also, Maintain websites and applications, including content updates, debugging, 
 and regular upgrades to ensure web and system usability. I’m excited to leverage my skills as part of a fast-paced, 
 quality-driven team to build better experiences on the web. 
 </p>
+
+
 
 </ScrollAnimation>
      </div>
