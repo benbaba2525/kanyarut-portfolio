@@ -1,12 +1,11 @@
 import React from 'react';
-import '../styles/portfolio.css';
+
 import '../styles/portfolio.scss';
 //import {useSpring, animated} from 'react-spring';
 //import ParallaxCard from 'react-parallax-card'
 import myPicture from '../img/mypicture.jpeg';
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
-
 import ScrollUpButton from "react-scroll-up-button"; //Add this line Here
 
 const styles = {
@@ -33,15 +32,15 @@ class Portfolio extends React.Component {
       
         return (
 
-<div class="row" style={{backgroundColor: '#93bbbb'}}>
+<div id="wrapper" style={{backgroundColor: '#c6dddd', height: '100vh', padding:'10px'}}>
 
+<h1>Portfolio</h1>
+
+<div class="row" style={{backgroundColor: '#c6dddd', margitTop:'10%'}}>
 
 <div className="col-lg-4 col-md-6 mt-4">
 
 <div className="fancy-cards">
-  <h1>Microinteraction on active</h1>
-  <p>It triggers a subtle micro-interaction (scales and adjusts) when the user interacts with it.</p>
-  
   <div className="fancy-card">
     <div className="top">
       <img src={myPicture}></img>
@@ -59,8 +58,6 @@ class Portfolio extends React.Component {
 <div className="col-lg-4 col-md-6 mt-4">
 
 <div className="fancy-cards">
-  <h1>Microinteraction on active</h1>
-  <p>It triggers a subtle micro-interaction (scales and adjusts) when the user interacts with it.</p>
   <div className="fancy-card">
     <div className="top">
       <img src={myPicture}></img>
@@ -110,7 +107,7 @@ class Portfolio extends React.Component {
 
 </div>
           
-
+</div>
 
             );
         }

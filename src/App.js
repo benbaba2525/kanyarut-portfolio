@@ -9,6 +9,7 @@ import Portfolio from './component/portfolio.jsx';
 
 function App() {
   return (
+    
     <div className="App">
       <NavBar />
       <Background />

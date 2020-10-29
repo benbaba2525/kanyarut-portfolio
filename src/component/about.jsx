@@ -4,18 +4,16 @@ import WOW from "wowjs";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import myResume from "../img/Resume.pdf";
+//import backgroundImage from "../img/IMG_6270.jpeg";
 //import Card from 'react-bootstrap/Card';
 //import Carousel from 'react-bootstrap/Carousel'
 //import { FaGithub } from 'react-icons/fa'
-
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 
 class About extends React.Component {
-    componentDidMount() {
-        const wow = new WOW.WOW();
-        wow.init();
-      }
 	render(){
         const styles= 
         {
@@ -33,7 +31,7 @@ class About extends React.Component {
           
         };
         return (
-
+      
 <div id="wrapper" style={styles.wrapper}>
         
 
@@ -43,20 +41,25 @@ class About extends React.Component {
   <div className="row no-gutters" id="aboutMe" >
   <div className="col-md-2 mb-md-0 p-md-4"></div>
  
-  <div className="col-md-3 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-5 bg-white rounded" >
+  <div className="col-md-3 p-4 pl-md-4 shadow-lg p-3 mb-5 bg-white rounded" style={{marginTop: '10%', marginBottom: '10%'}} >
   
-   <div className="wow bounceIn">
-      
+   <div >
+   <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'>
    <h1>About Me</h1>
+   </ScrollAnimation>
 </div>
+<ScrollAnimation animateIn='bounceInRight'
+  animateOut='bounceOutLeft'>
     <img
 			className={"img-fluid " + this.props.fadeIn}
 			src={myPicture}
 			alt="my picture"
 			style={styles.img}
 	/>
-        </div>
-    <div className="col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-5 bg-white rounded">
+ </ScrollAnimation>
+  </div>
+
+    <div className="col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5  bg-white rounded"  style={{marginTop: '10%', marginBottom: '10%'}}>
     <h5 className="text-dark" ><h2>I'm</h2> <strong> Kanyarut Pornamnuay</strong></h5>
     <p className="text-dark">
   I graduated with a master degree in computer science, and also joined the database management program and received a certificate from UCLA Extension. 
@@ -81,12 +84,15 @@ quality-driven team to build better experiences on the web.
 
 
      </div>
+  
      </div>
       
      <div className="col-md-2 mb-md-0 p-md-4"></div>
-
+  <div>
+  <AwesomeButton><a target="_blank" href = {myResume} style={{color:'white'}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
+  </div>
      
-<AwesomeButton style={{marginBottom:'30px'}}><a target="_blank" href = {myResume} style={{color:'white'}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
+
 
 
      {/* </Carousel.Item>
