@@ -48,8 +48,7 @@ class About extends React.Component {
    <h1>About Me</h1>
    </ScrollAnimation>
 </div>
-<ScrollAnimation animateIn='bounceInRight'
-  animateOut='bounceOutLeft'>
+<ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
     <img
 			className={"img-fluid " + this.props.fadeIn}
 			src={myPicture}
@@ -60,7 +59,9 @@ class About extends React.Component {
   </div>
 
     <div className="col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5  bg-white rounded"  style={{marginTop: '10%', marginBottom: '10%'}}>
+    <ScrollAnimation animateIn='fadeIn'>
     <h5 className="text-dark" ><h2>I'm</h2> <strong> Kanyarut Pornamnuay</strong></h5>
+    
     <p className="text-dark">
   I graduated with a master degree in computer science, and also joined the database management program and received a certificate from UCLA Extension. 
 </p>
@@ -82,7 +83,7 @@ and regular upgrades to ensure web and system usability. I’m excited to levera
 quality-driven team to build better experiences on the web. 
 </p>
 
-
+</ScrollAnimation>
      </div>
   
      </div>
