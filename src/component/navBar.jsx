@@ -1,5 +1,7 @@
 import React from 'react';
 import "../styles/navBar.css";
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 class NavBar extends React.Component {
@@ -13,7 +15,8 @@ class NavBar extends React.Component {
     handleMenuClick() {
       this.setState({menuOpen:!this.state.menuOpen});
     }
-    
+  
+
     handleLinkClick() {
       this.setState({menuOpen: false});
     }
@@ -47,23 +50,42 @@ class NavBar extends React.Component {
             transition: 'filter 0.5s ease',
           },
         }
-      const menu = ['Home','About','Skills','Portfolio','Contact']
-      const menuItems = menu.map((val,index)=>{
-        return (
-          <MenuItem 
-            key={index} 
-            delay={`${index * 0.1}s`}
-            onClick={()=>{this.handleLinkClick();}}>{val}</MenuItem>)
-      });
+      // const menu = ['Home','About','Skills','Portfolio','Contact']
+      // const menuItems = menu.map((val,index)=>{
+      //   return (
+      //     <MenuItem 
+      //       key={index} 
+      //       delay={`${index * 0.1}s`}
+      //       onclick = {menu[0]}><a href="#aboutMe" style={{color:'white'}}>{menu[0]}</a>
+      //onClick={()=>{this.handleLinkClick();}}>{val}</MenuItem>)
+      //       </MenuItem>)
+            
+      // });
       
       return(
         <div>
           <div style={styles.container}>
             <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='white'/>
-            <div style={styles.logo}>**KP**</div>
+            <div style={styles.logo}><a href="#aboutMe" style={{color:'white'}}>**KP**</a></div>
           </div>
           <Menu open={this.state.menuOpen}>
-            {menuItems}
+
+          <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+            
+           <MenuItem onClick={()=>{this.handleLinkClick();}}>
+             <a href="#backgroundWrapper" class="nav-link text-light"><i>Home<span class="sr-only">(current)</span></i></a>
+            </MenuItem>
+
+            <MenuItem onClick={()=>{this.handleLinkClick();}}>
+             <a href="#aboutMe" class="nav-link text-light"><i>About<span class="sr-only">(current)</span></i></a>
+            </MenuItem>
+
+            <MenuItem onClick={()=>{this.handleLinkClick();}}>
+            <a href="#porfolioWrapper" class="nav-link text-light"><i>Portfolio<span class="sr-only">(current)</span></i></a>
+            </MenuItem>
+
+          </ScrollAnimation>
+
           </Menu>
           
         </div>
@@ -93,35 +115,28 @@ class NavBar extends React.Component {
         },
         menuItem:{
           fontFamily:`'Open Sans', sans-serif`,
-          fontSize: '1.2rem',
+          fontSize: '1.5rem',
           padding: '1rem 0',
           margin: '0 5%',
           cursor: 'pointer',
-          color: this.state.hover? 'gray':'#fafafa',
-          transition: 'color 0.2s ease-in-out',
-          animation: '0.5s slideIn forwards',
-          animationDelay:this.props.delay,
-  
         },
         line: {
           width: '90%',
           height: '1px',
           background: 'gray',
           margin: '0 auto',
-          animation: '0.5s shrink forwards',
-          animationDelay:this.props.delay,
-          
         }
       }
       return(
         <div style={styles.container}>
+      
           <div 
             style={styles.menuItem} 
             onMouseEnter={()=>{this.handleHover();}} 
             onMouseLeave={()=>{this.handleHover();}}
             onClick={this.props.onClick}
           >
-            {this.props.children}  
+            {this.props.children}
           </div>
         <div style={styles.line}/>
       </div>  

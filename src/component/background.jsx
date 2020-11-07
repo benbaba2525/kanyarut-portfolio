@@ -7,15 +7,15 @@ import Typical from 'react-typical';
 import Robot from './robot';
 import Particles from "reactparticles.js";
 import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
+
 
 
 
 class Background extends React.Component {
-
-
+  
 	render(){
         return (
+
      <div className="backgroundWrapper">
             <div className="top-container">
           

@@ -1,6 +1,5 @@
 import React from 'react';
 import myPicture from '../img/mypicture.jpeg';
-import WOW from "wowjs";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import myResume from "../img/Resume.pdf";
