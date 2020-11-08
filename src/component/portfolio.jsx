@@ -3,68 +3,33 @@ import '../styles/portfolio.scss';
 //import {useSpring, animated} from 'react-spring';
 //import ParallaxCard from 'react-parallax-card'
 import myPicture from '../img/mypicture.jpeg';
-import myPicture2 from '../img/burger.png';
-import "react-responsive-modal/styles.css";
+//import Burger from '../img/burger.png';
+import DateNightPlanner from '../img/dateNightPlanner.png'
+//import "react-responsive-modal/styles.css";
 //import { Modal } from "react-responsive-modal";
 import ScrollUpButton from "react-scroll-up-button"; //Add this line Here
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import Modal from 'react-modal';
+//import Modal from 'react-modal';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
 
-import SkyLight from 'react-skylight';
 
 
 
 
-const styles = {
-  fontFamily: "sans-serif",
-  textAlign: "center"
-};
+
+// const styles = {
+//   fontFamily: "sans-serif",
+//   textAlign: "center"
+// };
 
 class Portfolio extends React.Component {
 
-  constructor(props){
-    super(props);
-  }
-
-  state = {
-    modalIsOpen: false,
-    secondModalIsOpen: false
-  };
-  
-  openModal = () => {
-    this.setState({ modalIsOpen: true });
-  };
-  
-  closeModal = () => {
-    this.setState({ modalIsOpen: false });
-  };
-  
-  openSecondModal = () => {
-    this.setState({ secondModalIsOpen: true });
-  };
-  
-  closeSecondModal = () => {
-    this.setState({ secondModalIsOpen: false });
-  };
-  // state = {
-  //   open: false
-  // };
-
-  //onOpenModal = () => {
-  //   this.setState({ open: true });
-  // };
-
-  onCloseModal = () => {
-  this.setState({ open: false });
-   };
     render(){
 
-      // const { open } = this.state;
       
         return (
 
@@ -81,86 +46,44 @@ class Portfolio extends React.Component {
 <div className="fancy-cards">
   <div className="fancy-card">
     <div className="top">
-      <img src={myPicture2}></img>
+      <img src={DateNightPlanner}></img>
       <div className="caption">
-        <h3 className="title">Beautiful Summer</h3>
+        <h3 className="title">Date Night Planner</h3>
       
         <div>
-        {/* <button onClick={this.openModal}>Open Modal</button>
-      
-
-        <Modal isOpen={this.state.modalIsOpen} onRequestClose={this.closeModal}>
-          <button onClick={this.closeModal}>close</button>
-          <div>I am a modal</div>
-        </Modal> */}
      
-     <Popup trigger={<button className="button"> 222Open Modal </button>} modal>
+     <Popup trigger={<button className="button"> View Project </button>} modal>
  
  {close => (
  <span>
    <a className="close" onClick={close}>
  &times;
 </a>
-     <img src={myPicture2}></img>   
-     Content here Content here22222222222
-     222222222222Modal content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-           magni omnis delectus nemo, maxime molestiae dolorem numquam
-           mollitia, voluptate ea, accusamus excepturi deleniti ratione
-           sapiente! Laudantium, aperiam doloribus. Odit, aut.
-           <div className="col-xs-6 social text-right">
-             <a href="https://github.com/benbaba2525" target="_blank">
-             <i class="fa fa-github-square" aria-hidden="true"></i>
-             </a>
-             <a href="https://www.linkedin.com/in/kanyarut-pornamnuay-b9a2501a1/" target="_blank">
-               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-             </a>
-   
-             <a href="https://www.facebook.com/ben.pornamnuay" target="_blank">
-             <i class="fa fa-facebook-square" aria-hidden="true"></i>
-             </a>
-</div>    
+<a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Project1-Date-Night-Planer/">
+     <img src={DateNightPlanner} style={{width: '100%'}}></img>   
+</a>
+<br></br>
+     Date Night Planer Application is providing user to plan where to order food 
+     and what movie to watch for their date night.
+           <div className="col-xs-6 social text-center">
+                <a href="https://github.com/benbaba2525" target="_blank">
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+                
+                <a href="https://benbaba2525.github.io/Project1-Date-Night-Planer/" target="_blank">
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+             </div>    
      
      </span>
  
  )}
 
-</Popup>
-
-     
-
-        
+         </Popup>
       </div>
-        {/* <Modal id='modal1' open={open} onClose={this.onCloseModal}>
-          <img src={myPicture}></img>
-          <h2>Simple centered modal</h2>
-          <hr></hr>
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
-            hendrerit risus, sed porttitor quam.
-          </h2>
-          <div className="col-xs-6 social text-right">
-                <a href="https://github.com/benbaba2525" target="_blank">
-                <i class="fa fa-github-square" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/kanyarut-pornamnuay-b9a2501a1/" target="_blank">
-                  <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                </a>
-      
-                <a href="https://www.facebook.com/ben.pornamnuay" target="_blank">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                </a>
-
-              </div>
-       
-        </Modal> */}
-
-
-        
-        <a id='modal1'onClick={this.onOpenModal} className="button">Find Out </a>
       </div>
-    </div>
-    <div className="middle"></div>
+      </div>
+     <div className="middle"></div>
     <div className="bottom"></div>
   </div>
 </div>
@@ -174,73 +97,34 @@ class Portfolio extends React.Component {
       <img src={myPicture}></img>
       <div className="caption">
         <h3 className="title">Beautiful Summer</h3>
-          {/* <button onClick={this.openSecondModal}>Open Second Modal</button>
-        <Modal
-          isOpen={this.state.secondModalIsOpen}
-          onRequestClose={this.closeSecondModal}
-        >
-          <button onClick={this.closeSecondModal}>close</button>
-          <div>second modal</div>
-        </Modal> */}
-
         <Popup trigger={<button className="button"> 222Open Modal </button>} modal>
  
     {close => (
     <span>
+      <a className="close" onClick={close}>
+          &times;
+        </a>
         <img src={myPicture}></img>   
         Content here Content here111111111111111111
         11111111112Modal content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
               magni omnis delectus nemo, maxime molestiae dolorem numquam
               mollitia, voluptate ea, accusamus excepturi deleniti ratione
               sapiente! Laudantium, aperiam doloribus. Odit, aut.
-              <div className="col-xs-6 social text-right">
+              <div className="col-xs-6 social text-center">
                 <a href="https://github.com/benbaba2525" target="_blank">
                 <i class="fa fa-github-square" aria-hidden="true"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/kanyarut-pornamnuay-b9a2501a1/" target="_blank">
-                  <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                
+                <a href="https://benbaba2525.github.io/Project1-Date-Night-Planer/" target="_blank">
+                <i class="fa fa-external-link" aria-hidden="true"></i>
                 </a>
-      
-                <a href="https://www.facebook.com/ben.pornamnuay" target="_blank">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                </a>
-</div>    
-        <a className="close" onClick={close}>
-          &times;
-        </a>
+             </div>    
+        
         </span>
     
     )}
    
   </Popup>
-  
-        
-  
-        {/* <Modal id='modal2' open={open} onClose={this.onCloseModal}>
-          <img src={myPicture}></img>
-          <h2>Simple centered modal22222222222222222</h2>
-          <hr></hr>
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
-            hendrerit risus, sed porttitor quam.
-          </h2>
-          <div className="col-xs-6 social text-right">
-                <a href="https://github.com/benbaba2525" target="_blank">
-                <i class="fa fa-github-square" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/kanyarut-pornamnuay-b9a2501a1/" target="_blank">
-                  <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                </a>
-      
-                <a href="https://www.facebook.com/ben.pornamnuay" target="_blank">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                </a>
-
-              </div>
-       
-        </Modal> */}
-        <a id='modal2'onClick={this.onOpenModal} className="button">Find Out </a>
       </div>
     </div>
     <div className="middle"></div>
