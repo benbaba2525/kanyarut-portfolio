@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/background.css";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
-import 'react-awesome-button/dist/themes/theme-blue.css';
+import 'react-awesome-button/dist/themes/theme-c137.css';
 import Typical from 'react-typical';
 import Robot from './robot';
 import Particles from "reactparticles.js";
@@ -32,7 +32,7 @@ class Background extends React.Component {
              </div>
      
              <br></br>
-          <AwesomeButton><a href="#aboutMe" style={{color:'white'}}>View My Work</a></AwesomeButton>
+          <AwesomeButton type="secondary"><a href="#aboutMe" style={{color:'white'}}>View My Work</a></AwesomeButton>
             <br></br>
 
             

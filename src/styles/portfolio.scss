@@ -29,7 +29,7 @@ p{
     position: relative;
     border-radius: 3px;
     overflow: hidden;
-    width: 350px;
+    width: 400px;
     height: 350px;
     transition: transform 300ms linear-out;
     
@@ -116,7 +116,7 @@ p{
       position: relative;
       transition: .3s all ease;
       top: 0;
-      &.fa-external-link {color: rgb(19, 118, 223);}
+      &.fa-link {color: rgb(15, 203, 216);}
       &.fa-github-square {color: rgb(0, 0, 0);}
       &.fa-linkedin-square {color: #007bb6;}
       &.fa-facebook-square {color: #007bb6;}

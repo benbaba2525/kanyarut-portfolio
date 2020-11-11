@@ -1,7 +1,7 @@
 import React from 'react';
 import myPicture from '../img/mypicture.jpeg';
 import { AwesomeButton } from "react-awesome-button";
-import "react-awesome-button/dist/styles.css";
+import 'react-awesome-button/dist/themes/theme-c137.css';
 import myResume from "../img/Resume.pdf";
 //import backgroundImage from "../img/IMG_6270.jpeg";
 //import Card from 'react-bootstrap/Card';
@@ -106,7 +106,7 @@ quality-driven team to build better experiences on the web.
       
      <div className="col-md-2 mb-md-0 p-md-4"></div>
   <div>
-  <AwesomeButton><a target="_blank" href = {myResume} style={{color:'white'}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
+  <AwesomeButton type="secondary"><a target="_blank"  href = {myResume} style={{color:'white'}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
   </div>
      
 

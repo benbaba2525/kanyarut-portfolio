@@ -3,6 +3,7 @@ import '../styles/portfolio.scss';
 //import {useSpring, animated} from 'react-spring';
 //import ParallaxCard from 'react-parallax-card'
 import myPicture from '../img/mypicture.jpeg';
+import P1 from '../img/p1.png';
 //import Burger from '../img/burger.png';
 import DateNightPlanner from '../img/dateNightPlanner.png'
 //import "react-responsive-modal/styles.css";
@@ -14,12 +15,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 //import Modal from 'react-modal';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-
-
-
-
-
-
+import { AwesomeButton } from "react-awesome-button";
+//import "react-awesome-button/dist/styles.css";
+import 'react-awesome-button/dist/themes/theme-c137.css';
 
 // const styles = {
 //   fontFamily: "sans-serif",
@@ -59,20 +57,32 @@ class Portfolio extends React.Component {
    <a className="close" onClick={close}>
  &times;
 </a>
+
 <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Project1-Date-Night-Planer/">
-     <img src={DateNightPlanner} style={{width: '100%'}}></img>   
+     <img src={P1} style={{width: '100%'}}></img>   
 </a>
+
 <br></br>
-     Date Night Planer Application is providing user to plan where to order food 
-     and what movie to watch for their date night.
-           <div className="col-xs-6 social text-center">
+<h5>Date Night Planer</h5> 
+<p style={{color: '#111111'}}> is providing user to plan their date night at home
+by check on where to order food and search for movies to watch.</p>
+
+
+<AwesomeButton size="small" type="primary">HTML</AwesomeButton>
+<AwesomeButton size="small" type="primary">CSS</AwesomeButton>
+<AwesomeButton size="small" type="primary">Bootstrap</AwesomeButton>
+<AwesomeButton size="medium" type="primary">GoogleFonts</AwesomeButton>
+
+           <div className="col-xs-6 social text-right">
                 <a href="https://github.com/benbaba2525" target="_blank">
                 <i class="fa fa-github-square" aria-hidden="true"></i>
                 </a>
                 
                 <a href="https://benbaba2525.github.io/Project1-Date-Night-Planer/" target="_blank">
-                <i class="fa fa-external-link" aria-hidden="true"></i>
+                <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
+
+             
              </div>    
      
      </span>
