@@ -66,8 +66,16 @@ class About extends React.Component {
                 <a href="https://www.facebook.com/ben.pornamnuay" target="_blank">
                 <i className="fa fa-facebook-square" aria-hidden="true"></i>
                 </a>
+                <a target="_blank" href="mailto:benbaba2525@gmail.com?subject=Open Question from Portfolio">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
 
+                <a href="https://www.instagram.com/benbaba2525/" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
 
+                
+          
     </div>
  </ScrollAnimation>
   </div>
