@@ -4,7 +4,8 @@ import NavBar from './component/navBar.jsx';
 import Background from './component/background.jsx';
 import About from './component/about.jsx';
 import Portfolio from './component/portfolio.jsx';
-
+//import ScrollUpButton from "react-scroll-up-button"; 
+import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 
 
 function App() {
@@ -15,8 +16,7 @@ function App() {
       <Background />
       <About />
       <Portfolio />
-
-      
+      <ScrollUpButton/>
     </div>
   );
 }
