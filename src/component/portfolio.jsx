@@ -46,7 +46,7 @@ class Portfolio extends React.Component {
        return (
          
 
-<div id="porfolioWrapper" style={{backgroundColor: '#c6dddd', height: '100vh', padding:'10px'}}>
+<div id="porfolioWrapper" style={{backgroundColor: '#c6dddd', height: '100%', padding:'10px'}}>
 <ScrollAnimation animateIn='wobble'initiallyVisible={true}>
 <h1>Portfolio</h1>
 </ScrollAnimation>
@@ -640,17 +640,8 @@ class Portfolio extends React.Component {
   </div>
 </div>
 
-
-
-
-
-          
-{/* ---------- */}
 </div>
-</ScrollAnimation>
-<div>
-
-</div>
+  </ScrollAnimation>
 
 </div>
 
