@@ -104,7 +104,12 @@ Also, Maintain websites and applications, including content updates, debugging, 
 and regular upgrades to ensure web and system usability. I’m excited to leverage my skills as part of a fast-paced, 
 quality-driven team to build better experiences on the web. 
 </p>
+<br></br>
 
+<div>
+  <AwesomeButton type="secondary"><a target="_blank"  href = {myResume} style={{color:'white'}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
+  </div>
+     
 
 
 </ScrollAnimation>
@@ -113,10 +118,7 @@ quality-driven team to build better experiences on the web.
      </div>
       
      <div className="col-md-2 mb-md-0 p-md-4"></div>
-  <div>
-  <AwesomeButton type="secondary"><a target="_blank"  href = {myResume} style={{color:'white'}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
-  </div>
-     
+  
 
 
 

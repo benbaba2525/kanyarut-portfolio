@@ -10,6 +10,9 @@ import Giphy from '../img/GifTastic.png';
 import WordGuessGame from '../img/Word-Guess-Game.png';
 import CrystalsGame from '../img/Crystals-Collector-Game.png';
 import TriviaGame from '../img/TriviaGame.png';
+import TrainScheduler from '../img/TrainScheduler.png';
+import FriendFinder from '../img/Friend-Finder.png';
+import Burger from '../img/burger.png';
 
 
 
@@ -27,6 +30,9 @@ import PopGiphy from '../img/PopGifTastic.png';
 import PopWordGuessGame from '../img/PopWordGuessGame.png';
 import PopCrystalsGame from '../img/PopCrystals.png';
 import PopTriviaGame from '../img/PopTrivia.png';
+import PopTrainScheduler from '../img/PopTrainSchedule.png';
+import PopFriendFinder from '../img/PopFriendFinder.png';
+import PopBurger from '../img/PopEatBurger.png';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 import { AwesomeButton } from "react-awesome-button";
@@ -460,7 +466,7 @@ class Portfolio extends React.Component {
     <div className="top">
       <img src={TriviaGame}></img>
        <div className="caption">
-        <h3 className="title">Christmas Trivia</h3>
+        <h3 className="title">Christmas Trivia Game</h3>
          <div>
            <Popup trigger={<button className="button"> View Project </button>} modal>
               {close => (
@@ -470,7 +476,7 @@ class Portfolio extends React.Component {
                        <img src={PopTriviaGame} style={{width: '100%'}}></img>   
                       </a>
                        <br></br>
-                        <h5 style={{padding: '5px'}}>Chrismas Trivia</h5> 
+                        <h5 style={{padding: '5px'}}>Chrismas Trivia Game</h5> 
                          <p style={{color: '#111111', fontSize:'20px'}}>
                          Trivia game using JavaScript for the logic and jQuery to manipulate HTML.
                         </p>
@@ -496,11 +502,143 @@ class Portfolio extends React.Component {
   </div>
 </div>
 
+<div className="col-lg-4 col-md-6">
+ <div className="fancy-cards">
+  <div className="fancy-card">
+    <div className="top">
+      <img src={TrainScheduler}></img>
+       <div className="caption">
+        <h3 className="title">Train Scheduler</h3>
+         <div>
+           <Popup trigger={<button className="button"> View Project </button>} modal>
+              {close => (
+                   <span>
+                     <a className="close" onClick={close}> &times; </a>
+                      <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Train-Scheduler/">
+                       <img src={PopTrainScheduler} style={{width: '100%'}}></img>   
+                      </a>
+                       <br></br>
+                        <h5 style={{padding: '5px'}}>Train Scheduler</h5> 
+                         <p style={{color: '#111111', fontSize:'20px'}}>
+                         JavaScript using server side storage (Firebase) and Date objects (The Moment.js library)
+                        </p>
+                        <hr></hr>
+                          <AwesomeButton size="small" type="primary">HTML</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">CSS</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">Bootstrap</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">JavaScript</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">jQuery</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">Moment.js</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">Firebase</AwesomeButton>
+                          <AwesomeButton size="large" type="primary">Authenticate Using Google Sign-In</AwesomeButton>
+                          <AwesomeButton size="large" type="primary">Authenticate Using GitHub Sign-In</AwesomeButton>
+                       <div className="col-xs-6 social text-right">
+                         <a href="https://github.com/benbaba2525/Train-Scheduler" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                         <a href="https://benbaba2525.github.io/Train-Scheduler/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                  </div>    
+               </span> 
+              )}
+            </Popup>
+           </div>
+          </div>
+        </div>
+      <div className="middle"></div>
+      <div className="bottom"></div>
+    </div>
+  </div>
+</div>
 
+<div className="col-lg-4 col-md-6">
+ <div className="fancy-cards">
+  <div className="fancy-card">
+    <div className="top">
+      <img src={FriendFinder}></img>
+       <div className="caption">
+        <h3 className="title">Friend Finder</h3>
+         <div>
+           <Popup trigger={<button className="button"> View Project </button>} modal>
+              {close => (
+                   <span>
+                     <a className="close" onClick={close}> &times; </a>
+                      <a target="_blank" rel="nofollow" href="https://friend-finder-appp.herokuapp.com/">
+                       <img src={PopFriendFinder} style={{width: '100%'}}></img>   
+                      </a>
+                       <br></br>
+                        <h5 style={{padding: '5px'}}>Friend Finder</h5> 
+                         <p style={{color: '#111111', fontSize:'20px'}}>
+                         This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. 
+                         The app will then display the name and picture of the user with the best overall match.
+                        </p>
+                        <hr></hr>
+                          <AwesomeButton size="small" type="primary">HTML</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">CSS</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">Bootstrap</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">JavaScript</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">Node.js</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">Express.js</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">JSON</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">Postman</AwesomeButton>
+                       <div className="col-xs-6 social text-right">
+                         <a href="https://github.com/benbaba2525/Friend-Finder" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                         <a href="https://friend-finder-appp.herokuapp.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                  </div>    
+               </span> 
+              )}
+            </Popup>
+           </div>
+          </div>
+        </div>
+      <div className="middle"></div>
+      <div className="bottom"></div>
+    </div>
+  </div>
+</div>
 
-
-
-
+<div className="col-lg-4 col-md-6">
+ <div className="fancy-cards">
+  <div className="fancy-card">
+    <div className="top">
+      <img src={Burger}></img>
+       <div className="caption">
+        <h3 className="title">Eat Da Burger</h3>
+         <div>
+           <Popup trigger={<button className="button"> View Project </button>} modal>
+              {close => (
+                   <span>
+                     <a className="close" onClick={close}> &times; </a>
+                      <a target="_blank" rel="nofollow" href="https://burgers-appp.herokuapp.com/">
+                       <img src={PopBurger} style={{width: '100%'}}></img>   
+                      </a>
+                       <br></br>
+                        <h5 style={{padding: '5px'}}>Eat Da Burger</h5> 
+                         <p style={{color: '#111111', fontSize:'20px'}}>
+                         Create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).
+                        </p>
+                        <hr></hr>
+                          <AwesomeButton size="small" type="primary">HTML</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">CSS</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">Bootstrap</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">JavaScript</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">jQuery</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">Node.js</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">Express.js</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">Handlebars</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">MySQL</AwesomeButton>
+                       <div className="col-xs-6 social text-right">
+                         <a href="https://github.com/benbaba2525/burger" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                         <a href="https://burgers-appp.herokuapp.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                  </div>    
+               </span> 
+              )}
+            </Popup>
+           </div>
+          </div>
+        </div>
+      <div className="middle"></div>
+      <div className="bottom"></div>
+    </div>
+  </div>
+</div>
 
 
 
