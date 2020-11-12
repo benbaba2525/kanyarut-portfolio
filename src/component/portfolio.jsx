@@ -1,7 +1,5 @@
 import React from 'react';
 import '../styles/portfolio.scss';
-
-
 import DateNightPlanner from '../img/dateNightPlanner.png'
 import Quarantine from '../img/quarantine-coffee.png';
 import Ebazaar from '../img/eBazaar.png';
@@ -10,10 +8,11 @@ import ClickyGame from '../img/clickyGame.png';
 import NewsScraper from '../img/Scrapper News.png';
 import Giphy from '../img/GifTastic.png';
 import WordGuessGame from '../img/Word-Guess-Game.png';
+import CrystalsGame from '../img/Crystals-Collector-Game.png';
+import TriviaGame from '../img/TriviaGame.png';
 
 
 
-import ScrollAnimation from 'react-animate-on-scroll';
 
 
 import Popup from 'reactjs-popup';
@@ -26,9 +25,10 @@ import PopClickyGame from '../img/PopClickyGame.png';
 import PopNewsScraper from '../img/PopScrapperNews.png';
 import PopGiphy from '../img/PopGifTastic.png';
 import PopWordGuessGame from '../img/PopWordGuessGame.png';
+import PopCrystalsGame from '../img/PopCrystals.png';
+import PopTriviaGame from '../img/PopTrivia.png';
 
-
-
+import ScrollAnimation from 'react-animate-on-scroll';
 import { AwesomeButton } from "react-awesome-button";
 import 'react-awesome-button/dist/themes/theme-c137.css';
 
@@ -386,7 +386,7 @@ class Portfolio extends React.Component {
                        <img src={PopWordGuessGame} style={{width: '100%'}}></img>   
                       </a>
                        <br></br>
-                        <h5 style={{padding: '5px'}}>Word Guess Games</h5> 
+                        <h5 style={{padding: '5px'}}>Word Guess Game</h5> 
                          <p style={{color: '#111111', fontSize:'20px'}}>
                          Word Guess Game game built with JavaScript and jQuery. 
                         </p>
@@ -411,6 +411,91 @@ class Portfolio extends React.Component {
     </div>
   </div>
 </div>
+
+<div className="col-lg-4 col-md-6">
+ <div className="fancy-cards">
+  <div className="fancy-card">
+    <div className="top">
+      <img src={CrystalsGame}></img>
+       <div className="caption">
+        <h3 className="title">Crystals Collector Game</h3>
+         <div>
+           <Popup trigger={<button className="button"> View Project </button>} modal>
+              {close => (
+                   <span>
+                     <a className="close" onClick={close}> &times; </a>
+                      <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Crystals-Collector-Game/">
+                       <img src={PopCrystalsGame} style={{width: '100%'}}></img>   
+                      </a>
+                       <br></br>
+                        <h5 style={{padding: '5px'}}>Crystals Collector Game</h5> 
+                         <p style={{color: '#111111', fontSize:'20px'}}>
+                         The player will have to guess the number and make it equal to the random number that the computer given.
+                        </p>
+                        <hr></hr>
+                          <AwesomeButton size="small" type="primary">HTML</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">CSS</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">Bootstrap</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">JavaScript</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">jQuery</AwesomeButton>
+                       <div className="col-xs-6 social text-right">
+                         <a href="https://github.com/benbaba2525/Crystals-Collector-Game" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                         <a href="https://benbaba2525.github.io/Crystals-Collector-Game/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                  </div>    
+               </span> 
+              )}
+            </Popup>
+           </div>
+          </div>
+        </div>
+      <div className="middle"></div>
+      <div className="bottom"></div>
+    </div>
+  </div>
+</div>
+
+<div className="col-lg-4 col-md-6">
+ <div className="fancy-cards">
+  <div className="fancy-card">
+    <div className="top">
+      <img src={TriviaGame}></img>
+       <div className="caption">
+        <h3 className="title">Christmas Trivia</h3>
+         <div>
+           <Popup trigger={<button className="button"> View Project </button>} modal>
+              {close => (
+                   <span>
+                     <a className="close" onClick={close}> &times; </a>
+                      <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/TriviaGame/">
+                       <img src={PopTriviaGame} style={{width: '100%'}}></img>   
+                      </a>
+                       <br></br>
+                        <h5 style={{padding: '5px'}}>Chrismas Trivia</h5> 
+                         <p style={{color: '#111111', fontSize:'20px'}}>
+                         Trivia game using JavaScript for the logic and jQuery to manipulate HTML.
+                        </p>
+                        <hr></hr>
+                          <AwesomeButton size="small" type="primary">HTML</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">CSS</AwesomeButton>
+                          <AwesomeButton size="small" type="primary">Bootstrap</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">JavaScript</AwesomeButton>
+                          <AwesomeButton size="medium" type="primary">jQuery</AwesomeButton>
+                       <div className="col-xs-6 social text-right">
+                         <a href="https://github.com/benbaba2525/TriviaGame" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                         <a href="https://benbaba2525.github.io/TriviaGame/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                  </div>    
+               </span> 
+              )}
+            </Popup>
+           </div>
+          </div>
+        </div>
+      <div className="middle"></div>
+      <div className="bottom"></div>
+    </div>
+  </div>
+</div>
+
 
 
 
