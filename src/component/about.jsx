@@ -34,10 +34,6 @@ class About extends React.Component {
       
 <div id="wrapper" style={styles.wrapper}>
         
-
-
-{/* <Carousel>
-<Carousel.Item> */}
   <div className="row no-gutters" id="aboutMe" >
   <div className="col-md-2 mb-md-0 p-md-4"></div>
  
@@ -82,13 +78,13 @@ class About extends React.Component {
 
     <div className="col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5  bg-white rounded"  style={{marginTop: '10%', marginBottom: '10%'}}>
     <ScrollAnimation animateIn='fadeIn'>
-    <h5 className="text-dark" ><h2>I'm</h2> <strong> Kanyarut Pornamnuay</strong></h5>
+    <h5 className="text-dark"><h2>I'm</h2> <strong> Kanyarut Pornamnuay</strong></h5>
     
-    <p className="text-dark">
+    <p className="text-dark" style={{textAlign:'left'}}>
   I graduated with a master degree in computer science, and also joined the database management program and received a certificate from UCLA Extension. 
 </p>
 
-<p className="text-dark">
+<p className="text-dark" style={{textAlign:'left'}}>
 Moreover, I just graduated with a certificate program in full stack development from University of California, 
 Los Angeles coding bootcamp, with developed skills, I learn how to create websites and application
 using HTML/HTML5,CSS, Responsive web design, Bootstrap, Material-UI, ReactJS, JavaScript, jQuery, JSON, AJAX, APIs, NodeJS, ExpressJS,
@@ -96,7 +92,7 @@ MySQL, MongoDB, Firebase and Github.
   
 </p>
 
-<p className="text-dark">
+<p className="text-dark" style={{textAlign:'left'}}>
 Known as an innovative problem solver passionate about developing apps, 
 with a focus on developing websites and applications. With a group projects,
 I have worked on a team to contributed to design and development of client and server database applications.
@@ -107,7 +103,7 @@ quality-driven team to build better experiences on the web.
 <br></br>
 
 <div>
-  <AwesomeButton type="secondary"><a target="_blank"  href = {myResume} style={{color:'white'}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
+  <AwesomeButton type="secondary" style={{textAlign:'center'}}><a target="_blank"  href = {myResume} style={{color:'white'}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
   </div>
      
 
