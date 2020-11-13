@@ -5,6 +5,7 @@ import Background from './component/background.jsx';
 import About from './component/about.jsx';
 import Portfolio from './component/portfolio.jsx';
 import Contact from './component/contact.jsx';
+import Footer from './component/footer.jsx';
 //import ScrollUpButton from "react-scroll-up-button"; 
 import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Portfolio />
       <Contact />
+      <Footer />
       <ScrollUpButton/>
     </div>
   );

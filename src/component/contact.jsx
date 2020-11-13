@@ -1,10 +1,12 @@
 import React from 'react';
-import {Form,Button} from 'react-bootstrap'
+import {Form} from 'react-bootstrap'
 import ScrollAnimation from 'react-animate-on-scroll';
 import Iframe from 'react-iframe'
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import 'react-awesome-button/dist/themes/theme-c137.css';
+
+import Footer from '../component/footer'
 
 
 
@@ -61,18 +63,15 @@ class Contact extends React.Component {
 
   <div className="col-md-1 mb-md-0 p-md-4"></div>
   </div>
-
-
-
-</ScrollAnimation>
-</div>
-
-
-
-
+  <div className="row no-gutters" >
 
 
     
+  </div>
+
+</ScrollAnimation>
+
+</div>
 
 
 
