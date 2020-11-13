@@ -14,10 +14,6 @@ import TrainScheduler from '../img/TrainScheduler.png';
 import FriendFinder from '../img/Friend-Finder.png';
 import Burger from '../img/burger.png';
 
-
-
-
-
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import PopDatenightPlanner from '../img/PopDatenightPlanner.png';

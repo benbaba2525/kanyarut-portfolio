@@ -84,6 +84,10 @@ class NavBar extends React.Component {
             <a href="#porfolioWrapper" class="nav-link text-light"><i>Portfolio<span class="sr-only">(current)</span></i></a>
             </MenuItem>
 
+            <MenuItem onClick={()=>{this.handleLinkClick();}}>
+            <a href="#contact" class="nav-link text-light"><i>Contact<span class="sr-only">(current)</span></i></a>
+            </MenuItem>
+
           </ScrollAnimation>
 
           </Menu>
