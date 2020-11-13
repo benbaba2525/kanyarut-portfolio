@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/footer.scss';
+import Particles from "reactparticles.js";
+import "animate.css/animate.min.css";
 
 
 
@@ -9,8 +11,8 @@ class Footer extends React.Component {
 	render(){
         
         return (
-<div id="contact" style={{backgroundColor: '#022727', height: '200px',width:'100%', padding:'10px'}}>
-
+<div id="contact" style={{backgroundColor: '#022727', height: '20vh',width:'100%', padding:'10px'}}>
+  
 <div className="col-xs-6 social text-center">
                 <a href="https://github.com/benbaba2525" target="_blank">
                 <i className="fa fa-github-square" aria-hidden="true"></i>
@@ -32,6 +34,11 @@ class Footer extends React.Component {
 
                 
           
+    </div>
+    
+
+    <div className="footer-copyright text-center py-3" style={{color:'gray', fontSize:'15px'}}>
+      <span style={{color:'#138b8b', fontSize:'15px'}}>© 2020 Copyright : </span>Kanyarut (Ben) Pornamnuay
     </div>
 
 </div>
