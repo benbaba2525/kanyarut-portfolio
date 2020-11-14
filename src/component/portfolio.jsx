@@ -48,7 +48,7 @@ class Portfolio extends React.Component {
 </ScrollAnimation>
 
 <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
-<div class="row" style={{backgroundColor: '#c6dddd', margitTop:'10%'}}>
+<div class="row">
 
 <div className="col-lg-4 col-md-6">
  <div className="fancy-cards">

@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './component/navBar.jsx';
 import Background from './component/background.jsx';
 import About from './component/about.jsx';
+import Skills from './component/skills';
 import Portfolio from './component/portfolio.jsx';
 import Contact from './component/contact.jsx';
 import Footer from './component/footer.jsx';
@@ -17,6 +18,7 @@ function App() {
       <NavBar />
       <Background />
       <About />
+      <Skills />
       <Portfolio />
       <Contact />
       <Footer />
