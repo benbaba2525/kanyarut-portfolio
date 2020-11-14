@@ -1,8 +1,7 @@
 import React from 'react';
 import '../styles/footer.scss';
-import Particles from "reactparticles.js";
 import "animate.css/animate.min.css";
-
+import Particles from 'react-particles-js';
 
 
 
@@ -12,7 +11,7 @@ class Footer extends React.Component {
         
         return (
 <div id="contact" style={{backgroundColor: '#022727', height: '20vh',width:'100%', padding:'10px'}}>
-  
+
 <div className="col-xs-6 social text-center">
                 <a href="https://github.com/benbaba2525" target="_blank">
                 <i className="fa fa-github-square" aria-hidden="true"></i>
@@ -32,8 +31,7 @@ class Footer extends React.Component {
                 <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
 
-                
-          
+    
     </div>
     
 
