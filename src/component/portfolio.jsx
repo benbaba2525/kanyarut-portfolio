@@ -42,12 +42,13 @@ class Portfolio extends React.Component {
        return (
          
 
-<div id="porfolioWrapper" style={{backgroundColor: '#c6dddd', height: '100%', padding:'10px'}}>
+<div id="porfolioWrapper" style={{backgroundColor: '#617979', height: '100%', padding:'10px'}}>
 <ScrollAnimation animateIn='wobble'initiallyVisible={true}>
 <h1>Portfolio</h1>
 </ScrollAnimation>
 
 <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+  
 <div class="row">
 
 <div className="col-lg-4 col-md-6">
@@ -638,7 +639,7 @@ class Portfolio extends React.Component {
 
 </div>
   </ScrollAnimation>
-
+  
 </div>
 
             );

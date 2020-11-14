@@ -31,11 +31,7 @@ class Background extends React.Component {
                <Typical steps={['', 1500,'', 2000,'I am a Full Stack Web Developer 🧐', 4000, 'Front End Developer 🤓', 2000,'Back End Developer 😎', 2000,]} loop={Infinity} wrapper="span" className={'jobTitle'}  />
              </div>
      
-             <br></br>
-          <AwesomeButton type="secondary"><a href="#aboutMe" style={{color:'white'}}>View My Work</a></AwesomeButton>
-            <br></br>
-
-            
+          
                 
     <Particles
     id="config-1"
@@ -60,6 +56,17 @@ class Background extends React.Component {
  
 
    </div>
+   <div class="mouse_scroll">
+
+		<div class="mouse">
+			<div class="wheel"></div>
+		</div>
+		<div>
+			<span class="m_scroll_arrows unu"></span>
+			<span class="m_scroll_arrows doi"></span>
+			<span class="m_scroll_arrows trei"></span>
+		</div>
+</div>
   </div>
 
   

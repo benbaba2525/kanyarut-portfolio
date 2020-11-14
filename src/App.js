@@ -10,7 +10,6 @@ import Footer from './component/footer.jsx';
 //import ScrollUpButton from "react-scroll-up-button"; 
 import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 
-
 function App() {
   return (
     
@@ -23,6 +22,7 @@ function App() {
       <Contact />
       <Footer />
       <ScrollUpButton/>
+      
     </div>
   );
 }

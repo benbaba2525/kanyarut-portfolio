@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/footer.scss';
 import "animate.css/animate.min.css";
-import Particles from 'react-particles-js';
+
 
 
 

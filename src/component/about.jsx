@@ -13,6 +13,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 
 
+
 class About extends React.Component {
 	render(){
         const styles= 
