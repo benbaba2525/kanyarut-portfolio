@@ -5,7 +5,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import Particles from 'react-particles-js';
 import Html from '../img/html.png'
 import Css from '../img/css3.png'
+import Bootstrap from '../img/boostrap.png'
 import Js from '../img/js.png'
+import Jquery from '../img/jQuery.png'
 
 
 
@@ -15,18 +17,6 @@ const SwingDiv = styled.div`
   animation: infinite 5s ${SwingAnimation};
 `;
 
-const particlesOptions = {
-	particles: {
-	  number: {
-		value: 80,
-		density: {
-		  enable: true,
-		  value_area: 800
-		}
-	  }
-	}
-  };
-  
 
 class Skills extends React.Component {
 	render(){
@@ -49,38 +39,52 @@ class Skills extends React.Component {
               <div className="col-lg-3 col-md-6">
               <SwingDiv>
               <img src={Html}></img>
+			  <p><strong>HTML</strong></p>
               </SwingDiv>
               </div>
 
               <div className="col-lg-3 col-md-6">
               <SwingDiv>
               <img src={Css}></img>
+			  <p><strong>CSS</strong></p>
               </SwingDiv>
               </div>
 
               <div className="col-lg-3 col-md-6">
               <SwingDiv>
               <img src={Js}></img>
+			  <p><strong>JS</strong></p>
               </SwingDiv>
               </div>
 
-              <div className="col-lg-3 col-md-6">
-              <SwingDiv>
-              <img src={Js}></img>
-              </SwingDiv>
-              </div>
 			  <div className="col-lg-3 col-md-6">
               <SwingDiv>
-              <img src={Js}></img>
+              <img src={Jquery}></img>
+			  <p><strong>jQuery</strong></p>
               </SwingDiv>
               </div>
-			  <div className="col-lg-3 col-md-6">
+
+              <div className="col-lg-4 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={Bootstrap}></img>
+			  <p><strong>Bootstrap</strong></p>
+              </SwingDiv>
+              </div>
+			  <div className="col-lg-4 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={Js}></img>
+			  <p><strong>Bootstrap</strong></p>
+              </SwingDiv>
+              </div>
+
+			  <div className="col-lg-4 col-md-6 mt-4">
               <SwingDiv>
               <img src={Js}></img>
               </SwingDiv>
               </div>
 
-            
+
+			  
 
 
           </div>

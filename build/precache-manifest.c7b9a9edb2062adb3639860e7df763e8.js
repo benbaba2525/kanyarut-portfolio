@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9944f2633fe437c20b477b08c0e6b15a",
+    "revision": "93f2568dca9c7ddb71d9667e007ff949",
     "url": "/index.html"
   },
   {
-    "revision": "68efbb9405252178ac01",
+    "revision": "6a748462497c96cd7f16",
     "url": "/static/css/2.eddc990b.chunk.css"
   },
   {
-    "revision": "01d36c6b6710f685c0d0",
-    "url": "/static/css/main.430f6571.chunk.css"
+    "revision": "2be1e9f4bad373e97f88",
+    "url": "/static/css/main.cad5c052.chunk.css"
   },
   {
-    "revision": "68efbb9405252178ac01",
-    "url": "/static/js/2.065f5359.chunk.js"
+    "revision": "6a748462497c96cd7f16",
+    "url": "/static/js/2.ae2f1a78.chunk.js"
   },
   {
     "revision": "0fc61ce0ee2d491f41ee7634c63d9b90",
-    "url": "/static/js/2.065f5359.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ae2f1a78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01d36c6b6710f685c0d0",
-    "url": "/static/js/main.2124279a.chunk.js"
+    "revision": "2be1e9f4bad373e97f88",
+    "url": "/static/js/main.b5831cd4.chunk.js"
   },
   {
     "revision": "eb7d1c98f6a7a02978c9",
@@ -128,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/clickyGame.90b82a93.png"
   },
   {
-    "revision": "19dd2cce2a5ed6474579a23e7975adc4",
-    "url": "/static/media/css3.19dd2cce.png"
+    "revision": "fb279144ca909aecd49ae414356e6be3",
+    "url": "/static/media/css3.fb279144.png"
   },
   {
     "revision": "eaeb170aec94a46293844a13063f9211",
@@ -140,12 +140,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/eBazaar.37b09f88.png"
   },
   {
-    "revision": "dc65e1430a063d6f25c395ef82db5263",
-    "url": "/static/media/html.dc65e143.png"
+    "revision": "3b65bddcc3c65279d2d12c6b105e10db",
+    "url": "/static/media/html.3b65bddc.png"
   },
   {
-    "revision": "6cad445fe1266d9cc75a55787e82a58f",
-    "url": "/static/media/js.6cad445f.png"
+    "revision": "8cba042c48248b33ce77d81f0b51762a",
+    "url": "/static/media/jQuery.8cba042c.png"
+  },
+  {
+    "revision": "9f81f79bc4b260bc69cdab7de60ab04f",
+    "url": "/static/media/js.9f81f79b.png"
   },
   {
     "revision": "72f6fbc9577544f5eb250619d6611140",
