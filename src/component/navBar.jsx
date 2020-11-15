@@ -2,6 +2,8 @@ import React from 'react';
 import "../styles/navBar.css";
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
+import Logo from '../img/KP-logo.png';
+
 
 
 class NavBar extends React.Component {
@@ -50,23 +52,13 @@ class NavBar extends React.Component {
             transition: 'filter 0.5s ease',
           },
         }
-      // const menu = ['Home','About','Skills','Portfolio','Contact']
-      // const menuItems = menu.map((val,index)=>{
-      //   return (
-      //     <MenuItem 
-      //       key={index} 
-      //       delay={`${index * 0.1}s`}
-      //       onclick = {menu[0]}><a href="#aboutMe" style={{color:'white'}}>{menu[0]}</a>
-      //onClick={()=>{this.handleLinkClick();}}>{val}</MenuItem>)
-      //       </MenuItem>)
-            
-      // });
+    
       
       return(
         <div>
           <div style={styles.container}>
             <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='white'/>
-            <div style={styles.logo}><a href="#aboutMe" style={{color:'white'}}>**KP**</a></div>
+            <div style={styles.logo}><img src={Logo}></img></div>
           </div>
           <Menu open={this.state.menuOpen}>
 
