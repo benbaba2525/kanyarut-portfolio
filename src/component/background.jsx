@@ -1,11 +1,11 @@
 import React from 'react';
 import "../styles/background.css";
-import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import 'react-awesome-button/dist/themes/theme-c137.css';
 import Typical from 'react-typical';
 import Robot from './robot';
 import Particles from "reactparticles.js";
+import Particles2 from 'react-particles-js';
 import "animate.css/animate.min.css";
 
 
@@ -31,7 +31,58 @@ class Background extends React.Component {
                <Typical steps={['', 1500,'', 2000,'I am a Full Stack Web Developer 🧐', 4000, 'Front End Developer 🤓', 2000,'Back End Developer 😎', 2000,]} loop={Infinity} wrapper="span" className={'jobTitle'}  />
              </div>
      
-          
+             <Particles2 className='particles'
+    params={{
+	    "particles": {
+	        "number": {
+	            "value": 200,
+	            "density": {
+	                "enable": false
+	            }
+	        },
+	        "size": {
+	            "value": 3,
+	            "random": true,
+	            "anim": {
+	                "speed": 4,
+	                "size_min": 0.4
+	            }
+	        },
+	        "line_linked": {
+	            "enable": false
+	        },
+	        "move": {
+	            "random": true,
+	            "speed": 1,
+	            "direction": "top",
+	            "out_mode": "out"
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onhover": {
+	                "enable": true,
+	                "mode": "bubble"
+	            },
+	            "onclick": {
+	                "enable": true,
+	                "mode": "repulse"
+	            }
+	        },
+	        "modes": {
+	            "bubble": {
+	                "distance": 250,
+	                "duration": 2,
+	                "size": 0,
+	                "opacity": 0
+	            },
+	            "repulse": {
+	                "distance": 400,
+	                "duration": 4
+	            }
+	        }
+	    }
+	}} />    
                 
     <Particles
     id="config-1"

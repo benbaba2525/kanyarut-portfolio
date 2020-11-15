@@ -43,6 +43,7 @@ class Portfolio extends React.Component {
          
 
 <div id="porfolioWrapper" style={{backgroundColor: '#617979', height: '100%', padding:'10px'}}>
+
 <ScrollAnimation animateIn='wobble'initiallyVisible={true}>
 <h1>Portfolio</h1>
 </ScrollAnimation>

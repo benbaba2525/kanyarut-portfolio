@@ -9,11 +9,24 @@ import Js from '../img/js.png'
 
 
 
+
 const SwingAnimation = keyframes`${Swing}`;
 const SwingDiv = styled.div`
   animation: infinite 5s ${SwingAnimation};
 `;
 
+const particlesOptions = {
+	particles: {
+	  number: {
+		value: 80,
+		density: {
+		  enable: true,
+		  value_area: 800
+		}
+	  }
+	}
+  };
+  
 
 class Skills extends React.Component {
 	render(){
@@ -56,12 +69,23 @@ class Skills extends React.Component {
               <img src={Js}></img>
               </SwingDiv>
               </div>
+			  <div className="col-lg-3 col-md-6">
+              <SwingDiv>
+              <img src={Js}></img>
+              </SwingDiv>
+              </div>
+			  <div className="col-lg-3 col-md-6">
+              <SwingDiv>
+              <img src={Js}></img>
+              </SwingDiv>
+              </div>
 
             
 
 
           </div>
           </ScrollAnimation>
+		  
           <Particles 
     params={{
 	    "particles": {

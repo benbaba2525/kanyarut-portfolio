@@ -16,13 +16,14 @@ class Contact extends React.Component {
         return (
 <div id="contact" style={{backgroundColor: '#9bafaf', height: '80vh', padding:'10px'}}>
 
-
   
 <ScrollAnimation animateIn='wobble'initiallyVisible={true} >
 <h1>Contact</h1>
 </ScrollAnimation>
 <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
 <div className="row no-gutters" >
+
+
   <div className="col-md-2 mb-md-0 p-md-4"></div>
  
  
