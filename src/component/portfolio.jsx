@@ -43,7 +43,14 @@ class Portfolio extends React.Component {
          
 
 <div id="porfolioWrapper" style={{backgroundColor: '#617979', height: '100%', padding:'10px'}}>
+<div class="animation-wrapper">
+  <div class="particle particle-1"></div>
+  <div class="particle particle-2"></div>
+  <div class="particle particle-3"></div>
+  <div class="particle particle-4"></div>
+</div>
 
+    
 <ScrollAnimation animateIn='wobble'initiallyVisible={true}>
 <h1>Portfolio</h1>
 </ScrollAnimation>
@@ -640,8 +647,8 @@ class Portfolio extends React.Component {
 
 </div>
   </ScrollAnimation>
-  
-</div>
+  </div>
+
 
             );
         }

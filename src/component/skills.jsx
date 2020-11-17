@@ -2,12 +2,27 @@ import React from 'react';
 import styled, { keyframes } from "styled-components";
 import Swing from "@bit/formidablelabs.react-animations.swing";
 import ScrollAnimation from 'react-animate-on-scroll';
-import Particles from 'react-particles-js';
-import Html from '../img/html.png'
-import Css from '../img/css3.png'
-import Bootstrap from '../img/boostrap.png'
-import Js from '../img/js.png'
-import Jquery from '../img/jQuery.png'
+//import Particles from 'react-particles-js';
+import Html from '../img/html.png';
+import Css from '../img/css3.png';
+import Bootstrap from '../img/boostrap.png';
+import Js from '../img/js.png';
+import Jquery from '../img/jQuery.png';
+import Reactlogo from '../img/react.png';
+import Material from '../img/Material-UI.png';
+import Ajax from '../img/ajax.png';
+import Api from '../img/api.png';
+import Json from '../img/json.png';
+import NodeJS from '../img/nodejs.png';
+import MySQL from '../img/mySQL.png';
+import MongoDB from '../img/mongoDB.png';
+import Firebase from '../img/firebase.png';
+import Git from '../img/git.png';
+import Github from '../img/github.png';
+import Wordpress from '../img/wordpress.png';
+
+import '../styles/background.scss';
+
 
 
 
@@ -23,9 +38,38 @@ class Skills extends React.Component {
         
         return (
 
-        <div id="skills" style={{backgroundColor: '#809797', height: '100vh', padding:'10px'}}>
-      
-        
+        <div id="skills" style={{backgroundColor: '#809797', height: '100%', padding:'10px',  zIndex:999}}>
+      <div id="particle-container">
+      <div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
               <ScrollAnimation animateIn='wobble'initiallyVisible={true} >
               <h1 style={{padding: '15px'}}>My Skills</h1>
               </ScrollAnimation>
@@ -33,9 +77,13 @@ class Skills extends React.Component {
 
          
 <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+	<div>
+		<p style={{fontSize:'20px'}}>Full stack web developer with developed skills and experienced to design, build, and maintain websites and application </p> 
+		<p style={{fontSize:'20px'}}>from conception to production using HTML/HTML5,CSS, Responsive Web Design, Bootstrap, Material-UI, REST, AJAX, APIs, </p> 
+		<p style={{fontSize:'20px'}}>JSON, ReactJS, JavaScript, jQuery, Node.js, Express, MySQL, MongoDB, Firebase, Git, Github and Wordpress.</p>
+           </div>
               <div class="row" style={{marginTop:'5%'}}>
-                  
-           
+    
               <div className="col-lg-3 col-md-6">
               <SwingDiv>
               <img src={Html}></img>
@@ -72,16 +120,88 @@ class Skills extends React.Component {
               </div>
 			  <div className="col-lg-4 col-md-6 mt-4">
               <SwingDiv>
-              <img src={Js}></img>
-			  <p><strong>Bootstrap</strong></p>
+              <img src={Reactlogo}></img>
+			  <p><strong>React</strong></p>
               </SwingDiv>
               </div>
 
 			  <div className="col-lg-4 col-md-6 mt-4">
               <SwingDiv>
-              <img src={Js}></img>
+              <img src={Material}></img>
+			  <p><strong>Material Ui</strong></p>
               </SwingDiv>
               </div>
+
+			  <div className="col-lg-3 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={Ajax}></img>
+			  <p><strong>AJAX</strong></p>
+              </SwingDiv>
+              </div>
+
+			  <div className="col-lg-3 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={Api}></img>
+			  <p><strong>API</strong></p>
+              </SwingDiv>
+              </div>
+
+			  <div className="col-lg-3 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={Json}></img>
+			  <p><strong>JSON</strong></p>
+              </SwingDiv>
+              </div>
+
+			  <div className="col-lg-3 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={NodeJS}></img>
+			  <p><strong>Node.js</strong></p>
+              </SwingDiv>
+              </div>
+
+			  <div className="col-lg-4 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={MySQL}></img>
+			  <p><strong>MySQL</strong></p>
+              </SwingDiv>
+              </div>
+
+			  <div className="col-lg-4 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={MongoDB}></img>
+			  <p><strong>MongoDB</strong></p>
+              </SwingDiv>
+              </div>
+
+			  <div className="col-lg-4 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={Firebase}></img>
+			  <p><strong>Firebase</strong></p>
+              </SwingDiv>
+              </div>
+			   
+			  <div className="col-lg-3 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={Git}></img>
+			  <p><strong>Git</strong></p>
+              </SwingDiv>
+              </div>
+
+			  <div className="col-lg-3 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={Github}></img>
+			  <p><strong>Github</strong></p>
+              </SwingDiv>
+              </div>
+
+			  <div className="col-lg-3 col-md-6 mt-4">
+              <SwingDiv>
+              <img src={Wordpress}></img>
+			  <p><strong>Wordpress</strong></p>
+              </SwingDiv>
+              </div>
+
 
 
 			  
@@ -90,58 +210,7 @@ class Skills extends React.Component {
           </div>
           </ScrollAnimation>
 		  
-          <Particles 
-    params={{
-	    "particles": {
-	        "number": {
-	            "value": 200,
-	            "density": {
-	                "enable": false
-	            }
-	        },
-	        "size": {
-	            "value": 3,
-	            "random": true,
-	            "anim": {
-	                "speed": 4,
-	                "size_min": 0.4
-	            }
-	        },
-	        "line_linked": {
-	            "enable": false
-	        },
-	        "move": {
-	            "random": true,
-	            "speed": 1,
-	            "direction": "top",
-	            "out_mode": "out"
-	        }
-	    },
-	    "interactivity": {
-	        "events": {
-	            "onhover": {
-	                "enable": true,
-	                "mode": "bubble"
-	            },
-	            "onclick": {
-	                "enable": true,
-	                "mode": "repulse"
-	            }
-	        },
-	        "modes": {
-	            "bubble": {
-	                "distance": 250,
-	                "duration": 2,
-	                "size": 0,
-	                "opacity": 0
-	            },
-	            "repulse": {
-	                "distance": 400,
-	                "duration": 4
-	            }
-	        }
-	    }
-	}} />
+</div>
           </div>
 
 

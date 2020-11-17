@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/background.css";
+import "../styles/background.scss";
 import "react-awesome-button/dist/styles.css";
 import 'react-awesome-button/dist/themes/theme-c137.css';
 import Typical from 'react-typical';

@@ -88,7 +88,7 @@ class About extends React.Component {
 Moreover, I just graduated with a certificate program in full stack development from University of California, 
 Los Angeles coding bootcamp, with developed skills, I learn how to create websites and application
 using HTML/HTML5,CSS, Responsive web design, Bootstrap, Material-UI, ReactJS, JavaScript, jQuery, JSON, AJAX, APIs, NodeJS, ExpressJS,
-MySQL, MongoDB, Firebase and Github.
+MySQL, MongoDB, Firebase, Git, Github and Wordpress.
   
 </p>
 
@@ -115,16 +115,6 @@ quality-driven team to build better experiences on the web.
       
      <div className="col-md-2 mb-md-0 p-md-4"></div>
   
-
-
-
-     {/* </Carousel.Item>
-     <Carousel.Item>
-
-     ubouyboybb
-
-     </Carousel.Item>
-     </Carousel> */}
 
     </div>
     

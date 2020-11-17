@@ -6,6 +6,7 @@ import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import 'react-awesome-button/dist/themes/theme-c137.css';
 
+import "../styles/background.scss";
 
 
 
@@ -15,7 +16,37 @@ class Contact extends React.Component {
         
         return (
 <div id="contact" style={{backgroundColor: '#9bafaf', height: '80vh', padding:'10px'}}>
-
+<div id="particle-container">
+<div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
   
 <ScrollAnimation animateIn='wobble'initiallyVisible={true} >
 <h1>Contact</h1>
@@ -67,7 +98,7 @@ class Contact extends React.Component {
 
 
 </ScrollAnimation>
-
+</div>
 </div>
 
 
