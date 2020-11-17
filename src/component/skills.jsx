@@ -20,7 +20,6 @@ import Firebase from '../img/firebase.png';
 import Git from '../img/git.png';
 import Github from '../img/github.png';
 import Wordpress from '../img/wordpress.png';
-
 import '../styles/background.scss';
 
 
@@ -79,8 +78,8 @@ class Skills extends React.Component {
 <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
 	<div>
 		<p style={{fontSize:'20px'}}>Full stack web developer with developed skills and experienced to design, build, and maintain websites and application </p> 
-		<p style={{fontSize:'20px'}}>from conception to production using HTML/HTML5,CSS, Responsive Web Design, Bootstrap, Material-UI, REST, AJAX, APIs, </p> 
-		<p style={{fontSize:'20px'}}>JSON, ReactJS, JavaScript, jQuery, Node.js, Express, MySQL, MongoDB, Firebase, Git, Github and Wordpress.</p>
+		<p style={{fontSize:'20px'}}>from conception to production using HTML/HTML5,CSS/CSS3, Responsive Web Design, Bootstrap, Material-UI, REST, AJAX, APIs, </p> 
+		<p style={{fontSize:'20px'}}>JSON, ReactJS, JavaScript, jQuery, Node.js, Express.js, MySQL, MongoDB, Firebase, Git, Github and Wordpress.</p>
            </div>
               <div class="row" style={{marginTop:'5%'}}>
     

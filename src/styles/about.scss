@@ -1,0 +1,22 @@
+
+.social1 {
+    font-size: 35px;
+    
+    // FontAwesome
+    .fa {
+      margin: 12px 6px;
+      position: relative;
+      transition: .3s all ease;
+      top: 0;
+      &.fa-link {color: rgb(15, 203, 216);}
+      &.fa-github-square {color: rgb(0, 0, 0);}
+      &.fa-linkedin-square {color: #007bb6;}
+      &.fa-facebook-square {color: #007bb6;}
+      &.fa-instagram {color: #b60064;}
+      &.fa-envelope-o {color:rgb(55, 57, 58);}
+      &:hover {
+        top: -4px;
+      }
+    }
+
+  }

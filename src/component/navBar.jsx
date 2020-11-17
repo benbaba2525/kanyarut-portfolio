@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/navBar.css";
+import "../styles/navBar.scss";
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import Logo from '../img/KP-logo.png';
