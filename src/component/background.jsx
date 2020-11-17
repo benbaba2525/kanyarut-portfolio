@@ -15,112 +15,108 @@ class Background extends React.Component {
   
 	render(){
         return (
-
-     <div className="backgroundWrapper">
-            <div className="top-container">
-          
-             <div>
-               <Typical steps={['Hello 👋', 1500]} loop={Infinity} wrapper="span" className={'myname'}  />
-             </div>
-             <br></br>
-             <div>
-               <Typical steps={['', 1500,'I am Kanyarut Pornamnuay',4000]}  wrapper="span" className={'myname'}  />
-             </div>
-             <br></br>
-              <div>
-               <Typical steps={['', 1500,'', 2000,'I am a Full Stack Web Developer 🧐', 4000, 'Front End Developer 🤓', 2000,'Back End Developer 😎', 2000,]} loop={Infinity} wrapper="span" className={'jobTitle'}  />
-             </div>
-     
-             <Particles2 className='particles'
-    params={{
-	    "particles": {
-	        "number": {
-	            "value": 200,
-	            "density": {
-	                "enable": false
-	            }
-	        },
-	        "size": {
-	            "value": 3,
-	            "random": true,
-	            "anim": {
-	                "speed": 4,
-	                "size_min": 0.4
-	            }
-	        },
-	        "line_linked": {
-	            "enable": false
-	        },
-	        "move": {
-	            "random": true,
-	            "speed": 1,
-	            "direction": "top",
-	            "out_mode": "out"
-	        }
-	    },
-	    "interactivity": {
-	        "events": {
-	            "onhover": {
-	                "enable": true,
-	                "mode": "bubble"
-	            },
-	            "onclick": {
-	                "enable": true,
-	                "mode": "repulse"
-	            }
-	        },
-	        "modes": {
-	            "bubble": {
-	                "distance": 250,
-	                "duration": 2,
-	                "size": 0,
-	                "opacity": 0
-	            },
-	            "repulse": {
-	                "distance": 400,
-	                "duration": 4
-	            }
-	        }
-	    }
-	}} />    
-                
-    <Particles
-    id="config-1"
-    config="particles/config-1.json"
-    style={{
-      width: "100%",
-      height: "100%",
-      opacity: "50px",
-      color: {
-        value: "#00FFFF"
-       },
-       line_linked: {
-        color: {
-        value: "#00FFFF"
-        }
-     },
-    }}
-    className="particles-class-name"
-  />
-  
-   <Robot/> 
+            <div className="backgroundWrapper">
+               <div className="top-container">
+                 <div>
+                 <Typical steps={['Hello 👋', 1500]} loop={Infinity} wrapper="span" className={'myname'}  />
+                 </div>
+                 <br></br>
+                 <div>
+                 <Typical steps={['', 1500,'I am Kanyarut Pornamnuay',4000]}  wrapper="span" className={'myname'}  />
+                 </div>
+                 <br></br>
+                 <div>
+                 <Typical steps={['', 1500,'', 2000,'I am a Full Stack Web Developer 🧐', 4000, 'Front End Developer 🤓', 2000,'Back End Developer 😎', 2000,]} loop={Infinity} wrapper="span" className={'jobTitle'}  />
+                 </div>
+				 {/* Background using Particles Bubble*/}
+                        <Particles2 className='particles'
+                            params={{
+	                            "particles": {
+	                                "number": {
+	                                    "value": 200,
+	                                    "density": {
+	                                        "enable": false
+	                                    }
+	                                },
+	                                "size": {
+	                                    "value": 3,
+	                                    "random": true,
+	                                    "anim": {
+	                                        "speed": 4,
+	                                        "size_min": 0.4
+	                                    }
+	                                },
+	                                "line_linked": {
+	                                    "enable": false
+	                                },
+	                                "move": {
+	                                    "random": true,
+	                                    "speed": 1,
+	                                    "direction": "top",
+	                                    "out_mode": "out"
+	                                }
+	                            },
+	                            "interactivity": {
+	                                "events": {
+	                                    "onhover": {
+	                                        "enable": true,
+	                                        "mode": "bubble"
+	                                    },
+	                                    "onclick": {
+	                                        "enable": true,
+	                                        "mode": "repulse"
+	                                    }
+	                                },
+	                                "modes": {
+	                                    "bubble": {
+	                                        "distance": 250,
+	                                        "duration": 2,
+	                                        "size": 0,
+	                                        "opacity": 0
+	                                    },
+	                                    "repulse": {
+	                                        "distance": 400,
+	                                        "duration": 4
+	                                    }
+	                                }
+	                            }
+	                        }} />    
+                      {/* Background using Particles Simple*/}
+                            <Particles
+                               id="config-1"
+                               config="particles/config-1.json"
+                                  style={{
+                                      width: "100%",
+                                      height: "100%",
+                                      opacity: "50px",
+                                    color: {
+                                       value: "#00FFFF"                           
+                                     },
+                                    line_linked: {
+                                       color: {
+                                         value: "#00FFFF"
+                                    }
+                                  },
+                               }}
+                               className="particles-class-name"
+                             />
+            {/* Robot is here */}
+                  <Robot/> 
  
 
-   </div>
-   <div class="mouse_scroll">
+                </div>
+                     <div class="mouse_scroll">
+                       <div class="mouse">
+			             <div class="wheel"></div>
+		              </div>
+		                 <div>
+			               <span class="m_scroll_arrows unu"></span>
+			               <span class="m_scroll_arrows doi"></span>
+			               <span class="m_scroll_arrows trei"></span>
+		                 </div>
+                    </div>
+              </div>
 
-		<div class="mouse">
-			<div class="wheel"></div>
-		</div>
-		<div>
-			<span class="m_scroll_arrows unu"></span>
-			<span class="m_scroll_arrows doi"></span>
-			<span class="m_scroll_arrows trei"></span>
-		</div>
-</div>
-  </div>
-
-  
        );
     }
  };
