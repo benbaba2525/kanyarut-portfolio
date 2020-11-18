@@ -93,8 +93,8 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">APIs</AwesomeButton>
                         
                                                <div className="col-xs-6 social text-right">
-                                                 <a href="https://github.com/benbaba2525/Project1-Date-Night-Planer" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-                                                 <a href="https://benbaba2525.github.io/Project1-Date-Night-Planer/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                 <a href="https://github.com/benbaba2525/Project1-Date-Night-Planer" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
+                                                 <a href="https://benbaba2525.github.io/Project1-Date-Night-Planer/" target="_blank"><i className="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
                                        </span> 
                                       )}
@@ -495,8 +495,8 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">JavaScript</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">jQuery</AwesomeButton>
                                                <div className="col-xs-6 social text-right">
-                                                 <a href="https://github.com/benbaba2525/TriviaGame" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-                                                 <a href="https://benbaba2525.github.io/TriviaGame/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                 <a href="https://github.com/benbaba2525/TriviaGame" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
+                                                 <a href="https://benbaba2525.github.io/TriviaGame/" target="_blank"><i className="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
                                        </span> 
                                       )}
@@ -541,8 +541,8 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="large" type="primary">Authenticate Using Google Sign-In</AwesomeButton>
                                                   <AwesomeButton size="large" type="primary">Authenticate Using GitHub Sign-In</AwesomeButton>
                                                <div className="col-xs-6 social text-right">
-                                                 <a href="https://github.com/benbaba2525/Train-Scheduler" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-                                                 <a href="https://benbaba2525.github.io/Train-Scheduler/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                 <a href="https://github.com/benbaba2525/Train-Scheduler" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
+                                                 <a href="https://benbaba2525.github.io/Train-Scheduler/" target="_blank"><i className="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
                                        </span> 
                                       )}
@@ -587,8 +587,8 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="small" type="primary">JSON</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">Postman</AwesomeButton>
                                                <div className="col-xs-6 social text-right">
-                                                 <a href="https://github.com/benbaba2525/Friend-Finder" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-                                                 <a href="https://friend-finder-appp.herokuapp.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                 <a href="https://github.com/benbaba2525/Friend-Finder" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
+                                                 <a href="https://friend-finder-appp.herokuapp.com/" target="_blank"><i className="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
                                        </span> 
                                       )}
@@ -633,8 +633,8 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">Handlebars</AwesomeButton>
                                                   <AwesomeButton size="small" type="primary">MySQL</AwesomeButton>
                                                <div className="col-xs-6 social text-right">
-                                                 <a href="https://github.com/benbaba2525/burger" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-                                                 <a href="https://burgers-appp.herokuapp.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                 <a href="https://github.com/benbaba2525/burger" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
+                                                 <a href="https://burgers-appp.herokuapp.com/" target="_blank"><i className="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
                                        </span> 
                                       )}
