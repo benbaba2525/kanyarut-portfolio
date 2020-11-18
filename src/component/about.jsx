@@ -6,7 +6,7 @@ import { AwesomeButton } from "react-awesome-button";
 import 'react-awesome-button/dist/themes/theme-c137.css';
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
-
+import Rosa from "react-on-scroll-animation" 
 
 
 class About extends React.Component {
@@ -31,6 +31,11 @@ class About extends React.Component {
                    <div className="col-md-2 mb-md-0 p-md-4"></div>
                      <div className="col-md-3 p-4 pl-md-4 shadow-lg p-3 mb-5 bg-white rounded" style={{marginTop: '10%', marginBottom: '10%'}} >
                        <div>
+                       <Rosa animation="zoom-in"   
+                        duration={100}   
+                        delay={300} >  
+               <h1>About Me</h1>
+               </Rosa>
                          {/* <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'><h1>About Me</h1></ScrollAnimation> */}
                        </div>
                           <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
