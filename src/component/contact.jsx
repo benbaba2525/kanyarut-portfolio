@@ -2,11 +2,12 @@ import React from 'react';
 import "../styles/background.scss";
 import {Form} from 'react-bootstrap'
 import ScrollAnimation from 'react-animate-on-scroll';
+import Rosa from "react-on-scroll-animation" ;
 import Iframe from 'react-iframe'
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import 'react-awesome-button/dist/themes/theme-c137.css';
-import Rosa from "react-on-scroll-animation" 
+
 
 class Contact extends React.Component {
 	render(){
@@ -14,7 +15,7 @@ class Contact extends React.Component {
         return (
               <div id="contact" style={{backgroundColor: '#9bafaf', height: '80vh', padding:'10px'}}>
                  <div id="particle-container">
-                    <div class="particle"></div>
+                        <div class="particle"></div>
                         <div class="particle"></div>
                         <div class="particle"></div>
                         <div class="particle"></div>
@@ -46,16 +47,14 @@ class Contact extends React.Component {
                         <div class="particle"></div>
   
                         <Rosa animation="zoom-in"   
-                        duration={100}   
-                        delay={300} >  
-               <h1><u>Contact</u></h1>
-               </Rosa>
+                              duration={100}   
+                              delay={300} >  
+                        <h1><u>Contact</u></h1>
+                       </Rosa>
 
-               <Rosa animation="zoom-in"   
-                        duration={300}   
-                        delay={400} >  
-  
-               {/* <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'> */}
+             <Rosa animation="zoom-in"   
+                   duration={300}   
+                   delay={400} >  
                  <div className="row no-gutters" >
                    <div className="col-md-2 mb-md-0 p-md-4"></div>
                      <div className="col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-4 bg-dark rounded">
@@ -75,7 +74,7 @@ class Contact extends React.Component {
                           <Form.Group controlId="exampleForm.ControlTextarea1">
                             <Form.Control as="textarea" name="Comment  " placeholder="Your Message" rows={3}  />
                           </Form.Group>
-                      <br />
+                      <br/>
                        {/* Submit Button */}
                          <AwesomeButton size="medium" type="secondary">Submit</AwesomeButton>
                       </Form>
@@ -89,11 +88,13 @@ class Contact extends React.Component {
                  </div>
                   <div className="col-md-2 mb-md-0 p-md-4"></div>
                  </div>
-                   {/* </ScrollAnimation> */}
-                   </Rosa>
-                </div>
-             </div>
-            );
-        }
-     };
-    export default Contact;
+              </Rosa>
+            </div>
+        </div>
+      
+       );
+  
+    }
+
+};
+export default Contact;

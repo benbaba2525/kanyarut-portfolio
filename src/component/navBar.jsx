@@ -60,34 +60,32 @@ class NavBar extends React.Component {
             <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='white'/>
             <div style={styles.logo}><img src={Logo}></img></div>
           </div>
-          <Menu open={this.state.menuOpen}>
+            <Menu open={this.state.menuOpen}>
 
-          <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+                 <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
             
-           <MenuItem onClick={()=>{this.handleLinkClick();}}>
-             <a href="#backgroundWrapper" class="nav-link text-light"><i>Home<span class="sr-only">(current)</span></i></a>
-            </MenuItem>
+                  <MenuItem onClick={()=>{this.handleLinkClick();}}>
+                    <a href="#backgroundWrapper" class="nav-link text-light"><i>Home<span class="sr-only">(current)</span></i></a>
+                  </MenuItem>
 
-            <MenuItem onClick={()=>{this.handleLinkClick();}}>
-             <a href="#aboutMe" class="nav-link text-light"><i>About<span class="sr-only">(current)</span></i></a>
-            </MenuItem>
+                   <MenuItem onClick={()=>{this.handleLinkClick();}}>
+                    <a href="#aboutMe" class="nav-link text-light"><i>About<span class="sr-only">(current)</span></i></a>
+                   </MenuItem>
 
-            <MenuItem onClick={()=>{this.handleLinkClick();}}>
-            <a href="#skills" class="nav-link text-light"><i>Skills<span class="sr-only">(current)</span></i></a>
-            </MenuItem>
+                   <MenuItem onClick={()=>{this.handleLinkClick();}}>
+                   <a href="#skills" class="nav-link text-light"><i>Skills<span class="sr-only">(current)</span></i></a>
+                   </MenuItem>
 
-            <MenuItem onClick={()=>{this.handleLinkClick();}}>
-            <a href="#porfolioWrapper" class="nav-link text-light"><i>Portfolio<span class="sr-only">(current)</span></i></a>
-            </MenuItem>
+                   <MenuItem onClick={()=>{this.handleLinkClick();}}>
+                   <a href="#porfolioWrapper" class="nav-link text-light"><i>Portfolio<span class="sr-only">(current)</span></i></a>
+                   </MenuItem>
 
-            <MenuItem onClick={()=>{this.handleLinkClick();}}>
-            <a href="#contact" class="nav-link text-light"><i>Contact<span class="sr-only">(current)</span></i></a>
-            </MenuItem>
+                   <MenuItem onClick={()=>{this.handleLinkClick();}}>
+                   <a href="#contact" class="nav-link text-light"><i>Contact<span class="sr-only">(current)</span></i></a>
+                   </MenuItem>
 
-          </ScrollAnimation>
-
-          </Menu>
-          
+                 </ScrollAnimation>
+             </Menu>          
         </div>
       )
     }
@@ -255,11 +253,5 @@ class NavBar extends React.Component {
         </div>
       )
     }
-  
-  
-  };
-  
-  
-  
-  
+  }; 
   export default NavBar;
