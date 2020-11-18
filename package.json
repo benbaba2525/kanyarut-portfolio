@@ -27,6 +27,7 @@
     "react-icons": "^3.11.0",
     "react-iframe": "^1.8.0",
     "react-modal": "^3.11.2",
+    "react-on-scroll-animation": "^1.0.0",
     "react-parallax-card": "^0.5.7",
     "react-particles-js": "^3.4.1",
     "react-responsive-modal": "^5.1.1",

@@ -23,7 +23,7 @@ import Wordpress from '../img/wordpress.png';
 import '../styles/background.scss';
 
 
-
+import Rosa from "react-on-scroll-animation" 
 
 
 const SwingAnimation = keyframes`${Swing}`;
@@ -37,7 +37,7 @@ class Skills extends React.Component {
         
         return (
 
-        <div id="skills" style={{backgroundColor: '#809797', height: '100%', padding:'10px',  zIndex:999}}>
+        <div id="skills" style={{backgroundColor: '#8da5a5', height: '100%', padding:'10px',  zIndex:999}}>
       <div id="particle-container">
       <div class="particle"></div>
 	<div class="particle"></div>
@@ -69,9 +69,11 @@ class Skills extends React.Component {
 	<div class="particle"></div>
 	<div class="particle"></div>
 	<div class="particle"></div>
-              <ScrollAnimation animateIn='wobble'initiallyVisible={true} >
-              <h1 style={{padding: '15px'}}>My Skills</h1>
-              </ScrollAnimation>
+  <Rosa animation="zoom-in"   
+  duration={300}   
+  delay={300} >  
+  <h1 style={{padding: '15px'}}><u>My Skills</u></h1>
+  </Rosa>
 
 
          

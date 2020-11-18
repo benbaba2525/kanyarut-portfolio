@@ -14,8 +14,8 @@ class About extends React.Component {
         const styles= 
         {
           wrapper:{
-           marginTop: "340px",
-           marginBottom: "100px",
+           marginTop: 15+"%",
+           marginBottom: 5+"%",
            height: '100vh',
           },
           img:{
