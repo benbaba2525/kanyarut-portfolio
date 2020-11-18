@@ -31,7 +31,7 @@ class About extends React.Component {
                    <div className="col-md-2 mb-md-0 p-md-4"></div>
                      <div className="col-md-3 p-4 pl-md-4 shadow-lg p-3 mb-5 bg-white rounded" style={{marginTop: '10%', marginBottom: '10%'}} >
                        <div>
-                         <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'><h1>About Me</h1></ScrollAnimation>
+                         {/* <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'><h1>About Me</h1></ScrollAnimation> */}
                        </div>
                           <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
                               <img
