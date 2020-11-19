@@ -45,7 +45,7 @@ class Portfolio extends React.Component {
 
        return (
          
-<div id="porfolioWrapper" style={{backgroundColor: "#758d8df0", height: "100%",width:"100vw", padding:"10px"}}>
+<div id="porfolioWrapper" style={{backgroundColor: "#758d8df0", height: "100%",width:"100%", padding:"10px",backgroundSize:"cover"}}>
     
           <div class="animation-wrapper">
             <div class="particle particle-1"></div>
@@ -66,7 +66,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={DateNightPlanner}></img>
+                              <img className="fancyCardImg" src={DateNightPlanner}></img>
                                <div className="caption">
                                 <h3 className="title">Date Night Planner</h3>
                                  <div>
@@ -75,7 +75,7 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Project1-Date-Night-Planer/">
-                                               <img src={PopDatenightPlanner} style={{width: "100%"}}></img>   
+                                               <img  src={PopDatenightPlanner} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
                                                 <h5 style={{padding: "5px"}}>Date Night Planer</h5> 
@@ -113,7 +113,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={Quarantine}></img>
+                              <img className="fancyCardImg" src={Quarantine}></img>
                                <div className="caption">
                                 <h3 className="title">Quarantine Coffee</h3>
                                  <div>
@@ -161,7 +161,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={Ebazaar}></img>
+                              <img className="fancyCardImg" src={Ebazaar}></img>
                                <div className="caption">
                                 <h3 className="title">eBazaar</h3>
                                  <div>
@@ -207,7 +207,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={GoogleBooks}></img>
+                              <img className="fancyCardImg" src={GoogleBooks}></img>
                                <div className="caption">
                                 <h3 className="title">Google Books Search</h3>
                                  <div>
@@ -253,7 +253,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={ClickyGame}></img>
+                              <img className="fancyCardImg" src={ClickyGame}></img>
                                <div className="caption">
                                 <h3 className="title">Clicky Game Avengers</h3>
                                  <div>
@@ -297,7 +297,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={NewsScraper}></img>
+                              <img className="fancyCardImg" src={NewsScraper}></img>
                                <div className="caption">
                                 <h3 className="title">News Scrapper</h3>
                                  <div>
@@ -343,7 +343,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={Giphy}></img>
+                              <img className="fancyCardImg" src={Giphy}></img>
                                <div className="caption">
                                 <h3 className="title">Giphy Advengers</h3>
                                  <div>
@@ -388,7 +388,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={WordGuessGame}></img>
+                              <img className="fancyCardImg" src={WordGuessGame}></img>
                                <div className="caption">
                                 <h3 className="title">Word Guess Game</h3>
                                  <div>
@@ -430,9 +430,9 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={CrystalsGame}></img>
+                              <img className="fancyCardImg" src={CrystalsGame}></img>
                                <div className="caption">
-                                <h3 className="title">Crystals Collector Game</h3>
+                                <h3 className="title">Crystals Collector</h3>
                                  <div>
                                    <Popup trigger={<button className="button"> View Project </button>} modal>
                                       {close => (
@@ -472,7 +472,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={TriviaGame}></img>
+                              <img className="fancyCardImg" src={TriviaGame}></img>
                                <div className="caption">
                                 <h3 className="title">Christmas Trivia Game</h3>
                                  <div>
@@ -514,7 +514,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={TrainScheduler}></img>
+                              <img className="fancyCardImg" src={TrainScheduler}></img>
                                <div className="caption">
                                 <h3 className="title">Train Scheduler</h3>
                                  <div>
@@ -560,7 +560,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={FriendFinder}></img>
+                              <img className="fancyCardImg" src={FriendFinder}></img>
                                <div className="caption">
                                 <h3 className="title">Friend Finder</h3>
                                  <div>
@@ -606,7 +606,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img src={Burger}></img>
+                              <img className="fancyCardImg" src={Burger}></img>
                                <div className="caption">
                                 <h3 className="title">Eat Da Burger</h3>
                                  <div>

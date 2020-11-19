@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/background.scss";
+//import "../styles/background.scss";
 import {Form} from "react-bootstrap";
 import ScrollAnimation from "react-animate-on-scroll";
 import Rosa from "react-on-scroll-animation" ;
@@ -13,7 +13,7 @@ class Contact extends React.Component {
 	render(){
         
         return (
-              <div id="contact" style={{backgroundColor: "#9bafaf", height: "80vh", padding:"10px"}}>
+              <div id="contact" style={{backgroundColor: "#9bafaf", height: "80%", padding:"10px"}}>
                  <div id="particle-container">
                         <div className="particle"></div>
                         <div className="particle"></div>
@@ -57,7 +57,7 @@ class Contact extends React.Component {
                    delay={400} >  
                  <div className="row no-gutters" >
                    <div className="col-md-2 mb-md-0 p-md-4"></div>
-                     <div className="col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-4 bg-dark rounded">
+                     <div className="col-md-5 col-sm-6 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-4 bg-dark rounded">
                        <ScrollAnimation animateIn="flipInY" animateOut="flipOutY" style={{textAlign:"center",color:"whitesmoke"}}>
                        <h5 style={{padding:"8px"}}><i class="fa fa-comments-o" aria-hidden="true" style={{fontSize:"30px" ,paddingRight:"10px"}}></i>Drop Me a Line</h5>
                        </ScrollAnimation>
@@ -80,7 +80,7 @@ class Contact extends React.Component {
                       </Form>
                     </div>
 
-                 <div className="col-md-3 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-4 bg-dark rounded">
+                 <div className="col-md-3 col-sm-6 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-4 bg-dark rounded">
                    <ScrollAnimation animateIn='flipInY'animateOut='flipOutY' style={{textAlign:'center',color:'whitesmoke'}}>
                    <h5 style={{padding:"8px"}}><i class="fa fa-map-marker" aria-hidden="true" style={{fontSize:"30px" ,paddingRight:"10px"}}></i>I'm Here</h5>
                    </ScrollAnimation>

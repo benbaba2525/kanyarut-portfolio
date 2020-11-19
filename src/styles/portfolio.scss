@@ -5,6 +5,10 @@ h1{
   margin-top: 30px;
   margin-bottom: 15px;
 }
+.fancyCardImg {
+  width: 400px;
+  height: 350px; 
+}
 
 .fancy-cards{
   text-align: center;
@@ -17,6 +21,7 @@ h1{
   left: 20px;
   box-sizing: border-box;
 }
+
 
   .fancy-card .top,
   .fancy-card .middle,
@@ -206,4 +211,30 @@ $time-4: 300s;
     color: #fff;
     z-index: 2;
 }
+
+
+/*
+  These rules take effect when the browser's width
+  is either 575px or less.
+*/
+@media screen and (max-width: 575px){
+  
+  .fancy-card .top,
+  .fancy-card .middle,
+  .fancy-card .bottom{ 
+    width: 300px;
+    height: 250px;  
+  }
+
+  .fancy-card .caption{
+   height: 40%;
+  }
+  .fancyCardImg {
+    width: 300px;
+    height: 250px; 
+  }
+
+
+}
+
 

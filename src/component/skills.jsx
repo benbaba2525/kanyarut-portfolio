@@ -35,7 +35,7 @@ class Skills extends React.Component {
         
           return (
 
-              <div id="skills" style={{backgroundColor: "#8da5a5", height: "100%",width:"100vw", padding:"10px",  zIndex:999}}>
+              <div id="skills" style={{backgroundColor: "#8da5a5", height: "100%",width:100 +'%', padding:"10px",  zIndex:999}}>
                  <div id="particle-container">
                     <div className ="particle"></div>
 	                  <div className ="particle"></div>
