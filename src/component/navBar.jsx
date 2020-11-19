@@ -27,29 +27,29 @@ class NavBar extends React.Component {
       const styles= 
         {
           container:{
-            position: 'absolute',
+            position: "absolute",
             top: 0,
             left: 0,
-            zIndex: '99',
+            zIndex: "99",
             opacity: 0.9,
-            display:'flex',
-            alignItems:'center',
-            width: '100%',
-            height:'8%',
-            color: 'white',
-            fontFamily:'Lobster',
+            display:"flex",
+            alignItems:"center",
+            width: "100%",
+            height:"8%",
+            color: "white",
+            fontFamily:"Lobster",
           },
           logo: {
-            margin: '0 auto',
+            margin: "0 auto",
           },
           body: {
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            width: '100vw',
-            height: '100vh',
-            filter: this.state.menuOpen ? 'blur(2px)':null,
-            transition: 'filter 0.5s ease',
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            width: "100vw",
+            height: "100vh",
+            filter: this.state.menuOpen ? "blur(2px)":null,
+            transition: "filter 0.5s ease",
           },
         }
     
@@ -57,12 +57,12 @@ class NavBar extends React.Component {
       return(
         <div>
           <div style={styles.container}>
-            <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='white'/>
+            <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color="white"/>
             <div style={styles.logo}><img src={Logo}></img></div>
           </div>
             <Menu open={this.state.menuOpen}>
 
-                 <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+                 <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
             
                   <MenuItem onClick={()=>{this.handleLinkClick();}}>
                     <a href="#backgroundWrapper" className="nav-link text-light"><i>Home<span className="sr-only">(current)</span></i></a>
@@ -108,21 +108,21 @@ class NavBar extends React.Component {
       const styles={
         container: {
           opacity: 0,
-          animation: '1s appear forwards',
+          animation: "1s appear forwards",
           animationDelay:this.props.delay,
         },
         menuItem:{
-          fontFamily:`'Open Sans', sans-serif`,
-          fontSize: '1.5rem',
-          padding: '1rem 0',
-          margin: '0 5%',
-          cursor: 'pointer',
+          fontFamily:`"Open Sans", sans-serif`,
+          fontSize: "1.5rem",
+          padding: "1rem 0",
+          margin: "0 5%",
+          cursor: "pointer",
         },
         line: {
-          width: '90%',
-          height: '1px',
-          background: 'gray',
-          margin: '0 auto',
+          width: "90%",
+          height: "1px",
+          background: "gray",
+          margin: "0 auto",
         }
       }
       return(
@@ -160,21 +160,21 @@ class NavBar extends React.Component {
     render(){
       const styles={
         container: {
-          position: 'absolute',
+          position: "absolute",
           top: 0,
           left: 0,
-          height: this.state.open? '100%': 0,
-          width: '100vw',
-          display: 'flex',
-          flexDirection: 'column',
-          background: '#001a1a',
+          height: this.state.open? "100%": 0,
+          width: "100vw",
+          display: "flex",
+          flexDirection: "column",
+          background: "#001a1a",
           opacity: 0.95,
-          color: '#fafafa',
-          transition: 'height 0.3s ease',
+          color: "#fafafa",
+          transition: "height 0.3s ease",
           zIndex: 2,
         },
         menuList: {
-          paddingTop: '15rem',
+          paddingTop: "15rem",
         }
       }
       return(
@@ -196,7 +196,7 @@ class NavBar extends React.Component {
       super(props);
       this.state={
         open: this.props.open? this.props.open:false,
-        color: this.props.color? this.props.color:'black',
+        color: this.props.color? this.props.color:"black",
       }
     }
   
@@ -213,34 +213,34 @@ class NavBar extends React.Component {
     render(){
       const styles = {
         container: {
-            height: '150px',
-            width: '150px',
-            display:'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-            cursor: 'pointer',
-            padding: '4px',  
+            height: "150px",
+            width: "150px",
+            display:"flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            cursor: "pointer",
+            padding: "4px",  
         },
         line: {
-            height: '4px',
-            width: '35px',
+            height: "4px",
+            width: "35px",
             background: this.state.color,
-            transition: 'all 0.2s ease',
+            transition: "all 0.2s ease",
         },
         lineTop: {
-            transform: this.state.open ? 'rotate(45deg)':'none',
-            transformOrigin: 'top left',
-            marginBottom: '8px',
+            transform: this.state.open ? "rotate(45deg)":"none",
+            transformOrigin: "top left",
+            marginBottom: "8px",
         },
         lineMiddle: {
           opacity: this.state.open ? 0: 1,
-          transform: this.state.open ? 'translateX(-16px)':'none',
+          transform: this.state.open ? "translateX(-16px)":"none",
         },
         lineBottom: {
-            transform: this.state.open ? 'translateX(-1px) rotate(-45deg)':'none',
-            transformOrigin: 'top left',
-            marginTop: '8px',
+            transform: this.state.open ? "translateX(-1px) rotate(-45deg)":"none",
+            transformOrigin: "top left",
+            marginTop: "8px",
         },       
       }
       return(

@@ -1,42 +1,42 @@
-import React from 'react';
-import '../styles/portfolio.scss';
-import ScrollAnimation from 'react-animate-on-scroll';
+import React from "react";
+import "../styles/portfolio.scss";
+import ScrollAnimation from "react-animate-on-scroll";
 import { AwesomeButton } from "react-awesome-button";
-import 'react-awesome-button/dist/themes/theme-c137.css';
+import "react-awesome-button/dist/themes/theme-c137.css";
 import "react-on-scroll-animation/build/index.css";
 import Rosa from "react-on-scroll-animation" ;
 
 //Import images to Fancy Card
-import DateNightPlanner from '../img/dateNightPlanner.png'
-import Quarantine from '../img/quarantine-coffee.png';
-import Ebazaar from '../img/eBazaar.png';
-import GoogleBooks from '../img/Google Book Search.png';
-import ClickyGame from '../img/clickyGame.png';
-import NewsScraper from '../img/Scrapper News.png';
-import Giphy from '../img/GifTastic.png';
-import WordGuessGame from '../img/Word-Guess-Game.png';
-import CrystalsGame from '../img/Crystals-Collector-Game.png';
-import TriviaGame from '../img/TriviaGame.png';
-import TrainScheduler from '../img/TrainScheduler.png';
-import FriendFinder from '../img/Friend-Finder.png';
-import Burger from '../img/burger.png';
+import DateNightPlanner from "../img/dateNightPlanner.png";
+import Quarantine from "../img/quarantine-coffee.png";
+import Ebazaar from "../img/eBazaar.png";
+import GoogleBooks from "../img/Google Book Search.png";
+import ClickyGame from "../img/clickyGame.png";
+import NewsScraper from "../img/Scrapper News.png";
+import Giphy from "../img/GifTastic.png";
+import WordGuessGame from "../img/Word-Guess-Game.png";
+import CrystalsGame from "../img/Crystals-Collector-Game.png";
+import TriviaGame from "../img/TriviaGame.png";
+import TrainScheduler from "../img/TrainScheduler.png";
+import FriendFinder from "../img/Friend-Finder.png";
+import Burger from "../img/burger.png";
 
 // Import images for Modal Pop up
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
-import PopDatenightPlanner from '../img/PopDatenightPlanner.png';
-import PopQuarantine from '../img/PopQuarantine.png';
-import PopEbazaar from '../img/PopEbazaar.png';
-import PopGoogleBooks from '../img/PopGoogleBook.png';
-import PopClickyGame from '../img/PopClickyGame.png';
-import PopNewsScraper from '../img/PopScrapperNews.png';
-import PopGiphy from '../img/PopGifTastic.png';
-import PopWordGuessGame from '../img/PopWordGuessGame.png';
-import PopCrystalsGame from '../img/PopCrystals.png';
-import PopTriviaGame from '../img/PopTrivia.png';
-import PopTrainScheduler from '../img/PopTrainSchedule.png';
-import PopFriendFinder from '../img/PopFriendFinder.png';
-import PopBurger from '../img/PopEatBurger.png';
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
+import PopDatenightPlanner from "../img/PopDatenightPlanner.png";
+import PopQuarantine from "../img/PopQuarantine.png";
+import PopEbazaar from "../img/PopEbazaar.png";
+import PopGoogleBooks from "../img/PopGoogleBook.png";
+import PopClickyGame from "../img/PopClickyGame.png";
+import PopNewsScraper from "../img/PopScrapperNews.png";
+import PopGiphy from "../img/PopGifTastic.png";
+import PopWordGuessGame from "../img/PopWordGuessGame.png";
+import PopCrystalsGame from "../img/PopCrystals.png";
+import PopTriviaGame from "../img/PopTrivia.png";
+import PopTrainScheduler from "../img/PopTrainSchedule.png";
+import PopFriendFinder from "../img/PopFriendFinder.png";
+import PopBurger from "../img/PopEatBurger.png";
 
 
 class Portfolio extends React.Component {
@@ -45,7 +45,7 @@ class Portfolio extends React.Component {
 
        return (
          
-<div id="porfolioWrapper" style={{backgroundColor: '#758d8df0', height: '100%',width:'100%', padding:'10px'}}>
+<div id="porfolioWrapper" style={{backgroundColor: "#758d8df0", height: "100%",width:"100vw", padding:"10px"}}>
     
           <div class="animation-wrapper">
             <div class="particle particle-1"></div>
@@ -59,7 +59,7 @@ class Portfolio extends React.Component {
                 delay={300} >  
                <h1><u>Portfolio</u></h1>
                </Rosa> 
-              <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+              <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
   
                     <div class="row">
                        <div className="col-lg-4 col-md-6">
@@ -75,13 +75,13 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Project1-Date-Night-Planer/">
-                                               <img src={PopDatenightPlanner} style={{width: '100%'}}></img>   
+                                               <img src={PopDatenightPlanner} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>Date Night Planer</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>Date Night Planer</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                   is providing user to plan their date night at home
-                                                  by check on where to order food and search for movies to watch.
+                                                  by check on where to order food and search for movies to watch"
                                                 </p>
                                                 <hr></hr>
                                                   <AwesomeButton size="small" type="primary">HTML</AwesomeButton>
@@ -122,11 +122,11 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://quarantine-coffee-life.herokuapp.com/">
-                                               <img src={PopQuarantine} style={{width: '100%'}}></img>   
+                                               <img src={PopQuarantine} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>Quarantine Coffee</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>Quarantine Coffee</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                  A new platform for a Virtual Coffee Shop! that you can just grab your own coffee and chat, read
                                                  and connect, all without stepping outside your door.
                                                 </p>
@@ -156,7 +156,7 @@ class Portfolio extends React.Component {
                             </div>
                           </div>
                         </div>
-                          
+                        
                         <div className="col-lg-4 col-md-6">
                          <div className="fancy-cards">
                           <div className="fancy-card">
@@ -170,11 +170,11 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://e---bazaar.herokuapp.com/">
-                                               <img src={PopEbazaar} style={{width: '100%'}}></img>   
+                                               <img src={PopEbazaar} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>eBArzaar</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>eBArzaar</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                  is a platform for multi-vendor marketplace which is like - Amazon, eBay,and Craigslist.
                                                 </p>
                                                 <hr></hr>
@@ -216,11 +216,11 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://google--books-search.herokuapp.com/">
-                                               <img src={PopGoogleBooks} style={{width: '100%'}}></img>   
+                                               <img src={PopGoogleBooks} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>Google Books Search</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>Google Books Search</h5>"
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                  is a React-based Google Books Search app that allows users to search for books via the Google Books API.
                                                 </p>
                                                 <hr></hr>
@@ -262,11 +262,11 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Clicky-Game-Avengers/">
-                                               <img src={PopClickyGame} style={{width: '100%'}}></img>   
+                                               <img src={PopClickyGame} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>Clicky Game Avengers</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>Clicky Game Avengers</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                  Click game built with React to track clicks and present the user with a score.
                                                 </p>
                                                 <hr></hr>
@@ -306,11 +306,11 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://mongodb-scraper-news.herokuapp.com/">
-                                               <img src={PopNewsScraper} style={{width: '100%'}}></img>   
+                                               <img src={PopNewsScraper} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>News Scrapper</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>News Scrapper</h5> 
+                              "               <p style={{color: "#111111", fontSize:"20px"}}>
                                                  This application will lets users scrape news articles : the title, summary and link from the The New York Times website.
                                                 </p>
                                                 <hr></hr>
@@ -352,11 +352,11 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/GIPHY-Advengers/">
-                                               <img src={PopGiphy} style={{width: '100%'}}></img>   
+                                               <img src={PopGiphy} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>Giphy Advengers</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>Giphy Advengers</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                  Using the GIPHY API to make a dynamic web page that populates with gifs. 
                                                 </p>
                                                 <hr></hr>
@@ -397,11 +397,11 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Word-Guess-Game/">
-                                               <img src={PopWordGuessGame} style={{width: '100%'}}></img>   
+                                               <img src={PopWordGuessGame} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>Word Guess Game</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>Word Guess Game</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                  Word Guess Game game built with JavaScript and jQuery. 
                                                 </p>
                                                 <hr></hr>
@@ -439,16 +439,16 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Crystals-Collector-Game/">
-                                               <img src={PopCrystalsGame} style={{width: '100%'}}></img>   
+                                               <img src={PopCrystalsGame} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>Crystals Collector Game</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>Crystals Collector Game</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                  The player will have to guess the number and make it equal to the random number that the computer given.
                                                 </p>
                                                 <hr></hr>
                                                   <AwesomeButton size="small" type="primary">HTML</AwesomeButton>
-                                                  <AwesomeButton size="small" type="primary">CSS</AwesomeButton>
+                                    "            <AwesomeButton size="small" type="primary">CSS</AwesomeButton>
                                                   <AwesomeButton size="small" type="primary">Bootstrap</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">JavaScript</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">jQuery</AwesomeButton>
@@ -481,11 +481,11 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/TriviaGame/">
-                                               <img src={PopTriviaGame} style={{width: '100%'}}></img>   
+                                               <img src={PopTriviaGame} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>Chrismas Trivia Game</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>Chrismas Trivia Game</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                  Trivia game using JavaScript for the logic and jQuery to manipulate HTML.
                                                 </p>
                                                 <hr></hr>
@@ -523,11 +523,11 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Train-Scheduler/">
-                                               <img src={PopTrainScheduler} style={{width: '100%'}}></img>   
+                                               <img src={PopTrainScheduler} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>Train Scheduler</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>Train Scheduler</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                  JavaScript using server side storage (Firebase) and Date objects (The Moment.js library)
                                                 </p>
                                                 <hr></hr>
@@ -569,11 +569,11 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://friend-finder-appp.herokuapp.com/">
-                                               <img src={PopFriendFinder} style={{width: '100%'}}></img>   
+                                               <img src={PopFriendFinder} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>Friend Finder</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>Friend Finder</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                  This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. 
                                                  The app will then display the name and picture of the user with the best overall match.
                                                 </p>
@@ -615,11 +615,11 @@ class Portfolio extends React.Component {
                                            <span>
                                              <a className="close" onClick={close}> &times; </a>
                                               <a target="_blank" rel="nofollow" href="https://burgers-appp.herokuapp.com/">
-                                               <img src={PopBurger} style={{width: '100%'}}></img>   
+                                               <img src={PopBurger} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: '5px'}}>Eat Da Burger</h5> 
-                                                 <p style={{color: '#111111', fontSize:'20px'}}>
+                                                <h5 style={{padding: "5px"}}>Eat Da Burger</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
                                                  Create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).
                                                 </p>
                                                 <hr></hr>
@@ -657,4 +657,4 @@ class Portfolio extends React.Component {
                         
  export default Portfolio;
                         
-    
+  

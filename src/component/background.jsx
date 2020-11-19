@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import "../styles/background.scss";
 import "react-awesome-button/dist/styles.css";
-import 'react-awesome-button/dist/themes/theme-c137.css';
-import Typical from 'react-typical';
-import Robot from './robot';
+import "react-awesome-button/dist/themes/theme-c137.css";
+import Typical from "react-typical";
+import Robot from "./robot";
 import Particles from "reactparticles.js";
-import Particles2 from 'react-particles-js';
+import Particles2 from "react-particles-js";
 import "animate.css/animate.min.css";
 
 
@@ -18,18 +18,18 @@ class Background extends React.Component {
             <div className="backgroundWrapper">
                <div className="top-container">
                  <div>
-                 <Typical steps={['Hello 👋', 1500]} loop={Infinity} wrapper="span" className={'myname'}  />
+                 <Typical steps={["Hello 👋", 1500]} loop={Infinity} wrapper="span" className={"myname"}  />
                  </div>
                  <br></br>
                  <div>
-                 <Typical steps={['', 1500,'I am Kanyarut Pornamnuay',4000]}  wrapper="span" className={'myname'}  />
+                 <Typical steps={[" ", 1500,"I am Kanyarut Pornamnuay",4000]}  wrapper="span" className={"myname"}  />
                  </div>
                  <br></br>
                  <div>
-                 <Typical steps={['', 1500,'', 2000,'I am a Full Stack Web Developer 🧐', 4000, 'Front End Developer 🤓', 2000,'Back End Developer 😎', 2000,]} loop={Infinity} wrapper="span" className={'jobTitle'}  />
+                 <Typical steps={[" ", 1500," ", 2000,"I am a Full Stack Web Developer 🧐", 4000, "Front End Developer 🤓", 2000,"Back End Developer 😎", 2000,]} loop={Infinity} wrapper="span" className={"jobTitle"}  />
                  </div>
 				 {/* Background using Particles Bubble*/}
-                        <Particles2 className='particles'
+                        <Particles2 className="particles"
                             params={{
 	                            "particles": {
 	                                "number": {
@@ -103,7 +103,7 @@ class Background extends React.Component {
             {/* Robot is here */}
                   <Robot/> 
  
-
+            {/* Mouse Scroll Animation */}
                 </div>
                      <div className="mouse_scroll">
                        <div className="mouse">

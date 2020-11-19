@@ -1,11 +1,11 @@
-import React from 'react';
-import '../styles/about.scss';
+import React from "react";
+import "../styles/about.scss";
 import myResume from "../img/Resume.pdf";
-import myPicture from '../img/mypicture.jpeg';
+import myPicture from "../img/mypicture.jpeg";
 import { AwesomeButton } from "react-awesome-button";
-import 'react-awesome-button/dist/themes/theme-c137.css';
+import "react-awesome-button/dist/themes/theme-c137.css";
 import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from "react-animate-on-scroll";
 import Rosa from "react-on-scroll-animation" 
 
 
@@ -13,11 +13,11 @@ class About extends React.Component {
 	render(){
         const styles= 
         {
-          wrapper:{
-           marginTop: 15+"%",
-           marginBottom: 5+"%",
-           height: '100vh',
-          },
+          // wrapper:{
+          //  marginTop: 15+"%",
+          //  marginBottom: 5+"%",
+          //  height: "100vh",
+          // },
           img:{
            borderRadius: 50 + "%",
 			     height: 300 + "px",
@@ -29,16 +29,15 @@ class About extends React.Component {
                <div id="wrapper" style={styles.wrapper}>
                  <div className="row no-gutters" id="aboutMe" >
                    <div className="col-md-2 mb-md-0 p-md-4"></div>
-                     <div className="col-md-3 p-4 pl-md-4 shadow-lg p-3 mb-5 bg-white rounded" style={{marginTop: '10%', marginBottom: '10%'}} >
+                     <div className="col-md-3 p-4 pl-md-4 shadow-lg p-3 mb-5 bg-white rounded" style={{marginTop: "10%", marginBottom: "10%"}} >
                        <div>
                        <Rosa animation="zoom-in"   
-                        duration={100}   
-                        delay={300} >  
-               <h1>About Me</h1>
-               </Rosa>
-                         {/* <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'><h1>About Me</h1></ScrollAnimation> */}
+                             duration={100}   
+                             delay={300} >  
+                             <h1>About Me</h1>
+                      </Rosa>
                        </div>
-                          <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+                          <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
                               <img
 			                          className={"img-fluid " + this.props.fadeIn}
 			                          src={myPicture}
@@ -55,20 +54,20 @@ class About extends React.Component {
                            </ScrollAnimation>
                        </div>
 
-                    <div className="col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5  bg-white rounded"  style={{marginTop: '10%', marginBottom: '10%'}}>
-                      <ScrollAnimation animateIn='fadeIn'>
+                    <div className="col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5  bg-white rounded"  style={{marginTop: "10%", marginBottom: "10%"}}>
+                      <ScrollAnimation animateIn="fadeIn">
                         <h5 className="text-dark"><h2>I'm</h2> <strong> Kanyarut Pornamnuay</strong></h5>
-                          <p className="text-dark" style={{textAlign:'left'}}>
+                          <p className="text-dark" style={{textAlign:"left"}}>
                           I graduated with a master degree in computer science, and also joined the database management program and received a certificate from UCLA Extension. 
                           </p>
-                          <p className="text-dark" style={{textAlign:'left'}}>
+                          <p className="text-dark" style={{textAlign:"left"}}>
                           Moreover, I just graduated with a certificate program in full stack development from University of California, 
                           Los Angeles coding bootcamp, with developed skills, I learn how to create websites and application
                           using HTML/HTML5,CSS, Responsive web design, Bootstrap, Material-UI, ReactJS, JavaScript, jQuery, JSON, AJAX, APIs, NodeJS, ExpressJS,
                           MySQL, MongoDB, Firebase, Git, Github and Wordpress.
                           </p>
 
-                         <p className="text-dark" style={{textAlign:'left'}}>
+                         <p className="text-dark" style={{textAlign:"left"}}>
                           Known as an innovative problem solver passionate about developing apps, 
                           with a focus on developing websites and applications. With a group projects,
                           I have worked on a team to contributed to design and development of client and server database applications.
@@ -79,7 +78,7 @@ class About extends React.Component {
                           <br></br>
                           {/* Button to download my resume */}
                              <div>
-                             <AwesomeButton type="secondary" style={{textAlign:'center'}}><a target="_blank"  href = {myResume} style={{color:'white'}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
+                             <AwesomeButton type="secondary" style={{textAlign:"center"}}><a target="_blank"  href = {myResume} style={{color:"white"}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
                              </div>
                        </ScrollAnimation>
                     </div>
