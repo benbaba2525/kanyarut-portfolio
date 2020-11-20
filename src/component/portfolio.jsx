@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/portfolio.scss";
-import ScrollAnimation from "react-animate-on-scroll";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/themes/theme-c137.css";
 import "react-on-scroll-animation/build/index.css";
@@ -59,8 +58,7 @@ class Portfolio extends React.Component {
                 delay={300} >  
                <h1><u>Portfolio</u></h1>
                </Rosa> 
-              <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
-  
+               <Rosa animation={'fade-right'}>
                     <div class="row">
                        <div className="col-lg-4 col-md-6">
                          <div className="fancy-cards">
@@ -648,7 +646,8 @@ class Portfolio extends React.Component {
                           </div>
                         </div>
                     </div>
-                </ScrollAnimation>
+                {/* </ScrollAnimation> */}
+                </Rosa>
             </div>                        
                         
            );

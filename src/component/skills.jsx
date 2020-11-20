@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/background.scss";
 import styled, { keyframes } from "styled-components";
 import Swing from "@bit/formidablelabs.react-animations.swing";
-import ScrollAnimation from "react-animate-on-scroll";
 import Rosa from "react-on-scroll-animation" 
 import Html from "../img/html.png";
 import Css from "../img/css3.png";
@@ -73,7 +72,7 @@ class Skills extends React.Component {
                       <h1 style={{padding: "15px"}}><u>My Skills</u></h1>
                 </Rosa>
                       
-              <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
+                <Rosa animation={'fade-left'}>
               	<div className="container">
               		<p style={{fontSize:"20px",textAlign:"left"}}>Full stack web developer with developed skills and experienced to design, build, and maintain websites and application 
               		from conception to production using HTML/HTML5,CSS/CSS3, Responsive Web Design, Bootstrap, Material-UI, REST, AJAX, APIs, 
@@ -150,7 +149,7 @@ class Skills extends React.Component {
             </div>                  
               
          </div>                  
-        </ScrollAnimation>
+        </Rosa>
       </div>
    </div>          
               			  

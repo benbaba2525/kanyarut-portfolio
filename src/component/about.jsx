@@ -32,7 +32,7 @@ class About extends React.Component {
                              <h1>About Me</h1>
                       </Rosa>
                        </div>
-                          <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
+                       <Rosa animation={'fade-up-right'}>
                               <img
 			                          className={"img-fluid " + this.props.fadeIn}
 			                          src={myPicture}
@@ -46,7 +46,7 @@ class About extends React.Component {
                                   <a href="https://www.facebook.com/ben.pornamnuay" target="_blank"><i className="fa fa-facebook-square" aria-hidden="true"></i></a>
                                   <a href="https://www.instagram.com/benbaba2525/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                                </div>
-                           </ScrollAnimation>
+                            </Rosa>
                        </div>
 
                     <div className="rightBg col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5  bg-white rounded">
