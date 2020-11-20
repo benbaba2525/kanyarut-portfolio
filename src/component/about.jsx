@@ -5,7 +5,6 @@ import myPicture from "../img/mypicture.jpeg";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/themes/theme-c137.css";
 import "animate.css/animate.min.css";
-import ScrollAnimation from "react-animate-on-scroll";
 import Rosa from "react-on-scroll-animation" 
 
 
@@ -50,7 +49,7 @@ class About extends React.Component {
                        </div>
 
                     <div className="rightBg col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5  bg-white rounded">
-                      <ScrollAnimation animateIn="fadeIn">
+                      <Rosa animation={'zoom-in-up'}>
                         <h5 className="text-dark"><h2>I'm</h2> <strong> Kanyarut Pornamnuay</strong></h5>
                           <p className="text-dark" style={{textAlign:"left"}}>
                           I graduated with a master degree in computer science, and also joined the database management program and received a certificate from UCLA Extension. 
@@ -75,7 +74,7 @@ class About extends React.Component {
                              <div>
                              <AwesomeButton type="secondary" style={{textAlign:"center"}}><a target="_blank"  href = {myResume} style={{color:"white"}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
                              </div>
-                       </ScrollAnimation>
+                       </Rosa>
                     </div>
                  </div>
               <div className="col-md-2 mb-md-0 p-md-4"></div>

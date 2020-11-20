@@ -72,7 +72,7 @@ class Skills extends React.Component {
                       <h1 style={{padding: "15px"}}><u>My Skills</u></h1>
                 </Rosa>
                       
-                <Rosa animation={'fade-left'}>
+                <Rosa animation={'fade-up-left'}>
               	<div className="container">
               		<p style={{fontSize:"20px",textAlign:"left"}}>Full stack web developer with developed skills and experienced to design, build, and maintain websites and application 
               		from conception to production using HTML/HTML5,CSS/CSS3, Responsive Web Design, Bootstrap, Material-UI, REST, AJAX, APIs, 

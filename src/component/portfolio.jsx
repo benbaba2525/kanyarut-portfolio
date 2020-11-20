@@ -53,14 +53,14 @@ class Portfolio extends React.Component {
             <div class="particle particle-4"></div>
           </div>      
 
-              <Rosa animation="zoom-in"   
+              {/* <Rosa animation="zoom-in"   
                 duration={300}   
                 delay={300} >  
                <h1><u>Portfolio</u></h1>
-               </Rosa> 
-               <Rosa animation={'fade-right'}>
+               </Rosa>  */}
+               <Rosa animation={'fade-up-right'}>
                     <div class="row">
-                       <div className="col-lg-4 col-md-6">
+                       <div className="portCol col-lg-4 col-md-6">
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
