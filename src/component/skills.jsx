@@ -35,7 +35,7 @@ class Skills extends React.Component {
         
           return (
 
-              <div id="skills" style={{backgroundColor: "#8da5a5", height: "100%",width:100 +'%', padding:"10px",  zIndex:999}}>
+              <div id="skills" style={{backgroundColor: "#8da5a5",width:100 +'%', padding:"10px",  zIndex:999}}>
                  <div id="particle-container">
                     <div className ="particle"></div>
 	                  <div className ="particle"></div>
@@ -81,71 +81,71 @@ class Skills extends React.Component {
                 </div>
         <div class="row" style={{marginTop:"5%"}}>
                   
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                 <SwingDiv><img src={Html}></img><p><strong>HTML</strong></p></SwingDiv>
             </div> 
 
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6">
                 <SwingDiv><img src={Css}></img><p><strong>CSS</strong></p></SwingDiv>
             </div>	  
 
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6">
                 <SwingDiv><img src={Js}></img><p><strong>JS</strong></p></SwingDiv>
             </div>
 
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6">
                 <SwingDiv><img src={Jquery}></img><p><strong>jQuery</strong></p></SwingDiv>
             </div>		             
               			  
-            <div className="col-lg-4 col-md-4 col-sm-6">
+            <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                 <SwingDiv><img src={Bootstrap}></img><p><strong>Bootstrap</strong></p></SwingDiv>
             </div>
 
-            <div className="col-lg-4 col-md-4 col-sm-6">
+            <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                 <SwingDiv><img src={Reactlogo}></img><p><strong>ReactJS</strong></p></SwingDiv>
             </div>
 
-            <div className="col-lg-4 col-md-4 col-sm-6">
+            <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                 <SwingDiv><img src={Material}></img><p><strong>Material Ui</strong></p></SwingDiv>
             </div>
 
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6">
                 <SwingDiv><img src={Ajax}></img><p><strong>AJAX</strong></p></SwingDiv>
             </div>
 
-          	<div className="col-lg-3 col-md-4 col-sm-6 mt-4">
+          	<div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 mt-4">
                 <SwingDiv><img src={Api}></img><p><strong>API</strong></p></SwingDiv>
             </div>      
 
-            <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 mt-4">
                 <SwingDiv><img src={Json}></img><p><strong>JSON</strong></p></SwingDiv>
             </div> 
 
-            <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 mt-4">
                 <SwingDiv><img src={NodeJS}></img><p><strong>Node.js</strong></p></SwingDiv>
             </div> 
 
-            <div className="col-lg-4 col-md-4 col-sm-6 mt-4">
+            <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6 mt-4">
                 <SwingDiv><img src={MySQL}></img><p><strong>MySQL</strong></p></SwingDiv>
             </div>
 
-            <div className="col-lg-4 col-md-4 col-sm-6 mt-4">
+            <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6 mt-4">
                 <SwingDiv><img src={MongoDB}></img><p><strong>MongoDB</strong></p></SwingDiv>
             </div>                     
                           
-            <div className="col-lg-4 col-md-4 col-sm-6 mt-4">
+            <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6 mt-4">
                 <SwingDiv><img src={Firebase}></img><p><strong>Firebase</strong></p></SwingDiv>
             </div>  
 
-            <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 mt-4">
                 <SwingDiv><img src={Git}></img><p><strong>Git</strong></p></SwingDiv>
             </div>  
 
-            <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 mt-4">
                 <SwingDiv><img src={Github}></img><p><strong>Github</strong></p></SwingDiv>
             </div>                
 
-            <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 mt-4">
                 <SwingDiv><img src={Wordpress}></img><p><strong>Wordpress</strong></p></SwingDiv>
             </div>                  
               

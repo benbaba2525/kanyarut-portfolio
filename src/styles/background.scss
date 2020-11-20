@@ -239,4 +239,20 @@
   }
 
 
+/*
+  These rules take effect when the browser's width
+  is either 576px or less.
+*/
+@media screen and (max-width: 576px){
+  .myname {
+    font-size: 20px;
+    margin: 50px;
+}
 
+.jobTitle {
+    font-size: 15px;
+    margin: 50px;
+}
+
+
+}

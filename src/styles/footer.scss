@@ -1,3 +1,13 @@
+
+#contact{
+  background-color: #022727;
+  height: 20%;
+  width: 100%;
+  padding: 10px;
+}
+
+
+
 .social {
     font-size: 45px;
     
@@ -19,14 +29,32 @@
     }
 
   }
+  .footer-copyright{
+    color:#138b8b;
+    font-size:15px;
+  }
+
+  .footer-font{
+    color:gray;
+     font-size:15px;
+  }
 
   /*
   These rules take effect when the browser's width
-  is either 575px or less.
+  is either 576px or less.
 */
-@media screen and (max-width: 575px){
+@media screen and (max-width: 576px){
   .social {
     font-size: 35px;
+  }
+  .footer-copyright{
+    color:#138b8b;
+    font-size:12px;
+  }
+
+  .footer-font{
+    color:gray;
+     font-size:12px;
   }
 }
 
