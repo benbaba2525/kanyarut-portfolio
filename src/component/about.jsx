@@ -24,7 +24,7 @@ class About extends React.Component {
                <div id="wrapper" style={styles.wrapper}>
                  <div className="row no-gutters" id="aboutMe" >
                    <div className="col-md-2 mb-md-0 p-md-4"></div>
-                     <div className="col-md-3 p-4 pl-md-4 shadow-lg p-3 mb-5 bg-white rounded" style={{marginTop: "10%", marginBottom: "10%"}} >
+                     <div className="leftBg col-md-3 p-4 pl-md-4 shadow-lg p-3 mb-5 bg-white rounded" >
                        <div>
                        <Rosa animation="zoom-in"   
                              duration={100}   
@@ -49,7 +49,7 @@ class About extends React.Component {
                            </ScrollAnimation>
                        </div>
 
-                    <div className="col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5  bg-white rounded"  style={{marginTop: "10%", marginBottom: "10%"}}>
+                    <div className="rightBg col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5  bg-white rounded">
                       <ScrollAnimation animateIn="fadeIn">
                         <h5 className="text-dark"><h2>I'm</h2> <strong> Kanyarut Pornamnuay</strong></h5>
                           <p className="text-dark" style={{textAlign:"left"}}>

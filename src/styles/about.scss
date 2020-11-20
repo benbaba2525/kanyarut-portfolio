@@ -2,6 +2,17 @@
   margin-top: 15%;
   margin-bottom: 5%;
 }
+
+.leftBg{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+
+  .rightBg{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
+
 .social1 {
     font-size: 35px;
     
@@ -23,3 +34,13 @@
     }
 
   }
+
+
+/*
+  These rules take effect when the browser's width
+  is either 576px or less.
+*/
+@media screen and (max-width: 576px){
+
+
+}
