@@ -284,5 +284,58 @@ p {
   }
   
   
+  /*
+  These rules take effect when the browser's width
+  is either 576px or less.
+*/
+@media screen and (max-width: 576px){
+  .antenna.short {
+    height: 13px;
+    top: -35px;
+    left: 20px;
+  }
+  .antenna.long {
+    height: 40px;
+    top: -52px;
+    left: 30px;
+
+  }
+  .head{
+    width: 41px;
+    height: 24px;
+    top: -24px;
+    left: 53%;
+  }
+  .head .eye.one {  
+    height: 12px;
+    width: 12px;
+    top: 3px;
+    left: -5%;
+  }
+  .head .eye.two {
+    height: 6px;
+    width: 6px;
+    top: 8px;
+    left: 28%;
+  }
+  .head .eye.two:after {
+    height: 3px;
+    width: 3px;
+    top: 1px;
+    left: 1px;
+  }
+  .head .detail {
+    height: 2px;
+  }
+  .head .detail.three {
+    height: 1px;
+    margin-top: 0.5px;
+  }
+  .ball {
+    height: 80px;
+    width: 80px;
+  }
   
+
+}
   
