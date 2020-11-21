@@ -4,7 +4,7 @@ import Rosa from "react-on-scroll-animation"
 import Html from "../img/html.png";
 import Css from "../img/css3.png";
 import Bootstrap from "../img/boostrap.png";
-import Js from "../img/JS.png";
+import Js from "../img/js.png";
 import Jquery from "../img/jQuery.png";
 import Reactlogo from "../img/react.png";
 import Material from "../img/Material-UI.png";

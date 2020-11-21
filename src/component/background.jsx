@@ -10,7 +10,6 @@ import "animate.css/animate.min.css";
 
 
 
-
 class Background extends React.Component {
   
 	render(){
