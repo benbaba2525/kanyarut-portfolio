@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d7411fb.chunk.css",
+    "main.css": "/static/css/main.8996fa28.chunk.css",
     "main.js": "/static/js/main.4c5eefb1.chunk.js",
     "main.js.map": "/static/js/main.4c5eefb1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.00800bcd.js",
@@ -9,10 +9,10 @@
     "static/js/2.c35b4962.chunk.js": "/static/js/2.c35b4962.chunk.js",
     "static/js/2.c35b4962.chunk.js.map": "/static/js/2.c35b4962.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bc5c47276ce586ce43f2d9c89c672d36.js": "/precache-manifest.bc5c47276ce586ce43f2d9c89c672d36.js",
+    "precache-manifest.ac34261e24e0ded61ba96a84add1c958.js": "/precache-manifest.ac34261e24e0ded61ba96a84add1c958.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.5879c572.chunk.css.map": "/static/css/2.5879c572.chunk.css.map",
-    "static/css/main.7d7411fb.chunk.css.map": "/static/css/main.7d7411fb.chunk.css.map",
+    "static/css/main.8996fa28.chunk.css.map": "/static/css/main.8996fa28.chunk.css.map",
     "static/js/2.c35b4962.chunk.js.LICENSE.txt": "/static/js/2.c35b4962.chunk.js.LICENSE.txt",
     "static/media/Crystals-Collector-Game.png": "/static/media/Crystals-Collector-Game.42800447.png",
     "static/media/Friend-Finder.png": "/static/media/Friend-Finder.d57f1fdd.png",
@@ -50,7 +50,7 @@
     "static/js/runtime-main.00800bcd.js",
     "static/css/2.5879c572.chunk.css",
     "static/js/2.c35b4962.chunk.js",
-    "static/css/main.7d7411fb.chunk.css",
+    "static/css/main.8996fa28.chunk.css",
     "static/js/main.4c5eefb1.chunk.js"
   ]
 }
