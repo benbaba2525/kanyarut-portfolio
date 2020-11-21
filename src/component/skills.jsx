@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/background.scss";
-import styled, { keyframes } from "styled-components";
-import Swing from "@bit/formidablelabs.react-animations.swing";
 import Rosa from "react-on-scroll-animation" 
 import Html from "../img/html.png";
 import Css from "../img/css3.png";
@@ -21,16 +19,9 @@ import Git from "../img/git.png";
 import Github from "../img/github.png";
 import Wordpress from "../img/wordpress.png";
 
-import FlipInY from "@bit/formidablelabs.react-animations.flip-in-y";
-const FlipInYAnimation = keyframes`${FlipInY}`;
-const FlipInYDiv = styled.div`
-  animation: infinite 5s ${FlipInYAnimation};
-`;
 
-const SwingAnimation = keyframes`${Swing}`;
-const SwingDiv = styled.div`
-  animation:  5s ${SwingAnimation};
-`;
+
+
 
 
 class Skills extends React.Component {

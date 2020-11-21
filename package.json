@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@bit/formidablelabs.react-animations.flip-in-y": "^1.0.0",
-    "@bit/formidablelabs.react-animations.swing": "^1.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -27,6 +25,7 @@
     "react-dom": "^17.0.0",
     "react-icons": "^3.11.0",
     "react-iframe": "^1.8.0",
+    "react-loadingg": "^1.7.2",
     "react-modal": "^3.11.2",
     "react-on-scroll-animation": "^1.0.0",
     "react-parallax-card": "^0.5.7",
