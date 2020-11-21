@@ -76,7 +76,7 @@ class Portfolio extends React.Component {
                                                <img  src={PopDatenightPlanner} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>Date Night Planer</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Date Night Planer</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                   is providing user to plan their date night at home
                                                   by check on where to order food and search for movies to watch"
@@ -90,7 +90,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">AJAX</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">APIs</AwesomeButton>
                         
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/Project1-Date-Night-Planer" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://benbaba2525.github.io/Project1-Date-Night-Planer/" target="_blank"><i className="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -123,7 +123,7 @@ class Portfolio extends React.Component {
                                                <img src={PopQuarantine} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>Quarantine Coffee</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Quarantine Coffee</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  A new platform for a Virtual Coffee Shop! that you can just grab your own coffee and chat, read
                                                  and connect, all without stepping outside your door.
@@ -139,7 +139,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">Socket.io</AwesomeButton>
                                                   <AwesomeButton size="small" type="primary">MySQL</AwesomeButton>
                         
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/QuarantineNightOwls/Quarantine-Coffee" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://quarantine-coffee-life.herokuapp.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -171,7 +171,7 @@ class Portfolio extends React.Component {
                                                <img src={PopEbazaar} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>eBArzaar</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>eBArzaar</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  is a platform for multi-vendor marketplace which is like - Amazon, eBay,and Craigslist.
                                                 </p>
@@ -185,7 +185,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">Express.js</AwesomeButton>
                                                   <AwesomeButton size="large" type="primary">Json Web Tokens</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">MongoDB</AwesomeButton>
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/skang91/eBazaar" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://e---bazaar.herokuapp.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -217,7 +217,7 @@ class Portfolio extends React.Component {
                                                <img src={PopGoogleBooks} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>Google Books Search</h5>"
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Google Books Search</h5>
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  is a React-based Google Books Search app that allows users to search for books via the Google Books API.
                                                 </p>
@@ -231,7 +231,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">Express.js</AwesomeButton>
                                                   <AwesomeButton size="small" type="primary">Axios</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">MongoDB</AwesomeButton>
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/Google-Books-Search" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://google--books-search.herokuapp.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -263,7 +263,7 @@ class Portfolio extends React.Component {
                                                <img src={PopClickyGame} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>Clicky Game Avengers</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Clicky Game Avengers</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  Click game built with React to track clicks and present the user with a score.
                                                 </p>
@@ -275,7 +275,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">React.js</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">Node.js</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">Express.js</AwesomeButton>
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/Clicky-Game-Avengers" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://benbaba2525.github.io/Clicky-Game-Avengers/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -307,8 +307,8 @@ class Portfolio extends React.Component {
                                                <img src={PopNewsScraper} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>News Scrapper</h5> 
-                              "               <p style={{color: "#111111", fontSize:"20px"}}>
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>News Scrapper</h5> 
+                                             <p style={{color: "#111111", fontSize:"20px"}}>
                                                  This application will lets users scrape news articles : the title, summary and link from the The New York Times website.
                                                 </p>
                                                 <hr></hr>
@@ -321,7 +321,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">Express.js</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">Axios</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">MongoDB</AwesomeButton>
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/MongoDB-All-the-News-That-s-Fit-to-Scrape" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://mongodb-scraper-news.herokuapp.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -353,7 +353,7 @@ class Portfolio extends React.Component {
                                                <img src={PopGiphy} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>Giphy Advengers</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Giphy Advengers</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  Using the GIPHY API to make a dynamic web page that populates with gifs. 
                                                 </p>
@@ -366,7 +366,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">AJAX</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">APIs</AwesomeButton>
                         
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/GIPHY-Advengers" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://benbaba2525.github.io/GIPHY-Advengers/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -398,7 +398,7 @@ class Portfolio extends React.Component {
                                                <img src={PopWordGuessGame} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>Word Guess Game</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Word Guess Game</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  Word Guess Game game built with JavaScript and jQuery. 
                                                 </p>
@@ -408,7 +408,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="small" type="primary">Bootstrap</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">JavaScript</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">jQuery</AwesomeButton>
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/Word-Guess-Game" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://benbaba2525.github.io/Word-Guess-Game/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -440,17 +440,17 @@ class Portfolio extends React.Component {
                                                <img src={PopCrystalsGame} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>Crystals Collector Game</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Crystals Collector Game</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  The player will have to guess the number and make it equal to the random number that the computer given.
                                                 </p>
                                                 <hr></hr>
                                                   <AwesomeButton size="small" type="primary">HTML</AwesomeButton>
-                                    "            <AwesomeButton size="small" type="primary">CSS</AwesomeButton>
+                                                  <AwesomeButton size="small" type="primary">CSS</AwesomeButton>
                                                   <AwesomeButton size="small" type="primary">Bootstrap</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">JavaScript</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">jQuery</AwesomeButton>
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/Crystals-Collector-Game" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://benbaba2525.github.io/Crystals-Collector-Game/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -482,7 +482,7 @@ class Portfolio extends React.Component {
                                                <img src={PopTriviaGame} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>Chrismas Trivia Game</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Chrismas Trivia Game</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  Trivia game using JavaScript for the logic and jQuery to manipulate HTML.
                                                 </p>
@@ -492,7 +492,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="small" type="primary">Bootstrap</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">JavaScript</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">jQuery</AwesomeButton>
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/TriviaGame" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://benbaba2525.github.io/TriviaGame/" target="_blank"><i className="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -524,7 +524,7 @@ class Portfolio extends React.Component {
                                                <img src={PopTrainScheduler} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>Train Scheduler</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Train Scheduler</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  JavaScript using server side storage (Firebase) and Date objects (The Moment.js library)
                                                 </p>
@@ -538,7 +538,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">Firebase</AwesomeButton>
                                                   <AwesomeButton size="large" type="primary">Authenticate Using Google Sign-In</AwesomeButton>
                                                   <AwesomeButton size="large" type="primary">Authenticate Using GitHub Sign-In</AwesomeButton>
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/Train-Scheduler" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://benbaba2525.github.io/Train-Scheduler/" target="_blank"><i className="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -570,7 +570,7 @@ class Portfolio extends React.Component {
                                                <img src={PopFriendFinder} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>Friend Finder</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Friend Finder</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. 
                                                  The app will then display the name and picture of the user with the best overall match.
@@ -584,7 +584,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">Express.js</AwesomeButton>
                                                   <AwesomeButton size="small" type="primary">JSON</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">Postman</AwesomeButton>
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/Friend-Finder" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://friend-finder-appp.herokuapp.com/" target="_blank"><i className="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
@@ -616,7 +616,7 @@ class Portfolio extends React.Component {
                                                <img src={PopBurger} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "5px"}}>Eat Da Burger</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Eat Da Burger</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  Create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).
                                                 </p>
@@ -630,7 +630,7 @@ class Portfolio extends React.Component {
                                                   <AwesomeButton size="medium" type="primary">Express.js</AwesomeButton>
                                                   <AwesomeButton size="medium" type="primary">Handlebars</AwesomeButton>
                                                   <AwesomeButton size="small" type="primary">MySQL</AwesomeButton>
-                                               <div className="col-xs-6 social text-right">
+                                               <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/burger" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://burgers-appp.herokuapp.com/" target="_blank"><i className="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    

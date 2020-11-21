@@ -44,7 +44,7 @@ h1{
   }
   .fancy-card .middle{
     position: absolute;
-    background: #aaa;
+    background: rgb(28, 29, 29);
     top: 0px;
     z-index: 2;
     transform: rotate(0deg);
@@ -52,7 +52,7 @@ h1{
   }
   .fancy-card .bottom{
     position: absolute;
-    background: #ccc;
+    background: rgb(95, 99, 99);
     top: 0px;
     z-index: 1;
     transform: rotate(0deg);
@@ -211,6 +211,26 @@ $time-4: 300s;
     z-index: 2;
 }
 
+.social2 {
+  font-size: 45px;
+  
+.fa {
+  margin: 12px 6px;
+  position: relative;
+  transition: .3s all ease;
+  top: 0;
+  &.fa-link {color: rgb(15, 203, 216);}
+  &.fa-github-square {color: rgb(0, 0, 0);}
+  &:hover {
+    top: -4px;
+  }
+ }
+}
+
+
+
+
+
 
 /*
   These rules take effect when the browser's width
@@ -233,6 +253,10 @@ $time-4: 300s;
     height: 250px; 
   }
 
+}
+
+.social2 {
+  font-size: 30px;
 }
 
 
