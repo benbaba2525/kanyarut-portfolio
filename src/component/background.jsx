@@ -10,6 +10,7 @@ import "animate.css/animate.min.css";
 
 
 
+
 class Background extends React.Component {
   
 	render(){
@@ -106,11 +107,12 @@ class Background extends React.Component {
                              />
             {/* Robot is here */}
                   <Robot/> 
- 
+			  </div>
             {/* Mouse Scroll Animation */}
-                </div>
+                
+				   <a href="#aboutMe" >
                      <div className="mouse_scroll">
-                       <div className="mouse">
+                       <div className="mouse button">
 			             <div className="wheel"></div>
 		              </div>
 		                 <div>
@@ -118,9 +120,9 @@ class Background extends React.Component {
 			               <span className="m_scroll_arrows doi"></span>
 			               <span className="m_scroll_arrows trei"></span>
 		                 </div>
-                    </div>
+                      </div>
+				   </a>
               </div>
-
        );
     }
  };
