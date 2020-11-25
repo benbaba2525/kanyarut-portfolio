@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import "../styles/navBar.scss";
 import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
-import Logo from '../img/KP-logo.png';
+import ScrollAnimation from "react-animate-on-scroll";
+import Logo from "../img/KP-logo.png";
 
 
 
@@ -56,9 +56,9 @@ class NavBar extends React.Component {
       
       return(
         <div>
-          <div style={styles.container}>
+         <div style={styles.logo}><img src={Logo}></img></div>
+          <div style={styles.container}>                
             <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color="white"/>
-            <div style={styles.logo}><img src={Logo}></img></div>
           </div>
             <Menu open={this.state.menuOpen}>
 

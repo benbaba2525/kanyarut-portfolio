@@ -110,7 +110,6 @@ class Background extends React.Component {
 				   <a href="#aboutMe" >
 				   
                      <div className="mouse_scroll">
-					 <p>Scroll</p>
                        <div className="mouse button">
 			             <div className="wheel"></div>
 		              </div>
