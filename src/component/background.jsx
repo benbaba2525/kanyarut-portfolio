@@ -24,7 +24,6 @@ class Background extends React.Component {
                  <div>
                  <Typical steps={[" ", 1500,"I am Kanyarut",4000]}  wrapper="span" className={"myname"}  />
                  </div>
-                 <br></br>
                  <div>
                  <Typical steps={[" ", 1500," ", 3000,"Full Stack Developer 🧐", 4000, "Front End Developer 🤓", 2000,"Back End Developer 😎", 2000,]} loop={Infinity} wrapper="span" className={"jobTitle"}  />
                  </div>

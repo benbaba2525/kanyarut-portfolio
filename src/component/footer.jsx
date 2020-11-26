@@ -13,7 +13,7 @@ import "animate.css/animate.min.css";
                                   <a href="https://www.linkedin.com/in/kanyarut-pornamnuay-b9a2501a1/" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
                                   <a href="https://www.facebook.com/ben.pornamnuay" target="_blank"><i className="fa fa-facebook-square" aria-hidden="true"></i></a>
                                   <a href="https://www.instagram.com/benbaba2525/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                  <a target="_blank" href="mailto:benbaba2525@gmail.com?subject=Open Question from Portfolio"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                                  <a target="_top" href="https://mailto:benbaba2525@gmail.com?subject=Open Question from Portfolio"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                               </div> 
                             <div className="footer-font text-center py-3">
                                <span className ="footer-copyright">© 2020 Copyright : </span>Kanyarut (Ben) Pornamnuay

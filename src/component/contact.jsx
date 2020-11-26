@@ -58,7 +58,7 @@ class Contact extends React.Component {
                      <div className="col-md-5 col-sm-6 col-xs-6 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-4 bg-dark rounded">
                        <h5 style={{padding:"12px", textAlign:"center",color:"whitesmoke"}}><i class="fa fa-comments-o" aria-hidden="true" style={{fontSize:"30px" ,paddingRight:"10px"}}></i>Drop Me a Line</h5>
                        {/* Contact Form */}
-                      <Form controlId="formBasicEmail" action="mailto:benbaba2525@gmail.com" method="post" enctype="text/plain">
+                      <Form controlId="formBasicEmail" action="https://mailto:benbaba2525@gmail.com" method="post" enctype="text/plain">
                            <Form.Group>
                               <Form.Control type="text" name="Name : " placeholder="Your Name" />
                            </Form.Group>
