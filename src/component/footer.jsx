@@ -14,7 +14,7 @@ import "animate.css/animate.min.css";
                                   <a href="https://www.facebook.com/ben.pornamnuay" target="_blank"><i className="fa fa-facebook-square" aria-hidden="true"></i></a>                                  
                                   <a href="https://www.instagram.com/benbaba2525/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                                   <br></br>
-                                  <p className="contactInfo"><i class="fa fa-envelope-o" aria-hidden="true"></i>benbaba2525@gmail.com <i class="fa fa-phone-square" aria-hidden="true" style={{fontSize:"25px" ,padding:"5px"}}></i>Phone : (323)-(788-7440)</p>
+                                  <p className="contactInfo"><i class="fa fa-envelope-o" aria-hidden="true"></i>benbaba2525@gmail.com</p>
  
                               </div> 
                               
