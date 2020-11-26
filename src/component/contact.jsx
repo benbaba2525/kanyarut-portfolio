@@ -1,5 +1,6 @@
 import React from "react";
 import {Form} from "react-bootstrap";
+import emailjs from 'emailjs-com';
 import Rosa from "react-on-scroll-animation" ;
 import Iframe from "react-iframe";
 import { AwesomeButton } from "react-awesome-button";
@@ -8,8 +9,21 @@ import "react-awesome-button/dist/themes/theme-c137.css";
 
 
 
+
 class Contact extends React.Component {
 	render(){
+
+    function sendEmail(e) {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_x1ur0i2', 'template_fdw2yuz', e.target, 'user_VwHOCy877hqVKMEpFkYCz')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset();
+    }
         
         return (
               <div id="contact" style={{backgroundColor: "#9bafaf", height: "100%", padding:"10px"}}>
@@ -59,17 +73,17 @@ class Contact extends React.Component {
                      <div className="col-md-5 col-sm-6 col-xs-6 p-4 pl-md-4 shadow-lg p-3 mb-5 mt-4 bg-dark rounded">
                        <h5 style={{padding:"12px", textAlign:"center",color:"whitesmoke"}}><i class="fa fa-comments-o" aria-hidden="true" style={{fontSize:"30px" ,paddingRight:"10px"}}></i>Drop Me a Line</h5>
                        {/* Contact Form */}
-                      <Form controlId="formBasicEmail" action="mailto:benbaba2525@gmail.com" method="post" enctype="text/plain">
+                      <Form onSubmit = {sendEmail} >
                            <Form.Group>
-                              <Form.Control type="text" name="Name : " placeholder="Your Name" />
+                              <Form.Control type="text" name="name" placeholder="Your Name" />
                            </Form.Group>
                       <br/>
                           <Form.Group controlId="exampleForm.ControlInput1">
-                            <Form.Control type="email" name="Email Address : " placeholder="name@example.com" />
+                            <Form.Control type="email" name="email" placeholder="name@example.com" />
                           </Form.Group>
                       <br/>
                           <Form.Group controlId="exampleForm.ControlTextarea1">
-                            <Form.Control as="textarea" name="Comment  " placeholder="Your Message" rows={3}  />
+                            <Form.Control as="textarea" name="message" placeholder="Your Message" rows={3}  />
                           </Form.Group>
                       <br/>
                        {/* Submit Button */}

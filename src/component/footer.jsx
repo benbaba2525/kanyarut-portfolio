@@ -2,21 +2,20 @@ import React from "react";
 import "../styles/footer.scss";
 import "animate.css/animate.min.css";
 
-
-
-
      class Footer extends React.Component {
        
-	                  render(){        
+	                  render(){     
+                         
                        return (
                           <div id="contact">
                               <div className="col-xs-6 social text-center">
                                   <a href="https://github.com/benbaba2525" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
                                   <a href="https://www.linkedin.com/in/kanyarut-pornamnuay-b9a2501a1/" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                                  <a href="https://www.facebook.com/ben.pornamnuay" target="_blank"><i className="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                  <a href="https://www.facebook.com/ben.pornamnuay" target="_blank"><i className="fa fa-facebook-square" aria-hidden="true"></i></a>                                  
                                   <a href="https://www.instagram.com/benbaba2525/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                  
-                              
+                                  <br></br>
+                                  <p className="contactInfo"><i class="fa fa-envelope-o" aria-hidden="true"></i>benbaba2525@gmail.com <i class="fa fa-phone-square" aria-hidden="true" style={{fontSize:"25px" ,padding:"5px"}}></i>Phone : (323)-(788-7440)</p>
+ 
                               </div> 
                               
                             <div className="footer-font text-center py-3">

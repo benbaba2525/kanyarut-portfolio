@@ -1,7 +1,7 @@
 
 #contact{
   background-color: #022727;
-  height: 25vh;
+  height: 28vh;
   width: 100%;
   padding: 10px;
 }
@@ -22,6 +22,7 @@
       &.fa-facebook-square {color: rgb(253, 255, 255);}
       &.fa-instagram {color:rgb(253, 255, 255);}
       &.fa-envelope-o {color:rgb(253, 255, 255);}
+      &.fa-phone-square {color:rgb(253, 255, 255);}
       &:hover {
         top: -6px;
       }
@@ -36,6 +37,17 @@
   .footer-font{
     color:gray;
      font-size:15px;
+  }
+
+  .contactInfo{
+    font-size: 20px;
+  }
+  .fa-envelope-o {
+    font-size: 25px;
+  }
+
+  .fa-phone-square {
+    font-size: 25px;
   }
 
   /*
@@ -54,6 +66,10 @@
   .footer-font{
     color:gray;
      font-size:12px;
+  }
+
+  .contactInfo{
+    font-size: 15px;
   }
 }
 
