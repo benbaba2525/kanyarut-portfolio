@@ -58,7 +58,7 @@ class Portfolio extends React.Component {
                 delay={300} >  
                <h1><u>Portfolio</u></h1>
                </Rosa> 
-               <Rosa animation={'fade-up-right'}>
+               <Rosa animation={'fade-right'}>
                     <div class="row">
                        <div className="col-lg-4 col-md-6">
                          <div className="fancy-cards">
@@ -77,11 +77,11 @@ class Portfolio extends React.Component {
                                               </a>
                                                <br></br>
                                                 <h5 style={{padding: "15px", textAlign: "center"}}>Date Night Planer</h5> 
-                                                 <p style={{color: "#111111", fontSize:"20px"}}>
+                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                   is providing user to plan their date night at home
-                                                  by check on where to order food and search for movies to watch"
-                                                </p>
-                                                <hr></hr>
+                                                  by check on where to order food and search for what movies to watch.
+                                                  </p>
+                                                  <hr></hr>
                                                   <AwesomeButton size="small" type="primary">HTML</AwesomeButton>
                                                   <AwesomeButton size="small" type="primary">CSS</AwesomeButton>
                                                   <AwesomeButton size="small" type="primary">Bootstrap</AwesomeButton>
