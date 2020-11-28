@@ -39,21 +39,52 @@
     <!-- Animation  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <!-- Loading Page-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
    <script>
            $(window).load(function() {
-           		// Animate loader off screen
-           		$(".loading").fadeOut(5000);
+               // Animate loader off screen
+               $("#loader").fadeOut(5000);
             });
-   </script>
-
+   
+           function getRandom (size)
+           {
+             return Math.floor(Math.random() * size);
+           }
+           
+           //Creating the layers for the stars
+           for (i = 2; i < 12; i++)
+           {
+             $("#stars").append('<div class="star_layer" style="transform: translateZ(' + i + 'px) scale(' + (15 - i)/(15) +');"></div>')
+           }
+           
+           //Creating the stars
+           for (i = 0; i < 70; i++)
+           {
+             $(".star_layer").eq(getRandom(10)).append('<div class="star"></div>');
+           }
+           
+           updateStars();
+           
+           //Change stars every cycle
+           setInterval(updateStars, 4000);
+           
+           //Randomising stars. Position and opacity is changed every cycle.
+           function updateStars ()
+           {
+             $(".star").each(function() {
+               $(this).css({"top": getRandom(200) + "px", "left": getRandom(200) + "px", "opacity": (20 + getRandom(50))/100});
+             });
+           }
+           
+    </script>
+   <!-- EmailJS  -->
    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
    <script type="text/javascript">
-   (function() {
-   emailjs.init("user_VwHOCy877hqVKMEpFkYCz");
-   })();
+          (function() {
+          emailjs.init("user_VwHOCy877hqVKMEpFkYCz");
+          })();
    </script>
    
     <title>Kanyarut Portfolio</title>
@@ -61,9 +92,18 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <div class="loading"></div>
-    
+<div id="root"></div>
+   <div id="loader">
+    <div id="circle_container">
+      <div id="stars"></div>
+      <div id="load_wrapper">
+        <div id="sun"></div>
+        <div id="moon"></div>
+      </div>
+    </div>
+  </div>
+</div> 
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
