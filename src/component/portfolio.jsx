@@ -19,7 +19,7 @@ import TriviaGame from "../img/TriviaGame.png";
 import TrainScheduler from "../img/TrainScheduler.png";
 import FriendFinder from "../img/Friend-Finder.png";
 import Burger from "../img/burger.png";
-import Aromma from "../img/aromaThaiRestaurant.png";
+import Aroma from "../img/aromaThaiRestaurant.png";
 
 // Import images for Modal Pop up
 import Popup from "reactjs-popup";
@@ -253,7 +253,7 @@ class Portfolio extends React.Component {
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
-                              <img className="fancyCardImg" src={Aromma}></img>
+                              <img className="fancyCardImg" src={Aroma}></img>
                                <div className="caption">
                                 <h3 className="title">Aroma Restaurant</h3>
                                  <div>
