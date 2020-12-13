@@ -58,7 +58,7 @@ class About extends React.Component {
                           Moreover, I just graduated with a certificate program in full stack development from University of California, 
                           Los Angeles coding bootcamp, with developed skills, I learn how to create websites and application
                           using HTML/HTML5,CSS, Responsive web design, Bootstrap, Material-UI, ReactJS, JavaScript, jQuery, JSON, AJAX, APIs, NodeJS, ExpressJS,
-                          MySQL, MongoDB, Firebase, Git, Github and Wordpress.
+                          MySQL, MongoDB, Firebase, Git, Github, Wordpress and Adobe.
                           </p>
 
                          <p className="text-dark" style={{textAlign:"left"}}>

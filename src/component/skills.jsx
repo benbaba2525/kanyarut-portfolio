@@ -18,6 +18,7 @@ import Firebase from "../img/firebase.png";
 import Git from "../img/git.png";
 import Github from "../img/github.png";
 import Wordpress from "../img/wordpress.png";
+import Adobe from "../img/adobe.png";
 
 
 
@@ -71,7 +72,7 @@ class Skills extends React.Component {
               	<div className="container">
               		<p style={{fontSize:"20px",textAlign:"left"}}>Full stack web developer with developed skills and experienced to design, build, and maintain websites and application 
               		from conception to production using HTML/HTML5,CSS/CSS3, Responsive Web Design, Bootstrap, Material-UI, REST, AJAX, APIs, 
-              		JSON, ReactJS, JavaScript, jQuery, Node.js, Express.js, MySQL, MongoDB, Firebase, Git, Github, Wordpress.</p>
+              		JSON, ReactJS, JavaScript, jQuery, Node.js, Express.js, MySQL, MongoDB, Firebase, Git, Github, Wordpress and Adobe.</p>
              
         <div class="row ontainer" style={{marginTop:"5%"}}>
                   
@@ -86,15 +87,16 @@ class Skills extends React.Component {
             <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6 mt-5">
                 <img src={Bootstrap}></img><p><strong>Bootstrap</strong></p>
             </div>
+            
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6 mt-5">
+                <img src={Js}></img><p><strong>JavaScript</strong></p>
+            </div>	
+            
 
             <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6 mt-5">
                 <img src={Jquery}></img><p><strong>jQuery</strong></p>
             </div>		             
               			  
-            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 mt-5">
-                <img src={Js}></img><p><strong>JS</strong></p>
-            </div>
-
             <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6 mt-5">
                 <img src={Reactlogo}></img><p><strong>ReactJS</strong></p>
             </div>
@@ -140,7 +142,11 @@ class Skills extends React.Component {
 
             <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6 mt-5">
                 <img src={Wordpress}></img><p><strong>Wordpress</strong></p>
-            </div>                  
+            </div>      
+
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6 mt-5">
+                <img src={Adobe}></img><p><strong>Adobe</strong></p>
+            </div>             
               
           </div> 
          </div>                 

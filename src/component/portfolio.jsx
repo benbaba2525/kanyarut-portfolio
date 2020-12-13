@@ -19,6 +19,7 @@ import TriviaGame from "../img/TriviaGame.png";
 import TrainScheduler from "../img/TrainScheduler.png";
 import FriendFinder from "../img/Friend-Finder.png";
 import Burger from "../img/burger.png";
+import Aromma from "../img/aromaThaiRestaurant.png";
 
 // Import images for Modal Pop up
 import Popup from "reactjs-popup";
@@ -36,6 +37,7 @@ import PopTriviaGame from "../img/PopTrivia.png";
 import PopTrainScheduler from "../img/PopTrainSchedule.png";
 import PopFriendFinder from "../img/PopFriendFinder.png";
 import PopBurger from "../img/PopEatBurger.png";
+import PopAroma from "../img/PoparomaThaiRestaurant.png";
 
 
 class Portfolio extends React.Component {
@@ -234,6 +236,43 @@ class Portfolio extends React.Component {
                                                <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/benbaba2525/Google-Books-Search" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://google--books-search.herokuapp.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                          </div>    
+                                       </span> 
+                                      )}
+                                    </Popup>
+                                   </div>
+                                  </div>
+                                </div>
+                              <div className="middle"></div>
+                              <div className="bottom"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6">
+                         <div className="fancy-cards">
+                          <div className="fancy-card">
+                            <div className="top">
+                              <img className="fancyCardImg" src={Aromma}></img>
+                               <div className="caption">
+                                <h3 className="title">Aroma Thai Restaurant</h3>
+                                 <div>
+                                   <Popup trigger={<button className="button"> View Project </button>} modal>
+                                      {close => (
+                                           <span>
+                                             <a className="close" onClick={close}> &times; </a>
+                                              <a target="_blank" rel="nofollow" href="https://aromathaifoodrestaurant.com/">
+                                               <img src={PopAroma} style={{width: "100%"}}></img>   
+                                              </a>
+                                               <br></br>
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>Aroma Thai Restaurant</h5>
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
+                                                 build the restaurant website using Wordpress
+                                                </p>
+                                                <hr></hr>
+                                                  <AwesomeButton size="small" type="primary">Wordpress</AwesomeButton>
+                                               <div className="col-xs-6 social2 text-right">
+                                                 <a href="https://aromathaifoodrestaurant.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
                                        </span> 
                                       )}

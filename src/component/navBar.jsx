@@ -41,6 +41,7 @@ class NavBar extends React.Component {
           },
           logo: {
             margin: "0 auto",
+            marginTop: "8px",
           },
           body: {
             display: "flex",

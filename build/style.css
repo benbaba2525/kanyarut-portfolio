@@ -54,16 +54,16 @@
 {
   width: 80px;
   height: 80px;
-  background-color: #FFD475;
+  background-color: #f0a709;
   top: 40px;
-  box-shadow: 0 0 15px #FFCB57;
+  box-shadow: 0 0 15px #f3bc46;
 }
 
 #moon
 {
   width: 50px;
   height: 50px;
-  background-color: #EEE;
+  background-color: rgb(238, 238, 238);
   top: 450px;
   box-shadow: 0 0 25px rgba(0,0,0,0.2) inset, 0 0 10px white;
 }
