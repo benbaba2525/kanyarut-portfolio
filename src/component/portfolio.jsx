@@ -255,7 +255,7 @@ class Portfolio extends React.Component {
                             <div className="top">
                               <img className="fancyCardImg" src={Aromma}></img>
                                <div className="caption">
-                                <h3 className="title">Aroma Thai Restaurant</h3>
+                                <h3 className="title">Aroma Restaurant</h3>
                                  <div>
                                    <Popup trigger={<button className="button"> View Project </button>} modal>
                                       {close => (
