@@ -65,7 +65,7 @@ class Skills extends React.Component {
                 <Rosa animation="zoom-in"   
                       duration={300}   
                       delay={300} >  
-                      <h1 style={{padding: "15px",color:"whitesmoke"}}><u>My Skills</u></h1>
+                      <h1 style={{padding: "15px",color:"whitesmoke"}}><u>Skills</u></h1>
                 </Rosa>
                       
                 <Rosa animation={'fade-left'}>
@@ -81,7 +81,7 @@ class Skills extends React.Component {
             </div> 
 
             <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6 mt-5">
-            <img src={Css}></img><p><strong>CSS</strong></p>
+            <img src={Css}></img><p><strong>CSS/CSS3</strong></p>
             </div>	  
 
             <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6 mt-5">
