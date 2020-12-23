@@ -19,7 +19,7 @@ import TriviaGame from "../img/TriviaGame.png";
 import TrainScheduler from "../img/TrainScheduler.png";
 import FriendFinder from "../img/Friend-Finder.png";
 import Burger from "../img/burger.png";
-//import Aroma from "../img/aromaThaiRestaurant.png";
+import Aroma from "../img/aromaThaiRestaurant.png";
 
 // Import images for Modal Pop up
 import Popup from "reactjs-popup";
@@ -37,7 +37,7 @@ import PopTriviaGame from "../img/PopTrivia.png";
 import PopTrainScheduler from "../img/PopTrainSchedule.png";
 import PopFriendFinder from "../img/PopFriendFinder.png";
 import PopBurger from "../img/PopEatBurger.png";
-//import PopAroma from "../img/PoparomaThaiRestaurant.png";
+import PopAroma from "../img/PoparomaThaiRestaurant.png";
 
 
 class Portfolio extends React.Component {
@@ -249,7 +249,7 @@ class Portfolio extends React.Component {
                           </div>
                         </div>
 
-                        {/* <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6">
                          <div className="fancy-cards">
                           <div className="fancy-card">
                             <div className="top">
@@ -285,7 +285,7 @@ class Portfolio extends React.Component {
                             </div>
                           </div>
                         </div>
-                         */}
+                        
                         <div className="col-lg-4 col-md-6">
                          <div className="fancy-cards">
                           <div className="fancy-card">
