@@ -20,6 +20,8 @@ import TrainScheduler from "../img/TrainScheduler.png";
 import FriendFinder from "../img/Friend-Finder.png";
 import Burger from "../img/burger.png";
 import Aroma from "../img/aromaThaiRestaurant.png";
+import MyJourney from "../img/myjourney.png";
+
 
 // Import images for Modal Pop up
 import Popup from "reactjs-popup";
@@ -38,6 +40,7 @@ import PopTrainScheduler from "../img/PopTrainSchedule.png";
 import PopFriendFinder from "../img/PopFriendFinder.png";
 import PopBurger from "../img/PopEatBurger.png";
 import PopAroma from "../img/PoparomaThaiRestaurant.png";
+import PopMyJourney from "../img/Popmyjourney.png";
 
 
 class Portfolio extends React.Component {
@@ -173,7 +176,7 @@ class Portfolio extends React.Component {
                                                <img src={PopEbazaar} style={{width: "100%"}}></img>   
                                               </a>
                                                <br></br>
-                                                <h5 style={{padding: "15px", textAlign: "center"}}>eBArzaar</h5> 
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>eBazaar</h5> 
                                                  <p style={{color: "#111111", fontSize:"20px"}}>
                                                  is a platform for multi-vendor marketplace which is like - Amazon, eBay,and Craigslist.
                                                 </p>
@@ -190,6 +193,49 @@ class Portfolio extends React.Component {
                                                <div className="col-xs-6 social2 text-right">
                                                  <a href="https://github.com/skang91/eBazaar" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
                                                  <a href="https://e---bazaar.herokuapp.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                          </div>    
+                                       </span> 
+                                      )}
+                                    </Popup>
+                                   </div>
+                                  </div>
+                                </div>
+                              <div className="middle"></div>
+                              <div className="bottom"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6">
+                         <div className="fancy-cards">
+                          <div className="fancy-card">
+                            <div className="top">
+                              <img className="fancyCardImg" src={MyJourney}></img>
+                               <div className="caption">
+                                <h3 className="title">My Journey</h3>
+                                 <div>
+                                   <Popup trigger={<button className="button"> View Project </button>} modal>
+                                      {close => (
+                                           <span>
+                                             <a className="close" onClick={close}> &times; </a>
+                                              <a target="_blank" rel="nofollow" href="https://my-journey-adventure.herokuapp.com/">
+                                               <img src={PopMyJourney} style={{width: "100%"}}></img>   
+                                              </a>
+                                               <br></br>
+                                                <h5 style={{padding: "15px", textAlign: "center"}}>My Journey</h5> 
+                                                 <p style={{color: "#111111", fontSize:"20px"}}>
+                                                 My journey story I created using React.
+                                                </p>
+                                                <hr></hr>
+                                                  <AwesomeButton size="small" type="primary">HTML</AwesomeButton>
+                                                  <AwesomeButton size="small" type="primary">CSS</AwesomeButton>
+                                                  <AwesomeButton size="medium" type="primary">Bootstrap</AwesomeButton>
+                                                  <AwesomeButton size="medium" type="primary">JavaScript</AwesomeButton>
+                                                  <AwesomeButton size="medium" type="primary">React.js</AwesomeButton>
+                                                  
+                                               <div className="col-xs-6 social2 text-right">
+                                                 <a href="https://github.com/benbaba2525/My-Journey" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                                                 <a href="https://my-journey-adventure.herokuapp.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                                           </div>    
                                        </span> 
                                       )}
