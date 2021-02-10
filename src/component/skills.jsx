@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/background.scss";
+import itPicture from "../img/IT.png";
 import Rosa from "react-on-scroll-animation" 
 import Html from "../img/html.png";
 import Css from "../img/css3.png";
@@ -151,6 +152,34 @@ class Skills extends React.Component {
           </div> 
          </div>                 
        </Rosa>
+       <div class= "container">
+       <Rosa animation={'fade-right'}>
+       <h1 style={{padding: "15px",color:"whitesmoke"}}><u>Technical Support Skills</u></h1>
+             <div className="row no-gutters" id="aboutMe" >
+             <div className="techSkills col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5">
+             <img                
+                                className= "itpicture"
+                                 src={itPicture}
+                                 alt="my picture"
+               />
+             </div>
+
+             <div className="techSkills col-md-7 p-4 pl-md-4 shadow-lg p-3 mb-5">
+             <ul>
+              <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Help desk and Customer service skills.</li>
+              <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Excellent skills in IT supports ticketing systems. </li>
+              <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Operating systems : Window XP, 7, 8, 10, Mac OS and Linux (Ubuntu). </li>
+              <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Strong skills in troubleshooting the following:Windows 7/10, Microsoft Office Suite, MacOS, iOS, Internet applications, third party applications. </li>
+              <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Microsoft Suite (Power Point, Word, Excel).</li> 
+              <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Knowledge in TCP/IP networking and routing protocols also understanding of LAN and WAN management and maintenance protocols. </li>
+              <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Excellent skills in installing, maintaining, troubleshooting, and integrating hardware, software, and network devices. </li> 
+              <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Profound understanding of LAN and WAN management and maintenance protocols.</li> 
+              <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Database management, RDBMS.</li>
+             </ul>
+             </div>
+      </div>
+          </Rosa>
+        </div>
       </div>
    </div>          
               			  

@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.4eb26e50.chunk.css",
-    "main.js": "/static/js/main.9ddef5fb.chunk.js",
-    "main.js.map": "/static/js/main.9ddef5fb.chunk.js.map",
+    "main.css": "/static/css/main.e43e1d05.chunk.css",
+    "main.js": "/static/js/main.dbd12dfb.chunk.js",
+    "main.js.map": "/static/js/main.dbd12dfb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.00800bcd.js",
     "runtime-main.js.map": "/static/js/runtime-main.00800bcd.js.map",
     "static/css/2.750b5f16.chunk.css": "/static/css/2.750b5f16.chunk.css",
-    "static/js/2.b4e0a5ca.chunk.js": "/static/js/2.b4e0a5ca.chunk.js",
-    "static/js/2.b4e0a5ca.chunk.js.map": "/static/js/2.b4e0a5ca.chunk.js.map",
+    "static/js/2.14334ecf.chunk.js": "/static/js/2.14334ecf.chunk.js",
+    "static/js/2.14334ecf.chunk.js.map": "/static/js/2.14334ecf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7f0e99bfbe68326f1643418dedb13800.js": "/precache-manifest.7f0e99bfbe68326f1643418dedb13800.js",
+    "precache-manifest.f19ae49b4aac8a3bbc138dd4da43cad9.js": "/precache-manifest.f19ae49b4aac8a3bbc138dd4da43cad9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.750b5f16.chunk.css.map": "/static/css/2.750b5f16.chunk.css.map",
-    "static/css/main.4eb26e50.chunk.css.map": "/static/css/main.4eb26e50.chunk.css.map",
-    "static/js/2.b4e0a5ca.chunk.js.LICENSE.txt": "/static/js/2.b4e0a5ca.chunk.js.LICENSE.txt",
+    "static/css/main.e43e1d05.chunk.css.map": "/static/css/main.e43e1d05.chunk.css.map",
+    "static/js/2.14334ecf.chunk.js.LICENSE.txt": "/static/js/2.14334ecf.chunk.js.LICENSE.txt",
     "static/media/Crystals-Collector-Game.png": "/static/media/Crystals-Collector-Game.42800447.png",
     "static/media/Friend-Finder.png": "/static/media/Friend-Finder.d57f1fdd.png",
     "static/media/GifTastic.png": "/static/media/GifTastic.0fe8db61.png",
     "static/media/Google Book Search.png": "/static/media/Google Book Search.ed79deca.png",
+    "static/media/IT.png": "/static/media/IT.caf6084f.png",
     "static/media/KP-logo.png": "/static/media/KP-logo.126d1211.png",
     "static/media/PopClickyGame.png": "/static/media/PopClickyGame.25c93e0d.png",
     "static/media/PopCrystals.png": "/static/media/PopCrystals.8e87426a.png",
@@ -34,7 +35,7 @@
     "static/media/PopWordGuessGame.png": "/static/media/PopWordGuessGame.a512417e.png",
     "static/media/PoparomaThaiRestaurant.png": "/static/media/PoparomaThaiRestaurant.eb800f27.png",
     "static/media/Popmyjourney.png": "/static/media/Popmyjourney.a33474b4.png",
-    "static/media/Resume.pdf": "/static/media/Resume.2bb138d1.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.1d45c45b.pdf",
     "static/media/Scrapper News.png": "/static/media/Scrapper News.bbc3612f.png",
     "static/media/TrainScheduler.png": "/static/media/TrainScheduler.e8bca70f.png",
     "static/media/TriviaGame.png": "/static/media/TriviaGame.a977f176.png",
@@ -53,8 +54,8 @@
   "entrypoints": [
     "static/js/runtime-main.00800bcd.js",
     "static/css/2.750b5f16.chunk.css",
-    "static/js/2.b4e0a5ca.chunk.js",
-    "static/css/main.4eb26e50.chunk.css",
-    "static/js/main.9ddef5fb.chunk.js"
+    "static/js/2.14334ecf.chunk.js",
+    "static/css/main.e43e1d05.chunk.css",
+    "static/js/main.dbd12dfb.chunk.js"
   ]
 }

@@ -5,7 +5,7 @@ import myPicture from "../img/mypicture.jpeg";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/themes/theme-c137.css";
 import "animate.css/animate.min.css";
-import Rosa from "react-on-scroll-animation" 
+import Rosa from "react-on-scroll-animation" ;
 
 
 class About extends React.Component {
@@ -52,27 +52,24 @@ class About extends React.Component {
                     
                         <h5 className="text-dark"><h2>I'm</h2> <strong> Kanyarut Pornamnuay</strong></h5>
                           <p className="text-dark" style={{textAlign:"left"}}>
-                          I graduated with a master degree in computer science, and also joined the database management program and received a certificate from UCLA Extension. 
+                          Technical Support Specialist and Web Developer with a background in Computer Science, Database Management Certificate Program, and Full Stack Development in Coding Bootcamp. 
                           </p>
                           <p className="text-dark" style={{textAlign:"left"}}>
-                          Moreover, I just graduated with a certificate program in full stack development from University of California, 
-                          Los Angeles coding bootcamp, with developed skills, I learn how to create websites and application
-                          using HTML/HTML5,CSS, Responsive web design, Bootstrap, Material-UI, ReactJS, JavaScript, jQuery, JSON, AJAX, APIs, NodeJS, ExpressJS,
-                          MySQL, MongoDB, Firebase, Git, Github, Wordpress and Adobe.
+                          Many years of experience in IT support is wide and varied, including maintaining, troubleshooting, installing, and configuring computer hardware, software, system, networks.
+                          Moreover, I recently developed and gained skills and experience by completing the certificate program in full stack development coding bootcamp to design, build, and maintain websites and application from conception to production 
+                          using HTML/HTML5, CSS/CSS3, Responsive Web Design, Bootstrap, Material-UI, REST APIs, AJAX, JSON, ReactJS, JavaScript, jQuery, Node.js, Express.js, MySQL, MongoDB, Firebase, Git, Github, Wordpress, and Adobe.
                           </p>
 
                          <p className="text-dark" style={{textAlign:"left"}}>
-                          Known as an innovative problem solver passionate about developing apps, 
-                          with a focus on developing websites and applications. With a group projects,
-                          I have worked on a team to contributed to design and development of client and server database applications.
-                          Also, Maintain websites and applications, including content updates, debugging, testing
-                          and regular upgrades to ensure web and system usability. I’m excited to leverage my skills as part of a fast-paced, 
-                          quality-driven team to build better experiences on the web. 
+                         Known as an innovative problem solver passionate about developing apps, with a focus on developing websites and applications. With group projects, I have worked on a team to contribute to design and development of client and website and applications.
+                         Also, Maintain websites and applications, including content updates, debugging, testing and regular upgrades to ensure web and system usability.
+                         I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.
+
                          </p>
                           <br></br>
                           {/* Button to download my resume */}
                              <div>
-                             <AwesomeButton type="secondary" style={{textAlign:"center"}}><a target="_blank"  href = {myResume} style={{color:"white"}} download="Resume 2020 .pdf">My Resume</a></AwesomeButton>
+                             <AwesomeButton type="secondary" style={{textAlign:"center"}}><a target="_blank"  href = {myResume} style={{color:"white"}} download="Resume.pdf">My Resume</a></AwesomeButton>
                              </div>
                   
                     </div>
