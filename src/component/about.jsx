@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/about.scss";
-import myResume from "../img/Resume.pdf";
+import myResume from "../img/Resume IT_Web.pdf";
 import myPicture from "../img/mypicture.jpeg";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/themes/theme-c137.css";
