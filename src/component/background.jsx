@@ -22,7 +22,7 @@ class Background extends React.Component {
                  </div>
                  <br></br>
                  <div>
-                 <Typical steps={[" ", 1500,"I am Kanyarut",4000]}  wrapper="span" className={"myname"}  />
+                 <Typical steps={[" ", 1500,"I am Kanyarat",4000]}  wrapper="span" className={"myname"}  />
                  </div>
                  <div>
                  <Typical steps={[" ", 1500," ", 3000,"IT Support Specialist 🧐", 4000, "Full Stack Developer 🤓", 2000,]} loop={Infinity} wrapper="span" className={"jobTitle"}  />
