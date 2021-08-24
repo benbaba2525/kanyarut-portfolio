@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.58977d97.chunk.css",
-    "main.js": "/static/js/main.9918ff43.chunk.js",
-    "main.js.map": "/static/js/main.9918ff43.chunk.js.map",
+    "main.css": "/static/css/main.8ad4384c.chunk.css",
+    "main.js": "/static/js/main.88a4b6eb.chunk.js",
+    "main.js.map": "/static/js/main.88a4b6eb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.00800bcd.js",
     "runtime-main.js.map": "/static/js/runtime-main.00800bcd.js.map",
     "static/css/2.750b5f16.chunk.css": "/static/css/2.750b5f16.chunk.css",
     "static/js/2.f57f9d25.chunk.js": "/static/js/2.f57f9d25.chunk.js",
     "static/js/2.f57f9d25.chunk.js.map": "/static/js/2.f57f9d25.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ddbbff068020b6ebbedf87add29b1cbd.js": "/precache-manifest.ddbbff068020b6ebbedf87add29b1cbd.js",
+    "precache-manifest.7be040a92d4ef91b492200ff8fc716f4.js": "/precache-manifest.7be040a92d4ef91b492200ff8fc716f4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.750b5f16.chunk.css.map": "/static/css/2.750b5f16.chunk.css.map",
-    "static/css/main.58977d97.chunk.css.map": "/static/css/main.58977d97.chunk.css.map",
+    "static/css/main.8ad4384c.chunk.css.map": "/static/css/main.8ad4384c.chunk.css.map",
     "static/js/2.f57f9d25.chunk.js.LICENSE.txt": "/static/js/2.f57f9d25.chunk.js.LICENSE.txt",
     "static/media/Crystals-Collector-Game.png": "/static/media/Crystals-Collector-Game.42800447.png",
     "static/media/Friend-Finder.png": "/static/media/Friend-Finder.d57f1fdd.png",
@@ -55,7 +55,7 @@
     "static/js/runtime-main.00800bcd.js",
     "static/css/2.750b5f16.chunk.css",
     "static/js/2.f57f9d25.chunk.js",
-    "static/css/main.58977d97.chunk.css",
-    "static/js/main.9918ff43.chunk.js"
+    "static/css/main.8ad4384c.chunk.css",
+    "static/js/main.88a4b6eb.chunk.js"
   ]
 }
