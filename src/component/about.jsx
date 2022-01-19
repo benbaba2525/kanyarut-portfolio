@@ -50,11 +50,9 @@ class About extends React.Component {
 
                     <div className="rightBg col-md-5 p-4 pl-md-4 shadow-lg p-3 mb-5  bg-white rounded">
                     
-<<<<<<< HEAD
-                        <h5 className="text-dark"><h2>I'm</h2> <strong> Kanyarat Ben Paulamnuay</strong></h5>
-=======
+
                         <h5 className="text-dark"><h2>I'm</h2> <strong> Kanyarat Paulamnuay</strong></h5>
->>>>>>> ea9a6a67ae9e3cda8ca7936b203252755be0c793
+
                           <p className="text-dark" style={{textAlign:"left"}}>
                           Technical Support Specialist and Web Developer with a background in Computer Science, Database Management Certificate Program, and Full Stack Development in Coding Bootcamp. 
                           </p>
