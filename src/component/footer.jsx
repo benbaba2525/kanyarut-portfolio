@@ -19,7 +19,7 @@ import "animate.css/animate.min.css";
                               </div> 
                               
                             <div className="footer-font text-center py-3">
-                               <span className ="footer-copyright">© 2020 Copyright : </span>Kanyarut (Ben) Pornamnuay
+                               <span className ="footer-copyright">© 2020 Copyright : </span>Kanyarat (Ben) Paulamnuay
                             </div>
                           </div>
 
