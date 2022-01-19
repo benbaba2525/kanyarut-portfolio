@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/static/css/main.39c01fe5.chunk.css",
     "main.js": "/static/js/main.4a1b44de.chunk.js",
     "main.js.map": "/static/js/main.4a1b44de.chunk.js.map",
@@ -14,6 +15,22 @@
     "static/css/2.750b5f16.chunk.css.map": "/static/css/2.750b5f16.chunk.css.map",
     "static/css/main.39c01fe5.chunk.css.map": "/static/css/main.39c01fe5.chunk.css.map",
     "static/js/2.cb3951a9.chunk.js.LICENSE.txt": "/static/js/2.cb3951a9.chunk.js.LICENSE.txt",
+=======
+    "main.css": "/static/css/main.c8300e69.chunk.css",
+    "main.js": "/static/js/main.88a4b6eb.chunk.js",
+    "main.js.map": "/static/js/main.88a4b6eb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.00800bcd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.00800bcd.js.map",
+    "static/css/2.750b5f16.chunk.css": "/static/css/2.750b5f16.chunk.css",
+    "static/js/2.f57f9d25.chunk.js": "/static/js/2.f57f9d25.chunk.js",
+    "static/js/2.f57f9d25.chunk.js.map": "/static/js/2.f57f9d25.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b1e95e3304565b61d4da5b90bb3b74d8.js": "/precache-manifest.b1e95e3304565b61d4da5b90bb3b74d8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.750b5f16.chunk.css.map": "/static/css/2.750b5f16.chunk.css.map",
+    "static/css/main.c8300e69.chunk.css.map": "/static/css/main.c8300e69.chunk.css.map",
+    "static/js/2.f57f9d25.chunk.js.LICENSE.txt": "/static/js/2.f57f9d25.chunk.js.LICENSE.txt",
+>>>>>>> ea9a6a67ae9e3cda8ca7936b203252755be0c793
     "static/media/Crystals-Collector-Game.png": "/static/media/Crystals-Collector-Game.42800447.png",
     "static/media/Friend-Finder.png": "/static/media/Friend-Finder.d57f1fdd.png",
     "static/media/GifTastic.png": "/static/media/GifTastic.0fe8db61.png",
@@ -35,7 +52,11 @@
     "static/media/PopWordGuessGame.png": "/static/media/PopWordGuessGame.a512417e.png",
     "static/media/PoparomaThaiRestaurant.png": "/static/media/PoparomaThaiRestaurant.eb800f27.png",
     "static/media/Popmyjourney.png": "/static/media/Popmyjourney.a33474b4.png",
+<<<<<<< HEAD
     "static/media/Resume-Kanyarat.pdf": "/static/media/Resume-Kanyarat.0c428683.pdf",
+=======
+    "static/media/Resume IT_Web.pdf": "/static/media/Resume IT_Web.2952c68b.pdf",
+>>>>>>> ea9a6a67ae9e3cda8ca7936b203252755be0c793
     "static/media/Scrapper News.png": "/static/media/Scrapper News.bbc3612f.png",
     "static/media/TrainScheduler.png": "/static/media/TrainScheduler.e8bca70f.png",
     "static/media/TriviaGame.png": "/static/media/TriviaGame.a977f176.png",
@@ -54,8 +75,14 @@
   "entrypoints": [
     "static/js/runtime-main.00800bcd.js",
     "static/css/2.750b5f16.chunk.css",
+<<<<<<< HEAD
     "static/js/2.cb3951a9.chunk.js",
     "static/css/main.39c01fe5.chunk.css",
     "static/js/main.4a1b44de.chunk.js"
+=======
+    "static/js/2.f57f9d25.chunk.js",
+    "static/css/main.c8300e69.chunk.css",
+    "static/js/main.88a4b6eb.chunk.js"
+>>>>>>> ea9a6a67ae9e3cda8ca7936b203252755be0c793
   ]
 }
