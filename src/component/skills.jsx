@@ -168,7 +168,7 @@ class Skills extends React.Component {
              <ul>
               <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Help desk and Customer service skills.</li>
               <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Excellent skills in IT supports ticketing systems. </li>
-              <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Operating systems : Window XP, 7, 8, 10, Mac OS and Linux (Ubuntu). </li>
+              <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Operating systems : Windows XP, 7, 8, 10, Mac OS, Chrome OS and Linux (Ubuntu). </li>
               <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Strong skills in troubleshooting the following:Windows 7/10, Microsoft Office Suite, MacOS, iOS, Internet applications, third party applications. </li>
               <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Microsoft Suite (Power Point, Word, Excel).</li> 
               <li style={{fontSize:"15px", textAlign:"left", marginLeft:"5px",padding: "5px",color: "rgb(51, 51, 51)"}}>Knowledge in TCP/IP networking and routing protocols also understanding of LAN and WAN management and maintenance protocols. </li>

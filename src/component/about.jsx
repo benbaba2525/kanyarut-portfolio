@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/about.scss";
-import myResume from "../img/Resume-Kanyarat.pdf";
+import myResume from "../img/Resume_IT.pdf";
 import myPicture from "../img/mypicture.jpeg";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/themes/theme-c137.css";
@@ -58,7 +58,7 @@ class About extends React.Component {
                           </p>
                           <p className="text-dark" style={{textAlign:"left"}}>
                           Many years of experience in IT support is wide and varied, including maintaining, troubleshooting, installing, and configuring computer hardware, software, system, networks.
-                          Moreover, I recently developed and gained skills and experience by completing the certificate program in full stack development coding bootcamp to design, build, and maintain websites and application from conception to production 
+                          Moreover, I developed and gained skills and experience by completing the certificate program in full stack development coding bootcamp to design, build, and maintain websites and application from conception to production 
                           using HTML/HTML5, CSS/CSS3, Responsive Web Design, Bootstrap, Material-UI, REST APIs, AJAX, JSON, ReactJS, JavaScript, jQuery, Node.js, Express.js, MySQL, MongoDB, Firebase, Git, Github, Wordpress, and Adobe.
                           </p>
 
