@@ -1,7 +1,6 @@
 # kanyarut-portfolio
 
-`Go check it out :  ` https://kanyarat-kp.herokuapp.com/
-
+`Go check it out :  ` https://kanyarutportfolio.herokuapp.com/ </br>
 My portfolio I created using React
 
 ### Technologies used
