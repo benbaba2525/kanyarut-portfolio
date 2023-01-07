@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe0a71d7.chunk.css",
-    "main.js": "/static/js/main.80457b05.chunk.js",
-    "main.js.map": "/static/js/main.80457b05.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.00800bcd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.00800bcd.js.map",
-    "static/css/2.f5b66885.chunk.css": "/static/css/2.f5b66885.chunk.css",
-    "static/js/2.f85815b3.chunk.js": "/static/js/2.f85815b3.chunk.js",
-    "static/js/2.f85815b3.chunk.js.map": "/static/js/2.f85815b3.chunk.js.map",
+    "main.css": "/static/css/main.61074ec0.chunk.css",
+    "main.js": "/static/js/main.c33c6c1c.chunk.js",
+    "main.js.map": "/static/js/main.c33c6c1c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.45baf38f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.45baf38f.js.map",
+    "static/css/2.91f3ea2b.chunk.css": "/static/css/2.91f3ea2b.chunk.css",
+    "static/js/2.cbabb58a.chunk.js": "/static/js/2.cbabb58a.chunk.js",
+    "static/js/2.cbabb58a.chunk.js.map": "/static/js/2.cbabb58a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.af9a135e9889806e4f462e702c036173.js": "/precache-manifest.af9a135e9889806e4f462e702c036173.js",
+    "precache-manifest.b1f7494eceb6949eaa60c3cfa51f7aae.js": "/precache-manifest.b1f7494eceb6949eaa60c3cfa51f7aae.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.f5b66885.chunk.css.map": "/static/css/2.f5b66885.chunk.css.map",
-    "static/css/main.fe0a71d7.chunk.css.map": "/static/css/main.fe0a71d7.chunk.css.map",
-    "static/js/2.f85815b3.chunk.js.LICENSE.txt": "/static/js/2.f85815b3.chunk.js.LICENSE.txt",
+    "static/css/2.91f3ea2b.chunk.css.map": "/static/css/2.91f3ea2b.chunk.css.map",
+    "static/css/main.61074ec0.chunk.css.map": "/static/css/main.61074ec0.chunk.css.map",
+    "static/js/2.cbabb58a.chunk.js.LICENSE.txt": "/static/js/2.cbabb58a.chunk.js.LICENSE.txt",
     "static/media/Crystals-Collector-Game.png": "/static/media/Crystals-Collector-Game.42800447.png",
     "static/media/Friend-Finder.png": "/static/media/Friend-Finder.d57f1fdd.png",
     "static/media/GifTastic.png": "/static/media/GifTastic.0fe8db61.png",
@@ -50,10 +50,10 @@
     "static/media/quarantine-coffee.png": "/static/media/quarantine-coffee.51055f35.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.00800bcd.js",
-    "static/css/2.f5b66885.chunk.css",
-    "static/js/2.f85815b3.chunk.js",
-    "static/css/main.fe0a71d7.chunk.css",
-    "static/js/main.80457b05.chunk.js"
+    "static/js/runtime-main.45baf38f.js",
+    "static/css/2.91f3ea2b.chunk.css",
+    "static/js/2.cbabb58a.chunk.js",
+    "static/css/main.61074ec0.chunk.css",
+    "static/js/main.c33c6c1c.chunk.js"
   ]
 }

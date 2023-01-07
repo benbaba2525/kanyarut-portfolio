@@ -5,7 +5,7 @@ import "react-awesome-button/dist/themes/theme-c137.css";
 import Typical from "react-typical";
 import Robot from "./robot";
 import Particles from "reactparticles.js";
-import Particles2 from "react-particles-js";
+//import Particles2 from "react-particles-js";
 import "animate.css/animate.min.css";
 
 
@@ -28,7 +28,7 @@ class Background extends React.Component {
                  </div>
 				 
                  
-				 {/* Background using Particles Bubble*/}
+				 {/* Background using Particles Bubble
                         <Particles2 className="particles"
                             params={{
 	                            "particles": {
@@ -80,7 +80,7 @@ class Background extends React.Component {
 	                                    }
 	                                }
 	                            }
-	                        }} />    
+	                        }} />    */}
                       {/* Background using Particles Simple*/}
                             <Particles
                                id="config-1"
